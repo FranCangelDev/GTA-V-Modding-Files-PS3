@@ -1,0 +1,33 @@
+
+================================
+Destroy V3                     !
+                               !
+Open: R1 + X                   !
+Stack Size: 1024               !
+Version: 3                     !
+================================
+
+YouTube: FranCangel
+Instagram: @francangel_ofc
+Discord Server: https://discord.gg/Qzkj65y
+Discord: FranCangel Dev #3503
+
+================================
+Changelogs V3:                 !
+                               !
+Changed Name to "Destroy"      !
+Added Neon Options             !
+Added Fix Mute Ban             !
+Added Fix Disable Account      !
+Added Advanced Clock           !
+Added Time Options             !
+Added Money Rain Options       !
+Added Left Sided Subtitle      !
+Added Animations               !
+Added New Sound                !
+Added Arrows                   !
+Added Weather Options          !
+Added Menu Glare               !
+Added Text Colors RGB          !
+Added Title Color RGB          !
+================================

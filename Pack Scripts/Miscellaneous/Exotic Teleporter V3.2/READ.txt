@@ -1,0 +1,27 @@
+
+[ Exotic Teleporter ]
+----------------------------------------------------
+
+➤ Version 3.2 (LOG)
+- Added teleport to waypoint.
+- Added auto enabled Enhance graphics at startup.
+- Added more teleport locations.
+- Improved design,UI & stability.
+
+
+----------------------------------------------------
+
+➤ Version 3.2 (USAGE GUIDE)
+- Stack Size = 1024
+- Open binds Square + DpadLeft
+- Import guide using LibertyV :
+
+.Teleporter.csc
+update.rpf->ps3->patch->levels->gta5->script->script.rpf
+
+.teleBackground.ctd & mptele.ctd
+update.rpf->ps3->patch->textures->script_txds.rpf
+
+Save it.
+
+----------------------------------------------------

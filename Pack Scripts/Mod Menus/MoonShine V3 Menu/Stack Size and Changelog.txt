@@ -1,0 +1,38 @@
+SCRIPT NAME: "MoonShine"
+STACK SIZE: 6304 
+OPEN: L1 + R1
+
+
+---------------------Changelog V3---------------------
+[+] Add Drop Opitons
+- Drop Snack etc.
+[+] Custome Drop Money
+- Amount etc.
+[+] Add Acrobatics Option
+[+] Add Bind Option
+[+] Add Preview Color Vehicle
+[+] Add Custome Crosshair Option
+- Standard Control
+- Alternative Control
+[+] Add Teleport Gun
+[+] Add Delete Gun
+[+] Add Trigger Bot
+[+] Disable Account & Stat Protection
+[+] Add Some To Info Player
+- Street
+[+] Add Some To Network Player Options
+- De Rank
+- Add Rank
+[+] Add Advance ESP
+- Name
+- Line
+- Box
+[+] Add Some Freeze Options [Not Done!]
+[+] Add Game Info
+[+] Add Train Drive
+[+] Add Auto Pilot To Waypoint
+[+] Add Create Lightning Thunder
+
+[/] Fix No Cops to All Player 
+[/] Fix Bugs 
+[/] Little Optymalize Script 

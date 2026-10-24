@@ -1,0 +1,22 @@
+Open with: R1/RB + Dpad down
+StackSize: 1024
+
+Credits:
+NotYourDope - Creator
+EROOTIIK - Big help and some French translations
+2much4u - Menu base & big help
+KranK - Help
+Vicodin10 - Particle FX lists & help
+Dylan57richem - French translation & help
+BUZZARD - some French translations
+ViirTuozFyv7 - some French translations
+EpsilonDev - Tutorial on how to find event addresses
+Alexander Blade - Native research
+Danii X MoDz - Idea for HUD colour editor
+ap ii intense - Draw tool in his menu, and vehicle & weapon hashes
+MAFINS - Code to prevent peds from fleeing
+Evil Blunt & Three-Socks - Coding of Console Trainer V
+djhonga2001 - Code for getting coords in front of the gameplay camera
+Tgsaudoiz - Code for loading/unloading Maze Bank arena
+James reborn - Code for fix disabled account
+DaBOSS54320 - list of weapon component hashes

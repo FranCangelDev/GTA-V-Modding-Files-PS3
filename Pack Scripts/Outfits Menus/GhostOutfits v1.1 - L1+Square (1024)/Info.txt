@@ -1,0 +1,9 @@
+Open R1+[]
+
+StackSize 1024
+
+New +Oufits
+New Settings
+New Stability so that it does not freeze
+
+Taken away Sound

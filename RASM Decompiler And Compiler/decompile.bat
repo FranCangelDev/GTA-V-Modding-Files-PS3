@@ -1,0 +1,1 @@
+rasm.exe -target GTAV -platform PSX -dec SourceCSC/KESH_GTA.csc SourceCSA/KESH_GTA-RASM.csa -norsc -ow

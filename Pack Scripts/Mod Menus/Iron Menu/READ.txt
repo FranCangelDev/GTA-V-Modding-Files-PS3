@@ -1,0 +1,25 @@
+
+     [ Iron Menu ]
+By Apex Curly & GodsCantLose
+----------------------------------------------------
+
+➤ Version (LOG)
+- Fixed All Reported Bugs.
+- Changed New Scrollbar & Improved Design
+- Added More New options (Self,Recovery...)
+- Added More Vehicle settings ( Acrobatic,Lsc parts, More)
+- Added Component changer in misc.
+
+----------------------------------------------------
+
+➤ Version (USAGE GUIDE)
+- Stack Size = 2024
+- Open binds Cross + DpadLeft
+- Import guide using LibertyV :
+
+.Iron.csc
+update.rpf->ps3->patch->levels->gta5->script->script.rpf
+
+Save it.
+
+----------------------------------------------------

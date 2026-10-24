@@ -1,0 +1,83 @@
+Unrestrained Version v8.0 version
+
+<Removes>
+- Removed Unrestrained Options.
+- Removed Protection Event Data Script.
+- Removed Protection Event Check Hash CRC.
+- Removed Protection Fake Leave v2.
+- Removed Spoof Options.
+- Removed Spoof Failed Sync Files.
+
+<Moves>
+- Moved Unlock Online In Prologue - Settings Options.
+- Moved Network Options - Main Menu.
+- Moved Player Options - Main Menu.
+- Moved Weapons Options - Main Menu.
+- Moved Vehicles Options - Main Menu.
+- Moved World Options - Main Menu.
+- Moved Miscellaneous Options - Main Menu.
+- Moved Teleports Options - Main Menu.
+- Moved Blockers Options - Protections Options.
+- Moved Disable Options - Protections Options.
+- Moved Clear Area Options - Protections Options.
+- Moved Hide Options - Settings Options.
+- Moved Info Options - Settings Options.
+- Moved Credits Options - Settings Options.
+- Moved Spoof Session Cheater - Network Options.
+- Moved Spoof Session Badsport - Network Options.
+- Moved Spoof Session Invite - Network Options.
+- Moved Fake Police Wanted - Player Options.
+
+<Add>
+- Added Picture To Weapons Options.
+- Added Picture To Model Changer Options.
+- Added Picture To Vehicle Options.
+- Added Detection Modders To List Players.
+- Added Protection Drop Kick, Of Semjases, ExtortionGTA & Other Menus - Protections Options.
+- Added Protection Other Freezes - Protections Options.
+- Added Protection Freeze Phone & Scenario - Protections Options.
+- Added Protection Freeze Explosion Gun - Protections Options.
+- Added Protection Freeze Session - Protections Options.
+- Added Protection Remove Peds - Protections Options.
+- Added Send Players To Jail - Session Options.
+- Added Send Players To Airport - Session Options.
+- Added Send Players To Mission - Session Options.
+- Added Animations Session Players - Session Options.
+- Added Teleport All Players - Session Options.
+- Added Give Player Weapons Infinite - Weapons Options.
+- Added Vehicle Weapons - Weapons Options.
+- Added Projectile Gun - Weapons Options.
+- Added Minecraft Gun - Weapons Options.
+- Added Clone Gun - Weapons Options.
+- Added Rapid Fire - Weapons Options.
+- Added Change Sound Weapons - Weapons Options.
+- Added Go New Session GTA Online - Settings Options.
+- Added Disable Smooth Scroll - Settings Options.
+- Added Reset Default Texture Bind - Settings Options.
+- Added Stop All Looped Options -- Settings Options.
+- Added More Animations - Animations Options.
+- Added Controlable Animations - Animations Options.
+- Added Contort Animations - Animations Options.
+- Added Scenarios - Animations Options.
+- Added More 190 Animations Network - Animations Options.
+- Added Send Player To Jail - Bad Options].
+- Added Give Wanted - Bad Options].
+- Added Fake Drop Money - Bad Options].
+- Added Particle Options - Player Options.
+- Added Kill Yourself - Player Options.
+- Added All Animals Model - Model Changer Options.
+- Added Bypass Freeze Animals - Animals Options.
+- Added Custom Color Scroller - Custom Color & Fonts Options.
+- Added Block All Entities -- Entity Blocker Options.
+- Added Ninja Mode -- Network Options.
+- Added Spam Message -- Players Options.
+
+<Improveds>
+- Improved Protection freeze.
+- Improved Desgin Unrestrained.
+- Improved Protection Freeze Gun, Renamed To Protection No Target.
+- Changed Color Info Players.
+
+<Fixes>
+- Pause Clock.
+- Teleport To Me.

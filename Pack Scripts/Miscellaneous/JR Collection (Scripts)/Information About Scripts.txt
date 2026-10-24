@@ -1,0 +1,12 @@
+JR Recovery Binds/StackSize =  Dpad Right+R3/2552
+JRAimatPed Stacksize = 512
+JRBONEINFO Binds/StackSize = Triangle+R1/512
+JRCUSTOMMENU Binds/StackSize = Dpad Right+R1/2024
+JRDRIFTMOD Stacksize = 512
+JRFreezeAttempt Stacksize = 512
+JRMENU Binds/StackSize = Square+R3/1024
+JRMODELSAVER Stacksize = 512
+JRRagdollMod Stacksize = 512
+JRSKELETONESP Stacksize = 128
+JRTRYHARDMODE Stacksize = 128
+Randomevents Stacksize = 1024

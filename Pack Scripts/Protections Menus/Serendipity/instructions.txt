@@ -1,0 +1,4 @@
+Serendipity
+
+stacksize: 1024
+open: r1 + r3

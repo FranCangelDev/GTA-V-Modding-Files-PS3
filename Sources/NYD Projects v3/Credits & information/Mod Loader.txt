@@ -1,0 +1,7 @@
+Open with: Configurable in vars.h (default is Dpad left + R3/RS)
+StackSize: N/A (replaces an unused Rockstar script)
+
+Credits:
+NotYourDope - Creator
+EROOTIIK - Texture file for the buttons & original idea to use them, & help with some C
+Danii X MoDz - fix for disabling special ability

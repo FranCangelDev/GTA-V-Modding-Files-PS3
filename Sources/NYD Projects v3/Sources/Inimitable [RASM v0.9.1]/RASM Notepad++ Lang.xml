@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="RASM" ext="xsa csa sca ysa" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="yes" Keywords2="no" Keywords3="yes" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00// 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2">0x</Keywords>
+            <Keywords name="Numbers, extras1">a b c d e f</Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2">,</Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">] [ ) (</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open">&gt;</Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close">&lt;</Keywords>
+            <Keywords name="Keywords1">@</Keywords>
+            <Keywords name="Keywords2">Jump JumpFalse JumpEQ JumpLE JumpGE JumpGT JumpNE JumpLT JumpTrue</Keywords>
+            <Keywords name="Keywords3">:</Keywords>
+            <Keywords name="Keywords4">Call CallNative pCall Joaat HashOf</Keywords>
+            <Keywords name="Keywords5">Push PushF PushString PushB3 PushB2 GetLocal GetImm GetStaticP GetGlobal GetGlobalP GetArrayP GetStatic GetLocalP GetArray GetImmP GetImmPs pGet PushArrayP GetArrayPs GetLocalPs GetStaticPs GetImmPs GetGlobalPs PushArray GetLocalS GetStaticS GetGlobalS pGetS PushStringS</Keywords>
+            <Keywords name="Keywords6">not fCmpNe CmpGt CmpEq Drop Dup Or CmpLt And fCmpLt CmpNe Nop ItoF fCmpLe CmpGe fCmpGe StrCopy CmpLe fCmpGt StrAdd ToStack FromStack fCmpEq Switch Function Return Xor FtoI ItoS StrAddi MemCopy Catch Throw FtoV GetHash Neg fNeg vNeg GetXProtect SetXProtect RefXProtect Exit BitTest Pad</Keywords>
+            <Keywords name="Keywords7">fAdd fSub Add Sub Mult Div fDiv fMult vSub vDiv vAdd vMult AddImm MultImm Mod fMod</Keywords>
+            <Keywords name="Keywords8">pPeekSet SetGlobal SetLocal SetArray SetStatic SetImm pSet SetStaticsCount SetDefaultStatic SetLocalName SetStaticName SetEnum SetGlobalName SetParamCount RegisterGlobals SetSignature SetLocalS SetLocalSR SetStaticS SetStaticSR SetGlobalS SetGlobalSR pSetS pSetSR</Keywords>
+            <Keywords name="Delimiters">00 01((] [)) 02 03 04 05 06&quot; 07\ 08((&quot; EOL)) 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="483DD3" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="000000" bgColor="FFFF00" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="CE0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="921FDE" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="0D0DFF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="FC2364" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="2F82FD" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="483DD3" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="00FF80" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="696969" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="C0C0C0" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" colorStyle="2" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

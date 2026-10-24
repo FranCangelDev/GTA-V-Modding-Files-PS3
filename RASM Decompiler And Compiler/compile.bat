@@ -1,0 +1,1 @@
+rasm.exe -target GTAV -platform PSX -com SourceCSA/ModLoader-Dec.csa SourceCSC/ModLoader.csc -norsc -ow

@@ -1,0 +1,5 @@
+StackSize: 2552
+
+Credits:
+NotYourDope - Creator
+BUZZARD - Original idea and providing me with the list of Rockstar scripts

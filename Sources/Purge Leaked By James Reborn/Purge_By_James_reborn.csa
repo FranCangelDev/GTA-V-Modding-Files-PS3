@@ -1,0 +1,9415 @@
+IncludeStaticFile Purge_Statics.c
+
+Function 0 2 0
+CallNative "NETWORK_SET_SCRIPT_IS_SAFE_FOR_NETWORK_GAME" 0 0
+Call @Label_0
+Return 0 0
+:Label_0
+Function 0 2 0
+PushString "commonmenu"
+Call @Label_1
+PushString "mpleaderboard"
+Call @Label_1
+PushString "AdvertiseLogo"
+Call @Label_1
+PushString "dyn_mp_title"
+StaticSet1 0
+PushString "chaos_textures_10"
+StaticSet1 1
+StaticGet1 0
+Call @Label_1
+PushString "dyn_mp_back"
+StaticSet1 2
+PushString "chaos_textures_10"
+StaticSet1 1
+StaticGet1 2
+Call @Label_1
+PushString "~bold~~italic~~y~EXTREME PURGE~n~~W~Sponsered by The ~r~Exotic Trainer"
+StaticSet1 3
+push_0
+StaticSet1 4
+push_4
+StaticSet1 5
+push_5
+StaticSet1 6
+push_6
+StaticSet1 7
+push_7
+StaticSet1 8
+Push1 12
+StaticSet1 9
+Push1 13
+StaticSet1 10
+Push1 14
+StaticSet1 11
+Push1 15
+StaticSet1 12
+Push1 16
+StaticSet1 13
+Push1 21
+StaticSet1 14
+Push1 22
+StaticSet1 15
+Push1 23
+StaticSet1 16
+Push1 24
+StaticSet1 17
+Push1 25
+StaticSet1 18
+Push1 30
+StaticSet1 19
+Push1 31
+StaticSet1 20
+Push1 32
+StaticSet1 21
+Push1 33
+StaticSet1 22
+Push1 34
+StaticSet1 23
+Push1 35
+StaticSet1 24
+Push1 36
+StaticSet1 25
+Push1 37
+StaticSet1 26
+Push1 38
+StaticSet1 27
+Push1 39
+StaticSet1 28
+Push1 57
+StaticSet1 29
+push_1
+StaticSet1 30
+Push1 181
+StaticSet1 31
+Push1 167
+StaticSet1 32
+push_0
+StaticSet1 33
+push_0
+StaticSet1 34
+push_1
+StaticSet1 35
+push_4
+StaticSet1 36
+push_4
+StaticSet1 37
+push_7
+StaticSet1 38
+push_4
+StaticSet1 39
+push_1
+StaticSet1 40
+push_1
+StaticSet1 41
+push_1
+StaticSet1 42
+push_1
+StaticSet1 43
+push_1
+StaticSet1 44
+push_1
+StaticSet1 45
+push_1
+StaticSet1 46
+push_0
+StaticSet1 47
+Push 168
+StaticSet1 48
+Push 20
+StaticSet1 49
+Push 36
+StaticSet1 50
+Push1 255
+StaticSet1 51
+Push 187
+StaticSet1 52
+Push 108
+StaticSet1 53
+Push 0
+StaticSet1 54
+Push1 255
+StaticSet1 55
+Push1 255
+StaticSet1 56
+Push1 255
+StaticSet1 57
+Push1 255
+StaticSet1 58
+Push1 255
+StaticSet1 59
+Push1 255
+StaticSet1 60
+Push1 255
+StaticSet1 61
+Push1 255
+StaticSet1 62
+Push1 255
+StaticSet1 63
+Push1 255
+StaticSet1 64
+Push1 255
+StaticSet1 65
+Push1 255
+StaticSet1 66
+Push1 255
+StaticSet1 67
+Push1 255
+StaticSet1 68
+Push1 255
+StaticSet1 69
+Push1 255
+StaticSet1 70
+Push1 233
+StaticSet1 71
+Push1 233
+StaticSet1 72
+Push 0
+StaticSet1 73
+push_0
+StaticSet1 74
+Push1 255
+StaticSet1 75
+push_0
+StaticSet1 76
+Push1 255
+StaticSet1 77
+push_0
+StaticSet1 78
+push_0
+StaticSet1 79
+push_0
+StaticSet1 80
+push_0
+StaticSet1 81
+push_0
+StaticSet1 82
+push_0
+StaticSet1 83
+Push 233
+StaticSet1 84
+Push 233
+StaticSet1 85
+Push 0
+StaticSet1 86
+Push 255
+StaticSet1 87
+push_4
+StaticSet1 88
+push_1
+StaticSet1 89
+push_1
+StaticSet1 90
+Push1 255
+StaticSet1 91
+push_0
+StaticSet1 92
+push_1
+StaticSet1 93
+Push 214
+StaticSet1 94
+Push 193
+StaticSet1 95
+Push 174
+StaticSet1 96
+Push1 255
+StaticSet1 97
+:Label_3
+Call @Label_2
+Jump @Label_3
+:Label_2
+Function 0 2 0
+push_0
+CallNative "WAIT" 1 0
+Call @Label_4
+CallNative "IS_PAUSE_MENU_ACTIVE" 0 1
+JumpFalse @Label_5
+Return 0 0
+:Label_5
+StaticGet1 98
+push_0
+JumpEQ @Label_6
+Call @Label_7
+fPush_0.0
+StaticSet1 99
+:Label_6
+StaticGet1 98
+Switch [0=@Label_8][1=@Label_9][2=@Label_10][3=@Label_11][4=@Label_12][5=@Label_13][6=@Label_14][7=@Label_15][8=@Label_16][9=@Label_17][10=@Label_18][11=@Label_19][12=@Label_20][13=@Label_21][14=@Label_22][15=@Label_23][16=@Label_24][17=@Label_25][18=@Label_26][19=@Label_27][20=@Label_28][21=@Label_29][22=@Label_30][23=@Label_31][24=@Label_32]
+:Label_8
+Call @Label_33
+Return 0 0
+:Label_33
+Function 0 2 0
+StaticGet1 30
+JumpFalse @Label_34
+PushString "STRING"
+CallNative "UNK_B245FC10" 1 0
+StaticGet1 3
+CallNative "UNK_27A244D8" 1 0
+Push3 0 0 0
+push_-1
+CallNative "UNK_B59B530D" 4 0
+:Label_34
+push_0
+StaticGet1 31
+CallNative "IS_DISABLED_CONTROL_PRESSED" 2 1
+push_0
+StaticGet1 32
+CallNative "IS_DISABLED_CONTROL_PRESSED" 2 1
+And
+JumpFalse @Label_35
+push_1
+StaticSet1 98
+push_1
+StaticSet1 100
+push_0
+StaticSet1 101
+push_0
+StaticSet1 30
+:Label_35
+Return 0 0
+:Label_9
+Call @Label_36
+Jump @Label_37
+:Label_10
+Call @Label_38
+Jump @Label_37
+:Label_11
+Call @Label_39
+Jump @Label_37
+:Label_12
+Call @Label_40
+Jump @Label_37
+:Label_13
+Call @Label_41
+Jump @Label_37
+:Label_14
+Call @Label_42
+Jump @Label_37
+:Label_15
+Call @Label_43
+Jump @Label_37
+:Label_16
+Call @Label_44
+Jump @Label_37
+:Label_17
+Call @Label_45
+Jump @Label_37
+:Label_18
+Call @Label_46
+Jump @Label_37
+:Label_19
+Call @Label_47
+Jump @Label_37
+:Label_20
+Call @Label_48
+Jump @Label_37
+:Label_21
+Call @Label_49
+Jump @Label_37
+:Label_22
+Call @Label_50
+Jump @Label_37
+:Label_23
+Call @Label_51
+Jump @Label_37
+:Label_24
+Call @Label_52
+Jump @Label_37
+:Label_25
+Call @Label_53
+Jump @Label_37
+:Label_26
+Call @Label_54
+Jump @Label_37
+:Label_27
+Call @Label_55
+Jump @Label_37
+:Label_28
+Call @Label_56
+Jump @Label_37
+:Label_29
+Call @Label_57
+Jump @Label_37
+:Label_30
+Call @Label_58
+Jump @Label_37
+:Label_31
+Call @Label_59
+Jump @Label_37
+:Label_32
+Call @Label_60
+Jump @Label_37
+:Label_37
+StaticGet1 98
+push_0
+JumpEQ @Label_61
+Call @Label_62
+:Label_61
+Return 0 0
+:Label_62
+Function 0 2 0
+StaticGet1 99
+push_1
+JumpEQ @Label_63
+Push2 0 178
+CallNative "IS_DISABLED_CONTROL_JUST_PRESSED" 2 1
+push_1
+JumpEQ @Label_64
+Push1 202
+Call @Label_65
+JumpFalse @Label_66
+Jump @Label_67
+:Label_66
+Push1 203
+Call @Label_65
+JumpFalse @Label_63
+Jump @Label_68
+:Label_64
+PushString "CLICK_BACK"
+Call @Label_69
+StaticGet1 98
+push_1
+JumpEQ @Label_70
+StaticGet1 102
+push_1
+Sub
+Dup
+Dup
+StaticSet1 102
+pStatic1 103
+ArrayGet1 1
+StaticSet1 98
+pStatic1 113
+ArrayGet1 1
+StaticSet1 100
+Jump @Label_63
+:Label_70
+push_0
+StaticSet1 98
+CallNative "GET_GAME_TIMER" 0 1
+PushS 750
+Add
+StaticSet1 123
+StaticGet1 124
+CallNative "HAS_SCALEFORM_MOVIE_LOADED" 1 1
+JumpFalse @Label_71
+pStatic1 124
+CallNative "SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED" 1 0
+:Label_71
+StaticGet1 125
+CallNative "HAS_SCALEFORM_MOVIE_LOADED" 1 1
+JumpFalse @Label_72
+pStatic1 125
+CallNative "SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED" 1 0
+:Label_72
+StaticGet1 126
+CallNative "HAS_SCALEFORM_MOVIE_LOADED" 1 1
+JumpFalse @Label_63
+pStatic1 126
+CallNative "SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED" 1 0
+Jump @Label_63
+:Label_67
+PushString "NAV_UP_DOWN"
+Call @Label_73
+StaticGet1 100
+push_1
+JumpEQ @Label_74
+StaticGet1 100
+push_1
+Sub
+StaticSet1 100
+Jump @Label_63
+:Label_74
+StaticGet1 127
+StaticSet1 100
+Jump @Label_63
+:Label_68
+PushString "NAV_UP_DOWN"
+Call @Label_73
+StaticGet1 100
+StaticGet1 127
+JumpEQ @Label_75
+StaticGet1 100
+Add1 1
+StaticSet1 100
+Jump @Label_63
+:Label_75
+push_1
+StaticSet1 100
+:Label_63
+push_1
+StaticSet1 99
+Return 0 0
+:Label_65
+Function 1 3 0
+push_0
+getF1 0
+CallNative "IS_DISABLED_CONTROL_JUST_PRESSED" 2 1
+push_1
+JumpEQ @Label_76
+push_0
+getF1 0
+CallNative "IS_DISABLED_CONTROL_PRESSED" 2 1
+JumpFalse @Label_77
+StaticGet1 128
+Add1 1
+Dup
+StaticSet1 128
+push_3
+JumpLE @Label_77
+push_1
+StaticSet1 128
+Jump @Label_76
+:Label_77
+push_0
+getF1 0
+CallNative "IS_DISABLED_CONTROL_JUST_RELEASED" 2 1
+JumpFalse @Label_78
+push_0
+StaticSet1 128
+:Label_78
+push_0
+Return 1 1
+:Label_76
+push_1
+Return 1 1
+:Label_7
+Function 0 2 0
+StaticGet1 33
+JumpFalse @Label_79
+CallNative "PLAYER_ID" 0 1
+CallNative "IS_SPECIAL_ABILITY_ACTIVE" 1 1
+JumpFalse @Label_79
+CallNative "PLAYER_ID" 0 1
+CallNative "UNK_0751908A" 1 0
+:Label_79
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_PED_STEALTH_MOVEMENT" 1 1
+JumpFalse @Label_80
+CallNative "PLAYER_PED_ID" 0 1
+push_0
+push_0
+CallNative "SET_PED_STEALTH_MOVEMENT" 3 0
+:Label_80
+push_0
+pGlobal2 10434
+SetImmediate1 1
+CallNative "GET_GAME_TIMER" 0 1
+pGlobal2 13245
+SetImmediate2 4621
+push_0
+CallNative "SET_CINEMATIC_MODE_ACTIVE" 1 0
+CallNative "HIDE_HELP_TEXT_THIS_FRAME" 0 0
+push_6
+CallNative "HIDE_HUD_COMPONENT_THIS_FRAME" 1 0
+push_7
+CallNative "HIDE_HUD_COMPONENT_THIS_FRAME" 1 0
+Push1 8
+CallNative "HIDE_HUD_COMPONENT_THIS_FRAME" 1 0
+Push1 9
+CallNative "HIDE_HUD_COMPONENT_THIS_FRAME" 1 0
+Push2 0 166
+CallNative "SET_INPUT_EXCLUSIVE" 2 0
+Push2 0 167
+CallNative "SET_INPUT_EXCLUSIVE" 2 0
+Push2 0 177
+CallNative "SET_INPUT_EXCLUSIVE" 2 0
+Push2 0 178
+CallNative "SET_INPUT_EXCLUSIVE" 2 0
+Push2 0 202
+CallNative "SET_INPUT_EXCLUSIVE" 2 0
+Push2 0 203
+CallNative "SET_INPUT_EXCLUSIVE" 2 0
+Return 0 0
+:Label_82
+Function 0 2 0
+CallNative "GET_SAFE_ZONE_SIZE" 0 1
+fPush_2.0
+fDiv
+Return 0 1
+:Label_214
+Function 1 3 0
+StaticGet1 36
+StaticGet1 56
+StaticGet1 57
+StaticGet1 58
+StaticGet1 42
+Call @Label_81
+push_1
+CallNative "SET_TEXT_CENTRE" 1 0
+PushString "STRING"
+CallNative "UNK_3E35563E" 1 0
+getF1 0
+CallNative "UNK_27A244D8" 1 0
+StaticGet1 129
+fPush 0.49500000476837
+Call @Label_82
+fSub
+CallNative "UNK_6F8350CE" 2 0
+push_0
+StaticSet1 130
+Return 1 0
+:Label_215
+Function 1 3 0
+StaticGet1 88
+StaticGet1 84
+StaticGet1 85
+StaticGet1 86
+StaticGet1 42
+Call @Label_83
+push_1
+CallNative "SET_TEXT_CENTRE" 1 0
+fPush_0.0
+fPush 0.5
+CallNative "SET_TEXT_SCALE" 2 0
+PushString "STRING"
+CallNative "UNK_3E35563E" 1 0
+getF1 0
+CallNative "UNK_27A244D8" 1 0
+StaticGet1 129
+fPush 0.56000000238419
+Call @Label_82
+fSub
+CallNative "UNK_6F8350CE" 2 0
+Return 1 0
+:Label_90
+Function 1 3 0
+getF1 0
+JumpFalse @Label_84
+fPush 0.50609999895096
+Call @Label_82
+fSub
+StaticSet1 131
+fPush 0.72109997272491
+Call @Label_82
+fSub
+StaticSet1 132
+fPush 0.61360001564026
+Call @Label_82
+fSub
+StaticSet1 129
+Return 1 0
+:Label_84
+fPush 0.27889999747276
+Call @Label_82
+fAdd
+StaticSet1 131
+fPush 0.49390000104904
+Call @Label_82
+fAdd
+StaticSet1 132
+fPush 0.38640001416206
+Call @Label_82
+fAdd
+StaticSet1 129
+Return 1 0
+:Label_212
+Function 0 2 0
+StaticGet1 0
+CallNative "HAS_STREAMED_TEXTURE_DICT_LOADED" 1 1
+JumpFalse @Label_85
+StaticGet1 0
+StaticGet1 1
+StaticGet1 129
+StaticGet1 133
+fPush 0.22499999403954
+fPush 0.12999999523163
+fPush_0.0
+Push3 255 255 255
+Push1 250
+CallNative "DRAW_SPRITE" 11 0
+:Label_85
+StaticGet1 92
+JumpFalse @Label_86
+Call @Label_87
+:Label_86
+StaticGet1 93
+JumpFalse @Label_88
+Call @Label_89
+:Label_88
+Return 0 0
+:Label_211
+Function 1 3 0
+StaticGet1 35
+Call @Label_90
+getF1 0
+Dup
+StaticSet1 127
+Push1 13
+JumpGT @Label_91
+getF1 0
+Jump @Label_92
+:Label_91
+Push1 13
+:Label_92
+ItoF
+fPush 0.035000000149012
+fMul
+fPush_2.0
+fDiv
+fPush 0.6046000123024
+Call @Label_82
+fSub
+fAdd
+StaticSet1 134
+getF1 0
+Push1 13
+JumpGT @Label_93
+getF1 0
+Jump @Label_94
+:Label_93
+Push1 13
+:Label_94
+ItoF
+fPush 0.035000000149012
+fMul
+StaticSet1 135
+StaticGet1 129
+StaticGet1 134
+fPush 0.22499999403954
+StaticGet1 135
+StaticGet1 48
+StaticGet1 49
+StaticGet1 50
+StaticGet1 51
+CallNative "DRAW_RECT" 8 0
+StaticGet1 2
+CallNative "HAS_STREAMED_TEXTURE_DICT_LOADED" 1 1
+JumpFalse @Label_95
+StaticGet1 2
+StaticGet1 1
+StaticGet1 129
+StaticGet1 134
+fPush 0.22499999403954
+StaticGet1 135
+fPush_0.0
+Push3 255 255 255
+Push1 250
+CallNative "DRAW_SPRITE" 11 0
+:Label_95
+fPush 0.53500002622604
+Call @Label_82
+fSub
+StaticSet1 133
+StaticGet1 129
+StaticGet1 133
+fPush 0.23250000178814
+fPush 0.14000000059605
+StaticGet1 48
+StaticGet1 49
+StaticGet1 50
+StaticGet1 51
+CallNative "DRAW_RECT" 8 0
+StaticGet1 127
+Push1 13
+JumpGT @Label_96
+StaticGet1 127
+Jump @Label_97
+:Label_96
+Push1 13
+:Label_97
+ItoF
+fPush_1.0
+fAdd
+fPush 0.035000000149012
+fMul
+fPush 0.5871000289917
+Call @Label_82
+fSub
+fAdd
+StaticSet1 136
+StaticGet1 129
+StaticGet1 136
+fPush 0.23250000178814
+fPush 0.035000000149012
+StaticGet1 48
+StaticGet1 49
+StaticGet1 50
+StaticGet1 51
+CallNative "DRAW_RECT" 8 0
+StaticGet1 40
+JumpFalse @Label_98
+StaticGet1 38
+StaticGet1 65
+StaticGet1 66
+StaticGet1 67
+StaticGet1 43
+Call @Label_83
+push_1
+CallNative "SET_TEXT_RIGHT_JUSTIFY" 1 0
+PushString "CM_ITEM_COUNT"
+CallNative "UNK_3E35563E" 1 0
+StaticGet1 100
+CallNative "ADD_TEXT_COMPONENT_INTEGER" 1 0
+StaticGet1 127
+CallNative "ADD_TEXT_COMPONENT_INTEGER" 1 0
+fPush_0.0
+StaticGet1 136
+fPush 0.01799999922514
+fSub
+CallNative "UNK_6F8350CE" 2 0
+StaticGet1 41
+JumpFalse @Label_98
+push_4
+StaticGet1 65
+StaticGet1 66
+StaticGet1 67
+StaticGet1 43
+Call @Label_83
+PushString "THREESTRINGS"
+CallNative "UNK_3E35563E" 1 0
+PushString "Service User"
+CallNative "UNK_27A244D8" 1 0
+PushString "®"
+CallNative "UNK_27A244D8" 1 0
+CallNative "PLAYER_ID" 0 1
+CallNative "GET_PLAYER_NAME" 1 1
+CallNative "UNK_27A244D8" 1 0
+StaticGet1 131
+StaticGet1 136
+fPush 0.01799999922514
+fSub
+CallNative "UNK_6F8350CE" 2 0
+:Label_98
+StaticGet1 46
+JumpFalse @Label_99
+StaticGet1 47
+push_1
+JumpEQ @Label_100
+StaticGet1 127
+Push1 13
+JumpLE @Label_99
+:Label_100
+PushString "commonmenu"
+CallNative "HAS_STREAMED_TEXTURE_DICT_LOADED" 1 1
+JumpFalse @Label_99
+PushString "commonmenu"
+PushString "shop_arrows_upanddown"
+StaticGet1 129
+StaticGet1 136
+fPush 0.025000000372529
+fPush 0.044399999082088
+fPush_0.0
+StaticGet1 71
+StaticGet1 72
+StaticGet1 73
+Push1 255
+CallNative "DRAW_SPRITE" 11 0
+:Label_99
+StaticGet1 100
+push_7
+CmpLT
+StaticGet1 127
+Push1 13
+CmpLE
+Or
+push_1
+JumpEQ @Label_101
+StaticGet1 127
+StaticGet1 100
+Sub
+push_6
+JumpLT @Label_102
+push_7
+Jump @Label_103
+:Label_102
+Push1 13
+StaticGet1 127
+StaticGet1 100
+Sub
+Sub
+Jump @Label_103
+:Label_101
+StaticGet1 100
+:Label_103
+ItoF
+fPush 0.035000000149012
+fMul
+fPush 0.5871000289917
+Call @Label_82
+fSub
+fAdd
+Dup
+StaticSet1 137
+StaticGet1 34
+JumpFalse @Label_104
+StaticGet1 101
+Call @Label_105
+:Label_104
+StaticSet1 101
+PushString "timerbars"
+CallNative "HAS_STREAMED_TEXTURE_DICT_LOADED" 1 1
+JumpFalse @Label_106
+PushString "timerbars"
+PushString "all_white_bg"
+StaticGet1 129
+fPush 0.0010000000474975
+fAdd
+StaticGet1 101
+fPush 0.22499999403954
+fPush 0.035000000149012
+fPush 180
+StaticGet1 48
+StaticGet1 49
+StaticGet1 50
+StaticGet1 51
+CallNative "DRAW_SPRITE" 11 0
+:Label_106
+PushString "timerbars"
+CallNative "HAS_STREAMED_TEXTURE_DICT_LOADED" 1 1
+JumpFalse @Label_107
+PushString "timerbars"
+PushString "all_white_bg"
+StaticGet1 129
+fPush 0.0010000000474975
+fAdd
+StaticGet1 101
+fPush 0.22499999403954
+fPush 0.035000000149012
+fPush_0.0
+StaticGet1 52
+StaticGet1 53
+StaticGet1 54
+StaticGet1 55
+CallNative "DRAW_SPRITE" 11 0
+:Label_107
+StaticGet1 129
+StaticGet1 101
+fPush 0.01799999922514
+fAdd
+fPush 0.22499999403954
+fPush 0.003000000026077
+StaticGet1 94
+StaticGet1 95
+StaticGet1 96
+StaticGet1 97
+CallNative "DRAW_RECT" 8 0
+StaticGet1 129
+StaticGet1 101
+fPush 0.01799999922514
+fSub
+fPush 0.22499999403954
+fPush 0.003000000026077
+StaticGet1 94
+StaticGet1 95
+StaticGet1 96
+StaticGet1 97
+CallNative "DRAW_RECT" 8 0
+Return 1 0
+:Label_105
+Function 2 5 0
+getF1 0
+setF1 5
+getF1 1
+JumpFalse @Label_108
+getF1 0
+getF1 1
+JumpLT @Label_109
+getF1 0
+getF1 1
+JumpGT @Label_110
+Jump @Label_108
+:Label_109
+getF1 1
+getF1 0
+fSub
+fPush 0.0070000002160668
+JumpLE @Label_108
+getF1 1
+getF1 1
+getF1 0
+fSub
+fPush 1.7000000476837
+fDiv
+fSub
+setF1 5
+Jump @Label_108
+:Label_110
+getF1 0
+getF1 1
+fSub
+fPush 0.0070000002160668
+JumpLE @Label_108
+getF1 1
+getF1 0
+getF1 1
+fSub
+fPush 1.7000000476837
+fDiv
+fAdd
+setF1 5
+:Label_108
+getF1 5
+Return 2 1
+:Label_87
+Function 0 2 0
+StaticGet1 124
+CallNative "HAS_SCALEFORM_MOVIE_LOADED" 1 1
+push_1
+JumpEQ @Label_111
+PushString "ALIEN_RUNES_OVERLAY"
+CallNative "REQUEST_SCALEFORM_MOVIE" 1 1
+StaticSet1 124
+StaticGet1 124
+CallNative "HAS_SCALEFORM_MOVIE_LOADED" 1 1
+JumpFalse @Label_112
+:Label_111
+StaticGet1 124
+StaticGet1 129
+StaticGet1 133
+fPush 0.22499999403954
+fPush 0.12999999523163
+Push3 255 255 255
+Push1 255
+CallNative "DRAW_SCALEFORM_MOVIE" 9 0
+:Label_112
+Return 0 0
+:Label_89
+Function 0 2 0
+StaticGet1 125
+CallNative "HAS_SCALEFORM_MOVIE_LOADED" 1 1
+push_1
+JumpEQ @Label_113
+PushString "remote_sniper_hud"
+CallNative "REQUEST_SCALEFORM_MOVIE" 1 1
+StaticSet1 125
+StaticGet1 125
+CallNative "HAS_SCALEFORM_MOVIE_LOADED" 1 1
+JumpFalse @Label_114
+:Label_113
+StaticGet1 125
+StaticGet1 129
+StaticGet1 133
+fPush 0.22499999403954
+fPush 0.12999999523163
+Push3 255 255 255
+Push1 255
+CallNative "DRAW_SCALEFORM_MOVIE" 9 0
+:Label_114
+Return 0 0
+:Label_125
+Function 2 4 0
+StaticGet1 138
+push_1
+JumpEQ @Label_115
+push_-1
+StaticSet1 139
+PushString "INSTRUCTIONAL_BUTTONS"
+CallNative "REQUEST_SCALEFORM_MOVIE" 1 1
+Dup
+StaticSet1 126
+CallNative "HAS_SCALEFORM_MOVIE_LOADED" 1 1
+JumpFalse @Label_116
+StaticGet1 126
+Push3 255 255 255
+Push1 255
+CallNative "UNK_7B48E696" 5 0
+StaticGet1 126
+PushString "CLEAR_ALL"
+CallNative "UNK_215ABBE8" 2 1
+Drop
+CallNative "UNK_02DBF2D7" 0 0
+StaticGet1 126
+PushString "SET_CLEAR_SPACE"
+CallNative "UNK_215ABBE8" 2 1
+Drop
+Push1 200
+CallNative "UNK_716777CB" 1 0
+CallNative "UNK_02DBF2D7" 0 0
+push_1
+StaticSet1 138
+:Label_115
+StaticGet1 139
+Add1 1
+StaticSet1 139
+StaticGet1 126
+PushString "SET_DATA_SLOT"
+CallNative "UNK_215ABBE8" 2 1
+Drop
+StaticGet1 139
+CallNative "UNK_716777CB" 1 0
+getF1 0
+CallNative "UNK_716777CB" 1 0
+PushString "STRING"
+CallNative "CLEAR_PLAYER_HAS_2_CHARACTERS_ENABLE" 1 0
+getF1 1
+CallNative "UNK_27A244D8" 1 0
+CallNative "UNK_386CE0B8" 0 0
+CallNative "UNK_02DBF2D7" 0 0
+:Label_116
+Return 2 0
+:Label_626
+Function 0 2 0
+StaticGet1 126
+PushString "DRAW_INSTRUCTIONAL_BUTTONS"
+CallNative "UNK_215ABBE8" 2 1
+Drop
+CallNative "UNK_02DBF2D7" 0 0
+StaticGet1 126
+PushString "SET_BACKGROUND_COLOUR"
+CallNative "UNK_215ABBE8" 2 1
+Drop
+push_0
+CallNative "UNK_716777CB" 1 0
+push_0
+CallNative "UNK_716777CB" 1 0
+push_0
+CallNative "UNK_716777CB" 1 0
+Push1 80
+CallNative "UNK_716777CB" 1 0
+CallNative "UNK_02DBF2D7" 0 0
+push_0
+StaticSet1 138
+Return 0 0
+:Label_277
+Function 1 5 0
+getF1 0
+CallNative "IS_MODEL_VALID" 1 1
+Not
+getF1 0
+CallNative "IS_MODEL_A_VEHICLE" 1 1
+Or
+StaticGet1 140
+CallNative "PLAYER_PED_ID" 1 1
+CallNative "GET_ENTITY_MODEL" 1 1
+getF1 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+setF1 5
+getF1 0
+Call @Label_117
+CallNative "PLAYER_ID" 0 1
+getF1 0
+CallNative "SET_PLAYER_MODEL" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "SET_PED_DEFAULT_COMPONENT_VARIATION" 1 0
+getF1 0
+CallNative "SET_MODEL_AS_NO_LONGER_NEEDED" 1 0
+getF1 5
+CallNative "SET_GAMEPLAY_CAM_RELATIVE_HEADING" 1 0
+Return 1 0
+:Label_117
+Function 1 3 0
+getF1 0
+CallNative "HAS_MODEL_LOADED" 1 1
+push_1
+JumpEQ @Label_118
+getF1 0
+CallNative "REQUEST_MODEL" 1 0
+:Label_119
+getF1 0
+CallNative "HAS_MODEL_LOADED" 1 1
+push_1
+JumpEQ @Label_118
+Call @Label_2
+Jump @Label_119
+:Label_118
+Return 1 0
+:Label_394
+Function 1 3 0
+CallNative "PLAYER_PED_ID" 0 1
+getF1 0
+PushS 9999
+push_0
+push_0
+CallNative "GIVE_WEAPON_TO_PED" 5 0
+Return 1 0
+Function 0 2 0
+push_0
+PushString ""
+PushString ""
+PushString ""
+PushString ""
+PushString ""
+PushString ""
+Push1 31
+CallNative "DISPLAY_ONSCREEN_KEYBOARD" 8 0
+:Label_120
+Call @Label_2
+CallNative "UPDATE_ONSCREEN_KEYBOARD" 0 1
+JumpFalse @Label_120
+CallNative "GET_ONSCREEN_KEYBOARD_RESULT" 0 1
+Return 0 1
+Function 0 2 0
+StaticGet1 141
+Push1 10
+JumpEQ @Label_121
+StaticGet1 100
+Add1 1
+StaticSet1 100
+:Label_121
+Return 0 0
+Function 2 4 0
+getF1 0
+CallNative "IS_STRING_NULL_OR_EMPTY" 1 1
+push_1
+JumpEQ @Label_122
+getF1 0
+Call @Label_123
+StaticGet1 100
+StaticGet1 130
+JumpNE @Label_124
+Push1 32
+PushString "Remove"
+Call @Label_125
+:Label_124
+StaticGet1 100
+StaticGet1 130
+CmpEQ
+Push2 0 179
+CallNative "IS_DISABLED_CONTROL_JUST_PRESSED" 2 1
+And
+JumpFalse @Label_126
+PushString ""
+getF1 0
+StrCopy 64
+push_0
+getF1 1
+pSet
+StaticGet1 141
+push_1
+Sub
+StaticSet1 141
+StaticGet1 100
+push_1
+JumpEQ @Label_126
+StaticGet1 100
+push_1
+Sub
+StaticSet1 100
+:Label_126
+getF1 0
+CallNative "DOES_SCRIPT_EXIST" 1 1
+JumpFalse @Label_122
+getF1 0
+CallNative "GET_HASH_KEY" 1 1
+CallNative "UNK_029D3841" 1 1
+push_0
+CmpNE
+Call @Label_127
+getF1 1
+push_0
+Push1 19
+Call @Label_128
+Call @Label_129
+JumpFalse @Label_122
+getF1 0
+CallNative "GET_HASH_KEY" 1 1
+CallNative "UNK_029D3841" 1 1
+JumpFalse @Label_130
+getF1 0
+CallNative "TERMINATE_ALL_SCRIPTS_WITH_THIS_NAME" 1 0
+Jump @Label_122
+:Label_130
+getF1 0
+StaticSet1 142
+getF1 1
+pGet
+Call @Label_131
+StaticSet1 143
+:Label_122
+Return 2 0
+Function 5 18 0
+getF1 1
+CallNative "DOES_SCRIPT_EXIST" 1 1
+push_1
+JumpEQ @Label_132
+getF1 1
+pFrame1 8
+StrCopy 64
+CallNative "IS_PS3_VERSION" 0 1
+JumpFalse @Label_133
+PushString ".csc Not Found!"
+Jump @Label_134
+:Label_133
+PushString ".xsc Not Found!"
+:Label_134
+pFrame1 8
+StrAdd 64
+pFrame1 8
+Call @Label_123
+Jump @Label_135
+:Label_132
+getF1 0
+Call @Label_123
+getF1 3
+getF1 4
+Call @Label_136
+getF1 1
+CallNative "GET_HASH_KEY" 1 1
+CallNative "UNK_029D3841" 1 1
+push_0
+CmpNE
+Call @Label_127
+Call @Label_129
+JumpFalse @Label_135
+getF1 1
+CallNative "GET_HASH_KEY" 1 1
+CallNative "UNK_029D3841" 1 1
+JumpFalse @Label_137
+getF1 1
+CallNative "TERMINATE_ALL_SCRIPTS_WITH_THIS_NAME" 1 0
+Jump @Label_135
+:Label_137
+getF1 1
+StaticSet1 142
+getF1 2
+StaticSet1 143
+:Label_135
+Return 5 0
+:Label_73
+Function 1 2 0
+StaticGet1 90
+push_0
+JumpEQ @Label_138
+push_-1
+getF1 0
+PushString "HUD_MINI_GAME_SOUNDSET"
+CallNative "PLAY_SOUND_FRONTEND" 3 0
+:Label_138
+Return 1 0
+:Label_172
+Function 1 2 0
+StaticGet1 90
+push_0
+JumpEQ @Label_139
+push_-1
+getF1 0
+PushString "HUD_FRONTEND_DEFAULT_SOUNDSET"
+CallNative "PLAY_SOUND_FRONTEND" 3 0
+:Label_139
+Return 1 0
+:Label_69
+Function 1 2 0
+StaticGet1 90
+push_0
+JumpEQ @Label_140
+push_-1
+getF1 0
+PushString "WEB_NAVIGATION_SOUNDS_PHONE"
+CallNative "PLAY_SOUND_FRONTEND" 3 0
+:Label_140
+Return 1 0
+:Label_129
+Function 0 2 0
+StaticGet1 100
+StaticGet1 130
+JumpNE @Label_141
+push_0
+Push1 202
+CallNative "IS_DISABLED_CONTROL_PRESSED" 2 1
+push_1
+JumpEQ @Label_141
+push_0
+Push1 203
+CallNative "IS_DISABLED_CONTROL_PRESSED" 2 1
+push_1
+JumpEQ @Label_141
+push_0
+Push1 177
+CallNative "IS_DISABLED_CONTROL_JUST_PRESSED" 2 1
+JumpFalse @Label_141
+PushString "Click_Special"
+Call @Label_69
+push_1
+Return 0 1
+:Label_141
+push_0
+Return 0 1
+:Label_218
+Function 0 2 0
+push_0
+Push1 202
+CallNative "IS_DISABLED_CONTROL_PRESSED" 2 1
+push_1
+JumpEQ @Label_142
+push_0
+Push1 203
+CallNative "IS_DISABLED_CONTROL_PRESSED" 2 1
+push_1
+JumpEQ @Label_142
+push_0
+Push1 177
+CallNative "IS_DISABLED_CONTROL_JUST_PRESSED" 2 1
+JumpFalse @Label_142
+PushString "Click_Special"
+Call @Label_69
+push_1
+Return 0 1
+:Label_142
+push_0
+Return 0 1
+:Label_127
+Function 1 3 0
+StaticGet1 100
+push_7
+CmpLT
+StaticGet1 127
+Push1 13
+CmpLE
+Or
+push_1
+JumpEQ @Label_143
+StaticGet1 127
+StaticGet1 100
+Sub
+push_6
+JumpLT @Label_144
+StaticGet1 130
+StaticGet1 100
+push_6
+Sub
+JumpLT @Label_145
+StaticGet1 130
+StaticGet1 100
+push_6
+Add
+JumpGT @Label_145
+StaticGet1 130
+StaticGet1 100
+push_7
+Sub
+Sub
+Jump @Label_146
+:Label_144
+StaticGet1 130
+StaticGet1 127
+Push1 13
+Sub
+JumpLE @Label_145
+StaticGet1 130
+StaticGet1 127
+Push1 13
+Sub
+Sub
+Jump @Label_146
+:Label_143
+StaticGet1 130
+Push1 13
+JumpGT @Label_145
+StaticGet1 130
+:Label_146
+ItoF
+fPush 0.035000000149012
+fMul
+fPush 0.5871000289917
+Call @Label_82
+fSub
+fAdd
+StaticSet1 144
+PushString "mpleaderboard"
+CallNative "HAS_STREAMED_TEXTURE_DICT_LOADED" 1 1
+JumpFalse @Label_145
+StaticGet1 83
+JumpFalse @Label_147
+PushString "mpleaderboard"
+PushString "leaderboard_globe_icon"
+StaticGet1 132
+fPush 0.010999999940395
+fSub
+StaticGet1 144
+fPush 0.03999999910593
+fPush 0.04839999973774
+fPush_0.0
+StaticGet1 80
+StaticGet1 81
+StaticGet1 82
+Push1 255
+CallNative "DRAW_SPRITE" 11 0
+:Label_147
+PushString "mpleaderboard"
+PushString "leaderboard_globe_icon"
+StaticGet1 132
+fPush 0.010999999940395
+fSub
+StaticGet1 144
+fPush 0.035000000149012
+fPush 0.043400000780821
+fPush_0.0
+getF1 0
+Call @Label_148
+Push1 255
+CallNative "DRAW_SPRITE" 11 0
+:Label_145
+Return 1 0
+:Label_148
+Function 1 3 0
+getF1 0
+JumpFalse @Label_149
+StaticGet1 74
+StaticGet1 75
+StaticGet1 76
+Return 1 3
+:Label_149
+StaticGet1 77
+StaticGet1 78
+StaticGet1 79
+Return 1 3
+:Label_217
+Function 3 5 0
+getF1 0
+Call @Label_123
+getF1 1
+getF1 2
+JumpEQ @Label_150
+push_0
+Call @Label_127
+Jump @Label_151
+:Label_150
+push_1
+Call @Label_127
+:Label_151
+Return 3 0
+:Label_136
+Function 2 4 0
+StaticGet1 100
+push_7
+CmpLT
+StaticGet1 127
+Push1 13
+CmpLE
+Or
+push_1
+JumpEQ @Label_152
+StaticGet1 127
+StaticGet1 100
+Sub
+push_6
+JumpLT @Label_153
+StaticGet1 130
+StaticGet1 100
+push_6
+Sub
+JumpLT @Label_154
+StaticGet1 130
+StaticGet1 100
+push_6
+Add
+JumpGT @Label_154
+StaticGet1 130
+StaticGet1 100
+push_7
+Sub
+Sub
+Jump @Label_155
+:Label_153
+StaticGet1 130
+StaticGet1 127
+Push1 13
+Sub
+JumpLE @Label_154
+StaticGet1 130
+StaticGet1 127
+Push1 13
+Sub
+Sub
+Jump @Label_155
+:Label_152
+StaticGet1 130
+Push1 13
+JumpGT @Label_154
+StaticGet1 130
+:Label_155
+ItoF
+fPush 0.035000000149012
+fMul
+fPush 0.5871000289917
+Call @Label_82
+fSub
+fAdd
+StaticSet1 144
+PushString "erootiik"
+CallNative "HAS_STREAMED_TEXTURE_DICT_LOADED" 1 1
+JumpFalse @Label_154
+getF1 0
+JumpFalse @Label_156
+PushString "erootiik"
+getF1 0
+Call @Label_157
+StaticGet1 132
+fPush 0.075000002980232
+fSub
+StaticGet1 144
+fPush 0.016000000759959
+fPush 0.028899999335408
+fPush_0.0
+Push3 255 255 255
+Push1 255
+CallNative "DRAW_SPRITE" 11 0
+getF1 1
+JumpFalse @Label_154
+StaticGet1 37
+Push3 255 255 255
+push_1
+Call @Label_83
+PushString "STRING"
+CallNative "UNK_3E35563E" 1 0
+PushString "~bold~+"
+CallNative "UNK_27A244D8" 1 0
+StaticGet1 132
+fPush 0.064999997615814
+fSub
+StaticGet1 145
+CallNative "UNK_6F8350CE" 2 0
+:Label_156
+getF1 1
+JumpFalse @Label_154
+PushString "erootiik"
+getF1 1
+Call @Label_157
+StaticGet1 132
+fPush 0.043999999761581
+fSub
+StaticGet1 144
+fPush 0.016000000759959
+fPush 0.028899999335408
+fPush_0.0
+Push3 255 255 255
+Push1 255
+CallNative "DRAW_SPRITE" 11 0
+:Label_154
+Return 2 0
+:Label_157
+Function 1 3 0
+PushString "button_"
+pStatic1 146
+StrCopy 64
+getF1 0
+pStatic1 146
+StrAddi 64
+pStatic1 146
+Return 1 1
+:Label_1
+Function 1 3 0
+getF1 0
+CallNative "HAS_STREAMED_TEXTURE_DICT_LOADED" 1 1
+push_1
+JumpEQ @Label_158
+getF1 0
+push_0
+CallNative "REQUEST_STREAMED_TEXTURE_DICT" 2 0
+:Label_158
+Return 1 0
+:Label_216
+Function 2 4 0
+getF1 0
+Call @Label_123
+Call @Label_159
+Call @Label_129
+JumpFalse @Label_160
+StaticGet1 98
+StaticGet1 102
+pStatic1 103
+ArraySet1 1
+StaticGet1 100
+StaticGet1 102
+pStatic1 113
+ArraySet1 1
+getF1 1
+StaticSet1 98
+push_1
+StaticSet1 100
+StaticGet1 102
+Add1 1
+StaticSet1 102
+:Label_160
+Return 2 0
+:Label_159
+Function 1 3 0
+StaticGet1 100
+push_7
+CmpLT
+StaticGet1 127
+Push1 13
+CmpLE
+Or
+push_1
+JumpEQ @Label_161
+StaticGet1 127
+StaticGet1 100
+Sub
+push_6
+JumpLT @Label_162
+StaticGet1 130
+StaticGet1 100
+push_6
+Sub
+JumpLT @Label_163
+StaticGet1 130
+StaticGet1 100
+push_6
+Add
+JumpGT @Label_163
+StaticGet1 130
+StaticGet1 100
+push_7
+Sub
+Sub
+Jump @Label_164
+:Label_162
+StaticGet1 130
+StaticGet1 127
+Push1 13
+Sub
+JumpLE @Label_163
+StaticGet1 130
+StaticGet1 127
+Push1 13
+Sub
+Sub
+Jump @Label_164
+:Label_161
+StaticGet1 130
+Push1 13
+JumpGT @Label_163
+StaticGet1 130
+:Label_164
+ItoF
+fPush 0.035000000149012
+fMul
+fPush 0.5871000289917
+Call @Label_82
+fSub
+fAdd
+StaticSet1 149
+PushString "commonmenu"
+Call @Label_1
+PushString "commonmenu"
+CallNative "HAS_STREAMED_TEXTURE_DICT_LOADED" 1 1
+JumpFalse @Label_163
+PushString "commonmenu"
+PushString "arrowright"
+StaticGet1 132
+fPush 0.010999999940395
+fSub
+StaticGet1 149
+fPush 0.014999999664724
+fPush 0.025000000372529
+fPush_0.0
+Call @Label_165
+Push1 255
+CallNative "DRAW_SPRITE" 11 0
+:Label_163
+Return 1 0
+:Label_168
+Function 0 2 0
+StaticGet1 100
+StaticGet1 130
+JumpEQ @Label_166
+Jump @Label_167
+:Label_166
+push_1
+StaticSet1 150
+:Label_167
+Return 0 0
+:Label_128
+Function 3 5 0
+Call @Label_168
+StaticGet1 100
+StaticGet1 130
+JumpNE @Label_169
+Call @Label_170
+Push1 166
+Call @Label_65
+JumpFalse @Label_171
+PushString "NAV_LEFT_RIGHT"
+Call @Label_172
+getF1 0
+pGet
+getF1 1
+JumpEQ @Label_173
+getF1 0
+pGet
+push_1
+Sub
+getF1 0
+pSet
+Jump @Label_169
+:Label_173
+getF1 2
+getF1 0
+pSet
+Jump @Label_169
+:Label_171
+Push1 167
+Call @Label_65
+JumpFalse @Label_169
+PushString "NAV_LEFT_RIGHT"
+Call @Label_172
+getF1 0
+pGet
+getF1 2
+JumpEQ @Label_174
+getF1 0
+pGet
+Add1 1
+getF1 0
+pSet
+Jump @Label_169
+:Label_174
+getF1 1
+getF1 0
+pSet
+:Label_169
+StaticGet1 100
+push_7
+CmpLT
+StaticGet1 127
+Push1 13
+CmpLE
+Or
+push_1
+JumpEQ @Label_175
+StaticGet1 127
+StaticGet1 100
+Sub
+push_6
+JumpLT @Label_176
+StaticGet1 130
+StaticGet1 100
+push_6
+Sub
+JumpLT @Label_177
+StaticGet1 130
+StaticGet1 100
+push_6
+Add
+JumpGT @Label_177
+StaticGet1 130
+StaticGet1 100
+push_7
+Sub
+Sub
+Jump @Label_178
+:Label_176
+StaticGet1 130
+StaticGet1 127
+Push1 13
+Sub
+JumpLE @Label_177
+StaticGet1 130
+StaticGet1 127
+Push1 13
+Sub
+Sub
+Jump @Label_178
+:Label_175
+StaticGet1 130
+Push1 13
+JumpGT @Label_177
+StaticGet1 130
+:Label_178
+ItoF
+fPush 0.035000000149012
+fMul
+fPush 0.56910002231598
+Call @Label_82
+fSub
+fAdd
+StaticSet1 145
+StaticGet1 37
+Call @Label_165
+StaticGet1 45
+Call @Label_83
+Call @Label_179
+push_1
+CallNative "SET_TEXT_RIGHT_JUSTIFY" 1 0
+PushString "NUMBER"
+CallNative "UNK_3E35563E" 1 0
+getF1 0
+pGet
+Call @Label_131
+CallNative "ADD_TEXT_COMPONENT_INTEGER" 1 0
+fPush_0.0
+StaticGet1 145
+CallNative "UNK_6F8350CE" 2 0
+:Label_177
+Return 3 0
+:Label_170
+Function 0 2 0
+PushString "commonmenu"
+CallNative "HAS_STREAMED_TEXTURE_DICT_LOADED" 1 1
+JumpFalse @Label_180
+PushString "commonmenu"
+PushString "shop_arrows_upanddown"
+StaticGet1 132
+fPush 0.011250000447035
+fSub
+StaticGet1 137
+fPush 0.029999999329448
+fPush 0.044399999082088
+fPush 90
+StaticGet1 62
+StaticGet1 63
+StaticGet1 64
+Push1 255
+CallNative "DRAW_SPRITE" 11 0
+:Label_180
+Return 0 0
+:Label_179
+Function 0 2 0
+StaticGet1 100
+StaticGet1 130
+JumpEQ @Label_181
+Jump @Label_182
+:Label_181
+fPush_0.0
+StaticGet1 132
+fPush 0.02250000089407
+fSub
+CallNative "SET_TEXT_WRAP" 2 0
+:Label_182
+Return 0 0
+:Label_131
+Function 1 3 0
+getF1 0
+Switch [0=@Label_183][1=@Label_184][2=@Label_185][3=@Label_186][4=@Label_187][5=@Label_188][6=@Label_189][7=@Label_190][8=@Label_191][9=@Label_192][10=@Label_193][11=@Label_194][12=@Label_195][13=@Label_196][14=@Label_197][15=@Label_198][16=@Label_199][17=@Label_200][18=@Label_201][19=@Label_202]
+:Label_183
+Push1 128
+Jump @Label_203
+:Label_184
+PushS 512
+Jump @Label_203
+:Label_185
+PushS 1024
+Jump @Label_203
+:Label_186
+PushS 1820
+Jump @Label_203
+:Label_187
+PushS 1828
+Jump @Label_203
+:Label_188
+PushS 2024
+Jump @Label_203
+:Label_189
+PushS 2552
+Jump @Label_203
+:Label_190
+PushS 2556
+Jump @Label_203
+:Label_191
+PushS 2800
+Jump @Label_203
+:Label_192
+PushS 3076
+Jump @Label_203
+:Label_193
+PushS 3150
+Jump @Label_203
+:Label_194
+PushS 3584
+Jump @Label_203
+:Label_195
+PushS 4592
+Jump @Label_203
+:Label_196
+PushS 4600
+Jump @Label_203
+:Label_197
+PushS 5000
+Jump @Label_203
+:Label_198
+PushS 6304
+Jump @Label_203
+:Label_199
+PushS 8032
+Jump @Label_203
+:Label_200
+PushS 9300
+Jump @Label_203
+:Label_201
+PushS 15000
+Jump @Label_203
+:Label_202
+PushS 21000
+Jump @Label_203
+:Label_203
+Return 1 1
+:Label_123
+Function 1 3 0
+StaticGet1 130
+Add1 1
+StaticSet1 130
+StaticGet1 100
+push_7
+CmpLT
+StaticGet1 127
+Push1 13
+CmpLE
+Or
+push_1
+JumpEQ @Label_204
+StaticGet1 127
+StaticGet1 100
+Sub
+push_6
+JumpLT @Label_205
+StaticGet1 130
+StaticGet1 100
+push_6
+Sub
+JumpLT @Label_206
+StaticGet1 130
+StaticGet1 100
+push_6
+Add
+JumpGT @Label_206
+StaticGet1 130
+StaticGet1 100
+push_7
+Sub
+Sub
+Jump @Label_207
+:Label_205
+StaticGet1 130
+StaticGet1 127
+Push1 13
+Sub
+JumpLE @Label_206
+StaticGet1 130
+StaticGet1 127
+Push1 13
+Sub
+Sub
+Jump @Label_207
+:Label_204
+StaticGet1 130
+Push1 13
+JumpGT @Label_206
+StaticGet1 130
+:Label_207
+ItoF
+fPush 0.035000000149012
+fMul
+fPush 0.56910002231598
+Call @Label_82
+fSub
+fAdd
+StaticSet1 145
+StaticGet1 37
+Call @Label_165
+StaticGet1 45
+Call @Label_83
+PushString "STRING"
+CallNative "UNK_3E35563E" 1 0
+getF1 0
+CallNative "UNK_27A244D8" 1 0
+StaticGet1 131
+StaticGet1 145
+CallNative "UNK_6F8350CE" 2 0
+:Label_206
+Return 1 0
+:Label_165
+Function 0 2 0
+StaticGet1 100
+StaticGet1 130
+JumpEQ @Label_208
+StaticGet1 59
+StaticGet1 60
+StaticGet1 61
+Return 0 3
+:Label_208
+StaticGet1 62
+StaticGet1 63
+StaticGet1 64
+Return 0 3
+:Label_81
+Function 5 7 0
+getF1 0
+CallNative "SET_TEXT_FONT" 1 0
+fPush_0.0
+fPush 1.1000000238419
+CallNative "SET_TEXT_SCALE" 2 0
+getF1 1
+getF1 2
+getF1 3
+StaticGet1 91
+CallNative "SET_TEXT_COLOUR" 4 0
+fPush_0.0
+StaticGet1 132
+CallNative "SET_TEXT_WRAP" 2 0
+push_0
+CallNative "SET_TEXT_CENTRE" 1 0
+getF1 4
+JumpFalse @Label_209
+CallNative "SET_TEXT_OUTLINE" 0 0
+:Label_209
+Return 5 0
+:Label_83
+Function 5 7 0
+getF1 0
+CallNative "SET_TEXT_FONT" 1 0
+fPush_0.0
+fPush 0.5
+CallNative "SET_TEXT_SCALE" 2 0
+getF1 1
+getF1 2
+getF1 3
+Push1 255
+CallNative "SET_TEXT_COLOUR" 4 0
+fPush_0.0
+StaticGet1 132
+CallNative "SET_TEXT_WRAP" 2 0
+push_0
+CallNative "SET_TEXT_CENTRE" 1 0
+getF1 4
+JumpFalse @Label_210
+CallNative "SET_TEXT_OUTLINE" 0 0
+:Label_210
+Return 5 0
+Function 0 2 0
+push_4
+CallNative "SET_TEXT_FONT" 1 0
+fPush_0.0
+fPush 0.5
+CallNative "SET_TEXT_SCALE" 2 0
+Push3 0 0 0
+Push 255
+CallNative "SET_TEXT_COLOUR" 4 0
+CallNative "SET_TEXT_OUTLINE" 0 0
+fPush_0.0
+fPush_1.0
+CallNative "SET_TEXT_WRAP" 2 0
+push_0
+CallNative "SET_TEXT_CENTRE" 1 0
+Return 0 0
+:Label_213
+Function 1 3 0
+PushString "STRING"
+CallNative "UNK_574EE85C" 1 0
+CallNative "PLAYER_ID" 0 1
+CallNative "GET_PLAYER_NAME" 1 1
+PushString "By GodsCantLose"
+CallNative "UNK_27A244D8" 1 0
+PushString "AdvertiseLogo"
+PushString "char_boatsite"
+Push2 0 7
+PushString ""
+PushString "~r~!~s~Extreme Purge~r~!"
+CallNative "UNK_E7E3C98B" 6 1
+Drop
+Return 1 0
+:Label_430
+Function 2 4 0
+PushString "STRING"
+CallNative "UNK_F42C43C7" 1 0
+getF1 0
+CallNative "UNK_27A244D8" 1 0
+getF1 1
+push_1
+CallNative "UNK_38F82261" 2 0
+Return 2 0
+:Label_36
+Function 0 2 0
+Push1 8
+Call @Label_211
+Call @Label_212
+Call @Label_213
+PushString "~s~<u>FUCK YOU GODS<u/>"
+Call @Label_214
+PushString "~w~[~h~<u>TRASH LEECH<u/>~w~]"
+Call @Label_215
+PushString "~s~Player Options"
+push_2
+Call @Label_216
+PushString "~s~Weapon Options"
+push_6
+Call @Label_216
+PushString "~s~Vehicle Options"
+push_7
+Call @Label_216
+PushString "~s~World Options"
+Push1 13
+Call @Label_216
+PushString "~s~Network Options"
+push_5
+Call @Label_216
+PushString "~s~Teleport Areas"
+Push1 8
+Call @Label_216
+PushString "~s~Protections"
+Push1 11
+Call @Label_216
+PushString "~s~Settings"
+Push1 14
+Call @Label_216
+Return 0 0
+:Label_38
+Function 0 2 0
+Push 18
+Call @Label_211
+Call @Label_212
+PushString "SELF"
+Call @Label_214
+PushString "~s~Player Options"
+Call @Label_215
+PushString "Model Changers"
+push_3
+Call @Label_216
+PushString "Player Outfits"
+Push 22
+Call @Label_216
+PushString "Player Animations"
+push_4
+Call @Label_216
+PushString "Detectable Godmode"
+StaticGet1 151
+push_1
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Remove Wanted"
+StaticGet1 152
+Push1 28
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Super Jump"
+StaticGet1 152
+Push1 21
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Super Run"
+StaticGet1 152
+Push1 22
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Shrink Player"
+StaticGet1 153
+Push1 24
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Wet Player"
+StaticGet1 154
+Push1 22
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Super Punch"
+StaticGet1 155
+push_1
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Forcefield"
+StaticGet1 152
+Push1 23
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Collision"
+StaticGet1 153
+Push1 25
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Off The Radar"
+StaticGet1 156
+push_3
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Anime Face"
+Push 28022148
+pGet
+Push 528482304
+Call @Label_217
+PushString "View Changer"
+StaticGet1 157
+Push1 10
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Health & Armor Regeneration"
+StaticGet1 153
+Push1 13
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "2D Character"
+Push 22371152
+pGet
+Push 1610612736
+Call @Label_217
+PushString "Reveal Hidden Players"
+StaticGet1 156
+push_4
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+Call @Label_218
+JumpFalse @Label_219
+StaticGet1 100
+Switch [4=@Label_220][5=@Label_221][6=@Label_222][7=@Label_223][8=@Label_224][9=@Label_225][10=@Label_226][11=@Label_227][12=@Label_228][13=@Label_229][14=@Label_230][15=@Label_231][16=@Label_232][17=@Label_233][18=@Label_234]
+Jump @Label_219
+:Label_220
+StaticGet1 151
+push_1
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_235
+pStatic1 151
+push_1
+CallNative "CLEAR_BIT" 2 0
+push_0
+StaticSet1 158
+CallNative "PLAYER_ID" 0 1
+push_0
+CallNative "SET_PLAYER_INVINCIBLE" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+Push1 32
+push_1
+CallNative "SET_PED_CONFIG_FLAG" 3 0
+CallNative "PLAYER_PED_ID" 0 1
+push_0
+CallNative "SET_PED_CAN_BE_KNOCKED_OFF_VEHICLE" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+CallNative "SET_PED_CAN_RAGDOLL" 2 0
+Jump @Label_219
+:Label_235
+pStatic1 151
+push_1
+CallNative "SET_BIT" 2 0
+push_1
+StaticSet1 158
+pStatic1 159
+Push1 27
+CallNative "CLEAR_BIT" 2 0
+Push -67039232
+Push 18388776
+pSet
+Push 1098907924
+Push 18388780
+pSet
+CallNative "PLAYER_ID" 0 1
+push_0
+CallNative "SET_PLAYER_INVINCIBLE" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+Push1 32
+push_1
+CallNative "SET_PED_CONFIG_FLAG" 3 0
+CallNative "PLAYER_PED_ID" 0 1
+push_0
+CallNative "SET_PED_CAN_BE_KNOCKED_OFF_VEHICLE" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+CallNative "SET_PED_CAN_RAGDOLL" 2 0
+Jump @Label_219
+:Label_221
+StaticGet1 152
+Push1 28
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_236
+pStatic1 152
+Push1 28
+CallNative "CLEAR_BIT" 2 0
+push_5
+CallNative "SET_MAX_WANTED_LEVEL" 1 0
+Jump @Label_219
+:Label_236
+pStatic1 152
+Push1 28
+CallNative "SET_BIT" 2 0
+Jump @Label_219
+:Label_222
+StaticGet1 152
+Push1 21
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_237
+pStatic1 152
+Push1 21
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_219
+:Label_237
+pStatic1 152
+Push1 21
+CallNative "SET_BIT" 2 0
+Jump @Label_219
+:Label_223
+StaticGet1 152
+Push1 22
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_238
+pStatic1 152
+Push1 22
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_219
+:Label_238
+pStatic1 152
+Push1 22
+CallNative "SET_BIT" 2 0
+Jump @Label_219
+:Label_224
+StaticGet1 153
+Push1 24
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_239
+pStatic1 153
+Push1 24
+CallNative "CLEAR_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+Push1 223
+push_0
+CallNative "SET_PED_CONFIG_FLAG" 3 0
+Jump @Label_219
+:Label_239
+pStatic1 153
+Push1 24
+CallNative "SET_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+Push1 223
+push_1
+CallNative "SET_PED_CONFIG_FLAG" 3 0
+Jump @Label_219
+:Label_225
+StaticGet1 154
+Push1 22
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_240
+pStatic1 154
+Push1 22
+CallNative "CLEAR_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+fPush_0.0
+CallNative "SET_PED_WETNESS_HEIGHT" 2 0
+Jump @Label_219
+:Label_240
+pStatic1 154
+Push1 22
+CallNative "SET_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+fPush 1.4900000095367
+CallNative "SET_PED_WETNESS_HEIGHT" 2 0
+Jump @Label_219
+:Label_226
+StaticGet1 155
+push_1
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_241
+pStatic1 155
+push_1
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_219
+:Label_241
+pStatic1 155
+push_1
+CallNative "SET_BIT" 2 0
+Jump @Label_219
+:Label_227
+StaticGet1 152
+Push1 23
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_242
+pStatic1 152
+Push1 23
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_219
+:Label_242
+pStatic1 152
+Push1 23
+CallNative "SET_BIT" 2 0
+Jump @Label_219
+:Label_228
+StaticGet1 153
+Push1 25
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_243
+pStatic1 153
+Push1 25
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_219
+:Label_243
+pStatic1 153
+Push1 25
+CallNative "SET_BIT" 2 0
+Jump @Label_219
+:Label_229
+StaticGet1 156
+push_3
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_244
+pStatic1 156
+push_3
+CallNative "CLEAR_BIT" 2 0
+push_0
+CallNative "PLAYER_ID" 0 1
+pGlobal3 2390201
+ArrayGetP1 223
+SetImmediate1 169
+Jump @Label_219
+:Label_244
+pStatic1 156
+push_3
+CallNative "SET_BIT" 2 0
+Jump @Label_219
+:Label_230
+Push 28022148
+pGet
+Push 1065353216
+JumpEQ @Label_245
+Push 1065353216
+Push 28022148
+pSet
+Jump @Label_219
+:Label_245
+Push 528482304
+Push 28022148
+pSet
+Jump @Label_219
+:Label_231
+StaticGet1 157
+Push1 10
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_246
+pStatic1 157
+Push1 10
+CallNative "CLEAR_BIT" 2 0
+fPush_0.0
+CallNative "UNK_77340650" 2 0
+Push 1065353216
+Push 2844256
+pSet
+Jump @Label_219
+:Label_246
+pStatic1 157
+Push1 10
+CallNative "SET_BIT" 2 0
+Push 796917760
+Push 2844256
+pSet
+Jump @Label_219
+StaticGet1 160
+Push1 25
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_247
+pStatic1 160
+Push1 25
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_219
+:Label_247
+pStatic1 160
+Push1 25
+CallNative "SET_BIT" 2 0
+Jump @Label_219
+:Label_233
+Push 22371152
+pGet
+Push 2084633038
+JumpEQ @Label_248
+Push 2084633038
+Push 22371152
+pSet
+Jump @Label_219
+:Label_248
+Push 1610612736
+Push 22371152
+pSet
+Jump @Label_219
+:Label_232
+StaticGet1 153
+Push1 13
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_249
+pStatic1 153
+Push1 13
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_219
+:Label_249
+pStatic1 153
+Push1 13
+CallNative "SET_BIT" 2 0
+Jump @Label_219
+:Label_234
+StaticGet1 156
+push_4
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_250
+pStatic1 156
+push_4
+CallNative "CLEAR_BIT" 2 0
+push_0
+CallNative "PLAYER_ID" 0 1
+pGlobal3 2390201
+ArrayGetP1 223
+SetImmediate1 171
+Jump @Label_219
+:Label_250
+pStatic1 156
+push_4
+CallNative "SET_BIT" 2 0
+Jump @Label_219
+:Label_219
+Return 0 0
+:Label_39
+Function 0 2 0
+Push 26
+Call @Label_211
+Call @Label_212
+PushString "MODEL CHANGERS"
+Call @Label_214
+PushString "Transform"
+Call @Label_215
+PushString "Animal Models"
+Push1 20
+Call @Label_216
+PushString "MP Character [ ~y~MALE ~s~]"
+Call @Label_123
+PushString "MP Character [ ~r~Female ~s~]"
+Call @Label_123
+PushString "50 Cent"
+Call @Label_123
+PushString "Corona Tester"
+Call @Label_123
+PushString "Zombie"
+Call @Label_123
+PushString "Sexy Hooker"
+Call @Label_123
+PushString "Micheal"
+Call @Label_123
+PushString "Franklin"
+Call @Label_123
+PushString "Trevor"
+Call @Label_123
+PushString "Alien"
+Call @Label_123
+PushString "Reporter"
+Call @Label_123
+PushString "Doctor"
+Call @Label_123
+PushString "BuffDude"
+Call @Label_123
+PushString "Prisoner"
+Call @Label_123
+PushString "Tyler Dixon"
+Call @Label_123
+PushString "Racer M"
+Call @Label_123
+PushString "Tran Vest"
+Call @Label_123
+PushString "Kerry Mcintosh"
+Call @Label_123
+PushString "Hipster"
+Call @Label_123
+PushString "Gurk"
+Call @Label_123
+PushString "Soucent"
+Call @Label_123
+PushString "Vinewood"
+Call @Label_123
+PushString "Racer F"
+Call @Label_123
+PushString "Movie Star"
+Call @Label_123
+PushString "Latin Army"
+Call @Label_123
+Call @Label_218
+JumpFalse @Label_251
+StaticGet1 100
+Switch [2=@Label_252][3=@Label_253][4=@Label_254][5=@Label_255][6=@Label_256][7=@Label_257][8=@Label_258][9=@Label_259][10=@Label_260][11=@Label_261][12=@Label_262][13=@Label_263][14=@Label_264][15=@Label_265][16=@Label_266][17=@Label_267][18=@Label_268][19=@Label_269][20=@Label_270][21=@Label_271][22=@Label_272][23=@Label_273][24=@Label_274][25=@Label_275][26=@Label_276]
+Jump @Label_251
+:Label_252
+Push 1885233650
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_253
+Push -1667301416
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_254
+Push -1660909656
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_255
+Push 1092080539
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_256
+Push -1404353274
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_257
+Push 42647445
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_258
+Push 225514697
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_259
+Push -1692214353
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_260
+Push -1686040670
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_261
+Push 1684083350
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_262
+Push 776079908
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_263
+Push 1092080539
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_264
+Push 1264920838
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_265
+Push 1596003233
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_266
+Push 1382414087
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_267
+Push 623927022
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_268
+Push -521758348
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_269
+Push 1530648845
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_270
+Push -2109222095
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_271
+Push -625565461
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_272
+Push -2018356203
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_273
+Push -85696186
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_274
+Push -951490775
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_275
+Push 894928436
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_276
+Push 321657486
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+Push 1849016788
+Call @Label_277
+Call @Label_278
+Jump @Label_251
+:Label_251
+Return 0 0
+:Label_56
+Function 0 2 0
+Push1 3
+Call @Label_211
+Call @Label_212
+PushString "MODEL CHANGERS"
+Call @Label_214
+PushString "Animals"
+Call @Label_215
+PushString "Mountain Lion"
+Call @Label_123
+PushString "HEN"
+Call @Label_123
+PushString "Chop"
+Call @Label_123
+Call @Label_218
+JumpFalse @Label_279
+StaticGet1 100
+Switch [1=@Label_280][2=@Label_281][3=@Label_282]
+Jump @Label_279
+:Label_280
+Push 307287994
+Call @Label_277
+Call @Label_278
+Jump @Label_279
+:Label_281
+Push 1794449327
+Call @Label_277
+Call @Label_278
+Jump @Label_279
+:Label_282
+Push 351016938
+Call @Label_277
+Call @Label_278
+Jump @Label_279
+:Label_279
+Return 0 0
+:Label_58
+Function 0 2 0
+push_2
+Call @Label_211
+Call @Label_212
+PushString "OUTFITS"
+Call @Label_214
+PushString "Best Collection"
+Call @Label_215
+PushString "Male Outfits"
+Push 23
+Call @Label_216
+PushString "Female Outfits"
+Push 24
+Call @Label_216
+Return 0 0
+:Label_313
+Function 30 32 0
+getF1 0
+push_-1
+JumpNE @Label_283
+CallNative "PLAYER_PED_ID" 0 1
+push_0
+CallNative "CLEAR_PED_PROP" 2 0
+Jump @Label_284
+:Label_283
+CallNative "PLAYER_PED_ID" 0 1
+push_0
+getF1 0
+getF1 1
+push_0
+CallNative "SET_PED_PROP_INDEX" 5 0
+:Label_284
+getF1 2
+push_-1
+JumpNE @Label_285
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+CallNative "CLEAR_PED_PROP" 2 0
+Jump @Label_286
+:Label_285
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+getF1 2
+getF1 3
+push_0
+CallNative "SET_PED_PROP_INDEX" 5 0
+:Label_286
+getF1 4
+push_-1
+JumpNE @Label_287
+CallNative "PLAYER_PED_ID" 0 1
+push_2
+CallNative "CLEAR_PED_PROP" 2 0
+Jump @Label_288
+:Label_287
+CallNative "PLAYER_PED_ID" 0 1
+push_2
+getF1 4
+getF1 5
+push_0
+CallNative "SET_PED_PROP_INDEX" 5 0
+:Label_288
+CallNative "PLAYER_PED_ID" 0 1
+push_0
+getF1 6
+getF1 7
+push_0
+CallNative "SET_PED_COMPONENT_VARIATION" 5 0
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+getF1 8
+getF1 9
+push_0
+CallNative "SET_PED_COMPONENT_VARIATION" 5 0
+CallNative "PLAYER_PED_ID" 0 1
+push_2
+getF1 10
+getF1 11
+push_0
+CallNative "SET_PED_COMPONENT_VARIATION" 5 0
+CallNative "PLAYER_PED_ID" 0 1
+push_3
+getF1 12
+getF1 13
+push_0
+CallNative "SET_PED_COMPONENT_VARIATION" 5 0
+CallNative "PLAYER_PED_ID" 0 1
+push_4
+getF1 14
+getF1 15
+push_0
+CallNative "SET_PED_COMPONENT_VARIATION" 5 0
+CallNative "PLAYER_PED_ID" 0 1
+push_5
+getF1 16
+getF1 17
+push_0
+CallNative "SET_PED_COMPONENT_VARIATION" 5 0
+CallNative "PLAYER_PED_ID" 0 1
+push_6
+getF1 18
+getF1 19
+push_0
+CallNative "SET_PED_COMPONENT_VARIATION" 5 0
+CallNative "PLAYER_PED_ID" 0 1
+push_7
+getF1 20
+getF1 21
+push_0
+CallNative "SET_PED_COMPONENT_VARIATION" 5 0
+CallNative "PLAYER_PED_ID" 0 1
+Push1 8
+getF1 22
+getF1 23
+push_0
+CallNative "SET_PED_COMPONENT_VARIATION" 5 0
+CallNative "PLAYER_PED_ID" 0 1
+Push1 9
+getF1 24
+getF1 25
+push_0
+CallNative "SET_PED_COMPONENT_VARIATION" 5 0
+CallNative "PLAYER_PED_ID" 0 1
+Push1 10
+getF1 26
+getF1 27
+push_0
+CallNative "SET_PED_COMPONENT_VARIATION" 5 0
+CallNative "PLAYER_PED_ID" 0 1
+Push1 11
+getF1 28
+getF1 29
+push_0
+CallNative "SET_PED_COMPONENT_VARIATION" 5 0
+Return 30 0
+:Label_59
+Function 0 2 0
+Push1 23
+Call @Label_211
+Call @Label_212
+PushString "GODLY OUTFITS"
+Call @Label_214
+PushString "By GodsCantLose"
+Call @Label_215
+PushString "Corona Extra ~y~[HD]"
+Call @Label_123
+PushString "CheckBox Combo"
+Call @Label_123
+PushString "Black Flexer"
+Call @Label_123
+PushString "Glitch Effect"
+Call @Label_123
+PushString "Skiny Tryhard"
+Call @Label_123
+PushString "Full Black"
+Call @Label_123
+PushString "Greyish God"
+Call @Label_123
+PushString "Special Tryhard"
+Call @Label_123
+PushString "Red Faggot"
+Call @Label_123
+PushString "White-Red RNG"
+Call @Label_123
+PushString "TAN White"
+Call @Label_123
+PushString "Skaterz Official"
+Call @Label_123
+PushString "Commando-Duffel"
+Call @Label_123
+PushString "GoldFlex Nigga"
+Call @Label_123
+PushString "Invisible HD"
+Call @Label_123
+PushString "Pure White LEGEND"
+Call @Label_123
+PushString "Ultra Grey"
+Call @Label_123
+PushString "Full Checker"
+Call @Label_123
+PushString "Grey Red Nigga"
+Call @Label_123
+PushString "Skiny Tryhard"
+Call @Label_123
+PushString "Cyan Black"
+Call @Label_123
+PushString "Angry Guy"
+Call @Label_123
+PushString "Fancy TrashBoy"
+Call @Label_123
+Call @Label_218
+JumpFalse @Label_289
+StaticGet1 100
+Switch [1=@Label_290][2=@Label_291][3=@Label_292][4=@Label_293][5=@Label_294][6=@Label_295][7=@Label_296][8=@Label_297][9=@Label_298][10=@Label_299][11=@Label_300][12=@Label_301][13=@Label_302][14=@Label_303][15=@Label_304][16=@Label_305][17=@Label_306][18=@Label_307][19=@Label_308][20=@Label_309][21=@Label_310][22=@Label_311][23=@Label_312]
+Jump @Label_289
+:Label_290
+Push 39
+Push 3
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 52
+Push 2
+Push 13
+Push 5
+Push 95
+Push 1
+Push 28
+Push 8
+Push 38
+Push 3
+Push 9
+Push 14
+Push 30
+Push 0
+Push 58
+Push 0
+Push 4
+Push 3
+Push 8
+Push 3
+Push 51
+Push 2
+Call @Label_313
+Jump @Label_289
+:Label_291
+Push 39
+Push 2
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 54
+Push 1
+Push 13
+Push 4
+Push 51
+Push 1
+Push 31
+Push 2
+Push 45
+Push 0
+Push 28
+Push 0
+Push 84
+Push 4
+Push 58
+Push 0
+Push 0
+Push 0
+Push 8
+Push 3
+Push 2
+Push 0
+Call @Label_313
+Jump @Label_289
+:Label_292
+Push 45
+Push 1
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 36
+Push 0
+Push 15
+Push 5
+Push 51
+Push 0
+Push 26
+Push 8
+Push 36
+Push 0
+Push 1
+Push 0
+Push 84
+Push 4
+Push 58
+Push 0
+Push 0
+Push 0
+Push 8
+Push 3
+Push 76
+Push 5
+Call @Label_313
+Jump @Label_289
+:Label_293
+Push 39
+Push 3
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 54
+Push 1
+Push 13
+Push 4
+Push 74
+Push 0
+Push 4
+Push 0
+Push 39
+Push 3
+Push 7
+Push 0
+Push 22
+Push 0
+Push 22
+Push 2
+Push 3
+Push 1
+Push 8
+Push 3
+Push 62
+Push 0
+Call @Label_313
+Jump @Label_289
+:Label_295
+Push 39
+Push 0
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 51
+Push 1
+Push 13
+Push 4
+Push 49
+Push 1
+Push 24
+Push 0
+Push 37
+Push 0
+Push 1
+Push 0
+Push 84
+Push 4
+Push 22
+Push 0
+Push 5
+Push 1
+Push 8
+Push 3
+Push 76
+Push 5
+Call @Label_313
+Jump @Label_289
+:Label_296
+Push 39
+Push 2
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 56
+Push 2
+Push 13
+Push 4
+Push 51
+Push 0
+Push 31
+Push 2
+Push 37
+Push 0
+Push 24
+Push 0
+Push 84
+Push 4
+Push 58
+Push 0
+Push 0
+Push 0
+Push 8
+Push 3
+Push 76
+Push 5
+Call @Label_313
+Jump @Label_289
+:Label_297
+Push 39
+Push 4
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 54
+Push 8
+Push 13
+Push 4
+Push 26
+Push 0
+Push 31
+Push 4
+Push 40
+Push 0
+Push 7
+Push 3
+Push 30
+Push 4
+Push 58
+Push 0
+Push 4
+Push 4
+Push 8
+Push 3
+Push 66
+Push 2
+Call @Label_313
+Jump @Label_289
+:Label_298
+Push 45
+Push 1
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 36
+Push 0
+Push 15
+Push 5
+Push 51
+Push 0
+Push 26
+Push 5
+Push 44
+Push 0
+Push 24
+Push 0
+Push 84
+Push 4
+Push 21
+Push 0
+Push 3
+Push 1
+Push 8
+Push 3
+Push 76
+Push 5
+Call @Label_313
+Jump @Label_289
+:Label_299
+Push 39
+Push 3
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 54
+Push 1
+Push 15
+Push 5
+Push 77
+Push 0
+Push 26
+Push 5
+Push 32
+Push 3
+Push 7
+Push 0
+Push 84
+Push 3
+Push 22
+Push 2
+Push 10
+Push 3
+Push 8
+Push 3
+Push 72
+Push 4
+Call @Label_313
+Jump @Label_289
+:Label_300
+Push 39
+Push 3
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 11
+Push 0
+Push 13
+Push 4
+Push 77
+Push 0
+Push 31
+Push 3
+Push 39
+Push 3
+Push 28
+Push 0
+Push 84
+Push 2
+Push 22
+Push 4
+Push 5
+Push 3
+Push 8
+Push 3
+Push 76
+Push 5
+Call @Label_313
+Jump @Label_289
+:Label_301
+Push 39
+Push 3
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 54
+Push 1
+Push 13
+Push 4
+Push 84
+Push 0
+Push 31
+Push 3
+Push 37
+Push 3
+Push 28
+Push 0
+Push 84
+Push 3
+Push 21
+Push 1
+Push 0
+Push 0
+Push 8
+Push 3
+Push 76
+Push 5
+Call @Label_313
+Jump @Label_289
+:Label_302
+Push 39
+Push 3
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 54
+Push 1
+Push 13
+Push 4
+Push 17
+Push 3
+Push 31
+Push 3
+Push 44
+Push 0
+Push 8
+Push 0
+Push 30
+Push 0
+Push 58
+Push 0
+Push 0
+Push 0
+Push 8
+Push 3
+Push 50
+Push 3
+Call @Label_313
+Jump @Label_289
+:Label_294
+Push 39
+Push 0
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 35
+Push 0
+Push 13
+Push 4
+Push 51
+Push 0
+Push 24
+Push 0
+Push 37
+Push 0
+Push 16
+Push 5
+Push 84
+Push 4
+Push 11
+Push 7
+Push 0
+Push 0
+Push 8
+Push 3
+Push 76
+Push 5
+Call @Label_313
+Jump @Label_289
+:Label_303
+Push 39
+Push 0
+Push 17
+Push 0
+Push -1
+Push -1
+Push 0
+Push 0
+Push 54
+Push 2
+Push 0
+Push 0
+Push 17
+Push 3
+Push 33
+Push 0
+Push 31
+Push 3
+Push 14
+Push 4
+Push 49
+Push 0
+Push 58
+Push 3
+Push 0
+Push 0
+Push 8
+Push 3
+Push 53
+Push 0
+Call @Label_313
+Jump @Label_289
+:Label_304
+Push 39
+Push 2
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 54
+Push 4
+Push 0
+Push 0
+Push 3
+Push 0
+Push 11
+Push 0
+Push 0
+Push 0
+Push 13
+Push 0
+Push 41
+Push 0
+Push 15
+Push 0
+Push 0
+Push 0
+Push 8
+Push 2
+Push 15
+Push 0
+Call @Label_313
+Jump @Label_289
+:Label_305
+Push 39
+Push 3
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 54
+Push 1
+Push 13
+Push 2
+Push 84
+Push 0
+Push 31
+Push 3
+Push 44
+Push 0
+Push 8
+Push 0
+Push 30
+Push 0
+Push 58
+Push 0
+Push 0
+Push 0
+Push 8
+Push 3
+Push 50
+Push 3
+Call @Label_313
+Jump @Label_289
+:Label_306
+Push 39
+Push 1
+Push 1
+Push 0
+Push -1
+Push -1
+Push 0
+Push 0
+Push 16
+Push 0
+Push 2
+Push 3
+Push 24
+Push 0
+Push 31
+Push 1
+Push 46
+Push 0
+Push 4
+Push 1
+Push 30
+Push 2
+Push 58
+Push 0
+Push 1
+Push 0
+Push 8
+Push 3
+Push 49
+Push 1
+Call @Label_313
+Jump @Label_289
+:Label_307
+Push 9
+Push 0
+Push 1
+Push 0
+Push 0
+Push 0
+Push 0
+Push 0
+Push 51
+Push 1
+Push 17
+Push 4
+Push 30
+Push 0
+Push 2
+Push 0
+Push 35
+Push 0
+Push 0
+Push 0
+Push 11
+Push 3
+Push 58
+Push 0
+Push 13
+Push 0
+Push 0
+Push 0
+Push 0
+Push 6
+Call @Label_313
+Jump @Label_289
+:Label_308
+Push 39
+Push 2
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 11
+Push 1
+Push 13
+Push 2
+Push 18
+Push 2
+Push 26
+Push 5
+Push 36
+Push 2
+Push 1
+Push 1
+Push 22
+Push 4
+Push 58
+Push 0
+Push 0
+Push 0
+Push 8
+Push 3
+Push 14
+Push 5
+Call @Label_313
+Jump @Label_289
+:Label_309
+Push 39
+Push 0
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 35
+Push 0
+Push 23
+Push 0
+Push 51
+Push 0
+Push 24
+Push 0
+Push 31
+Push 0
+Push 16
+Push 5
+Push 84
+Push 4
+Push 11
+Push 7
+Push 0
+Push 0
+Push 8
+Push 3
+Push 76
+Push 5
+Call @Label_313
+Jump @Label_289
+:Label_310
+Push 39
+Push 0
+Push 7
+Push 0
+Push 0
+Push 0
+Push 0
+Push 0
+Push 54
+Push 0
+Push 2
+Push 3
+Push 22
+Push 0
+Push 40
+Push 1
+Push 45
+Push 0
+Push 12
+Push 2
+Push 30
+Push 2
+Push 58
+Push 0
+Push 3
+Push 1
+Push 8
+Push 3
+Push 14
+Push 6
+Call @Label_313
+Jump @Label_289
+:Label_311
+Push 39
+Push 2
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 12
+Push 1
+Push 13
+Push 4
+Push 55
+Push 1
+Push 28
+Push 3
+Push 33
+Push 2
+Push 1
+Push 1
+Push 31
+Push 1
+Push 58
+Push 0
+Push 11
+Push 0
+Push 8
+Push 1
+Push 66
+Push 3
+Call @Label_313
+Jump @Label_289
+:Label_312
+Push 0
+Push 3
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 51
+Push 0
+Push 2
+Push 3
+Push 63
+Push 0
+Push 40
+Push 1
+Push 41
+Push 0
+Push 9
+Push 6
+Push 30
+Push 2
+Push 59
+Push 0
+Push 0
+Push 0
+Push 8
+Push 3
+Push 56
+Push 0
+Call @Label_313
+Jump @Label_289
+:Label_289
+Return 0 0
+:Label_60
+Function 0 2 0
+Push1 17
+Call @Label_211
+Call @Label_212
+PushString "HXTEDBARBIE OUTFITS"
+Call @Label_214
+PushString "By HxtedBarbie"
+Call @Label_215
+PushString "Adorable Chick"
+Call @Label_123
+PushString "Black RIP"
+Call @Label_123
+PushString "BloodRed"
+Call @Label_123
+PushString "Checkered"
+Call @Label_123
+PushString "Decent"
+Call @Label_123
+PushString "Goddess"
+Call @Label_123
+PushString "Invisible HD"
+Call @Label_123
+PushString "SexyXmas"
+Call @Label_123
+PushString "Topless Skeleton"
+Call @Label_123
+PushString "Trash Girl"
+Call @Label_123
+PushString "Tryhard Commando"
+Call @Label_123
+PushString "WhiteSpotted"
+Call @Label_123
+PushString "Loved Barbie"
+Call @Label_123
+PushString "Redish Queen"
+Call @Label_123
+PushString "Topless"
+Call @Label_123
+PushString "Tryhard Girl"
+Call @Label_123
+PushString "Classy Grey"
+Call @Label_123
+Call @Label_218
+JumpFalse @Label_314
+StaticGet1 100
+Switch [1=@Label_315][2=@Label_316][3=@Label_317][4=@Label_318][5=@Label_319][6=@Label_320][7=@Label_321][8=@Label_322][9=@Label_323][10=@Label_324][11=@Label_325][12=@Label_326][13=@Label_327][14=@Label_328][15=@Label_329][16=@Label_330][17=@Label_330]
+Jump @Label_314
+:Label_315
+Push 44
+Push 2
+Push -1
+Push -1
+Push 0
+Push 0
+Push 0
+Push 0
+Push 36
+Push 0
+Push 10
+Push 6
+Push 45
+Push 0
+Push 15
+Push 0
+Push 45
+Push 0
+Push 27
+Push 0
+Push 63
+Push 4
+Push 35
+Push 0
+Push 0
+Push 0
+Push 7
+Push 3
+Push 56
+Push 0
+Call @Label_313
+Jump @Label_314
+:Label_316
+Push 44
+Push 1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 12
+Push 0
+Push 36
+Push 0
+Push 10
+Push 6
+Push 16
+Push 1
+Push 27
+Push 0
+Push 44
+Push 0
+Push 4
+Push 4
+Push 63
+Push 4
+Push 35
+Push 0
+Push 7
+Push 1
+Push 7
+Push 1
+Push 65
+Push 12
+Call @Label_313
+Jump @Label_314
+:Label_317
+Push 38
+Push 0
+Push -1
+Push -1
+Push 0
+Push 0
+Push 0
+Push 0
+Push 11
+Push 1
+Push 10
+Push 6
+Push 45
+Push 0
+Push 20
+Push 2
+Push 39
+Push 0
+Push 1
+Push 5
+Push 12
+Push 2
+Push 35
+Push 0
+Push 0
+Push 0
+Push 7
+Push 3
+Push 13
+Push 5
+Call @Label_313
+Jump @Label_314
+:Label_318
+Push 44
+Push 1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 0
+Push 0
+Push 36
+Push 0
+Push 10
+Push 6
+Push 71
+Push 0
+Push 0
+Push 1
+Push 44
+Push 0
+Push 4
+Push 4
+Push 9
+Push 1
+Push 35
+Push 0
+Push 0
+Push 0
+Push 7
+Push 3
+Push 12
+Push 0
+Call @Label_313
+Jump @Label_314
+:Label_319
+Push 44
+Push 2
+Push -1
+Push -1
+Push 0
+Push 0
+Push 0
+Push 0
+Push 36
+Push 0
+Push 10
+Push 6
+Push 45
+Push 0
+Push 43
+Push 1
+Push 36
+Push 0
+Push 16
+Push 2
+Push 15
+Push 0
+Push 35
+Push 0
+Push 0
+Push 0
+Push 7
+Push 3
+Push 13
+Push 9
+Call @Label_313
+Jump @Label_314
+:Label_320
+Push 44
+Push 1
+Push 16
+Push 0
+Push 0
+Push 0
+Push 0
+Push 0
+Push 36
+Push 0
+Push 10
+Push 6
+Push 71
+Push 0
+Push 20
+Push 2
+Push 31
+Push 0
+Push 2
+Push 1
+Push 33
+Push 0
+Push 24
+Push 1
+Push 0
+Push 0
+Push 7
+Push 3
+Push 5
+Push 1
+Call @Label_313
+Jump @Label_314
+:Label_321
+Push 38
+Push 0
+Push -1
+Push -1
+Push 0
+Push 0
+Push 0
+Push 0
+Push 15
+Push 0
+Push 10
+Push 5
+Push 8
+Push 0
+Push 13
+Push 0
+Push 0
+Push 0
+Push 1
+Push 16
+Push 25
+Push 0
+Push 42
+Push 1
+Push 0
+Push 0
+Push 7
+Push 3
+Push 0
+Push 16
+Call @Label_313
+Jump @Label_314
+:Label_322
+Push 44
+Push 2
+Push -1
+Push -1
+Push 0
+Push 0
+Push 0
+Push 0
+Push 36
+Push 0
+Push 10
+Push 6
+Push 45
+Push 0
+Push 31
+Push 3
+Push 44
+Push 0
+Push 2
+Push 15
+Push 17
+Push 3
+Push 35
+Push 0
+Push 0
+Push 0
+Push 7
+Push 3
+Push 17
+Push 4
+Call @Label_313
+Jump @Label_314
+:Label_323
+Push 44
+Push 1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 13
+Push 0
+Push 51
+Push 0
+Push 10
+Push 6
+Push 71
+Push 0
+Push 12
+Push 2
+Push 37
+Push 0
+Push 1
+Push 1
+Push 63
+Push 4
+Push 35
+Push 0
+Push 0
+Push 0
+Push 7
+Push 3
+Push 65
+Push 12
+Call @Label_313
+Jump @Label_314
+:Label_324
+Push 44
+Push 1
+Push 16
+Push 0
+Push 0
+Push 0
+Push 14
+Push 0
+Push 36
+Push 0
+Push 10
+Push 6
+Push 45
+Push 0
+Push 14
+Push 1
+Push 41
+Push 0
+Push 27
+Push 0
+Push 63
+Push 1
+Push 36
+Push 0
+Push 0
+Push 0
+Push 7
+Push 3
+Push 65
+Push 12
+Call @Label_313
+Jump @Label_314
+:Label_325
+Push 38
+Push 4
+Push 1
+Push 0
+Push -1
+Push -1
+Push 0
+Push 0
+Push 36
+Push 0
+Push 10
+Push 6
+Push 97
+Push 0
+Push 30
+Push 4
+Push 1
+Push 0
+Push 28
+Push 0
+Push 63
+Push 1
+Push 35
+Push 0
+Push 0
+Push 0
+Push 0
+Push 0
+Push 65
+Push 12
+Call @Label_313
+Jump @Label_314
+:Label_326
+Push 44
+Push 1
+Push 11
+Push 6
+Push -1
+Push -1
+Push 0
+Push 0
+Push 36
+Push 0
+Push 10
+Push 6
+Push 63
+Push 0
+Push 19
+Push 0
+Push 0
+Push 0
+Push 4
+Push 2
+Push 9
+Push 0
+Push 35
+Push 0
+Push 0
+Push 0
+Push 0
+Push 0
+Push 32
+Push 1
+Call @Label_313
+Jump @Label_314
+:Label_327
+Push 44
+Push 1
+Push 11
+Push 0
+Push -1
+Push -1
+Push 0
+Push 0
+Push 36
+Push 0
+Push 10
+Push 6
+Push 16
+Push 1
+Push 20
+Push 2
+Push 31
+Push 0
+Push 3
+Push 6
+Push 23
+Push 0
+Push 38
+Push 9
+Push 0
+Push 0
+Push 7
+Push 2
+Push 36
+Push 5
+Call @Label_313
+Jump @Label_314
+:Label_328
+Push 44
+Push 5
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 36
+Push 0
+Push 10
+Push 6
+Push 63
+Push 0
+Push 20
+Push 1
+Push 44
+Push 0
+Push 3
+Push 2
+Push 12
+Push 2
+Push 35
+Push 0
+Push 0
+Push 0
+Push 7
+Push 3
+Push 22
+Push 1
+Call @Label_313
+Jump @Label_314
+:Label_329
+Push 38
+Push 3
+Push 2
+Push 0
+Push -1
+Push -1
+Push 0
+Push 0
+Push 11
+Push 0
+Push 10
+Push 6
+Push 97
+Push 0
+Push 30
+Push 3
+Push 36
+Push 3
+Push 1
+Push 10
+Push 63
+Push 2
+Push 35
+Push 0
+Push 0
+Push 0
+Push 7
+Push 3
+Push 65
+Push 12
+Call @Label_313
+Jump @Label_314
+:Label_330
+Push 38
+Push 0
+Push -1
+Push -1
+Push -1
+Push -1
+Push 0
+Push 0
+Push 11
+Push 1
+Push 10
+Push 6
+Push 16
+Push 5
+Push 27
+Push 4
+Push 46
+Push 0
+Push 25
+Push 0
+Push 63
+Push 4
+Push 35
+Push 0
+Push 7
+Push 1
+Push 7
+Push 3
+Push 65
+Push 12
+Call @Label_313
+Jump @Label_314
+Push 38
+Push 1
+Push -1
+Push -1
+Push -1
+Push -1
+Push 14
+Push 0
+Push 51
+Push 2
+Push 10
+Push 6
+Push 71
+Push 0
+Push 11
+Push 3
+Push 46
+Push 0
+Push 1
+Push 1
+Push 63
+Push 0
+Push 35
+Push 0
+Push 11
+Push 0
+Push 7
+Push 3
+Push 43
+Push 2
+Call @Label_313
+Jump @Label_314
+:Label_314
+Return 0 0
+:Label_376
+Function 2 4 0
+StaticGet1 161
+push_1
+JumpEQ @Label_331
+StaticGet1 161
+push_1
+JumpNE @Label_332
+JumpFalse @Label_333
+:Label_332
+getF1 0
+CallNative "HAS_ANIM_DICT_LOADED" 1 1
+push_1
+JumpEQ @Label_334
+getF1 0
+CallNative "REQUEST_ANIM_DICT" 1 0
+:Label_335
+getF1 0
+CallNative "HAS_ANIM_DICT_LOADED" 1 1
+push_1
+JumpEQ @Label_334
+Call @Label_2
+Jump @Label_335
+:Label_334
+StaticGet1 161
+push_1
+CallNative "PLAYER_PED_ID" 0 1
+Jump @Label_336
+:Label_336
+getF1 0
+getF1 1
+fPush 8
+fPush_1.0
+push_-1
+StaticGet1 162
+StaticGet1 163
+Add
+StaticGet1 164
+Add
+StaticGet1 165
+Add
+fPush_0.0
+push_0
+push_0
+push_0
+CallNative "TASK_PLAY_ANIM" 11 0
+getF1 0
+CallNative "REMOVE_ANIM_DICT" 1 0
+:Label_333
+Return 2 0
+:Label_331
+StaticGet1 166
+CallNative "NETWORK_IS_PLAYER_ACTIVE" 1 1
+JumpFalse @Label_337
+StaticGet1 166
+CallNative "GET_PLAYER_PED" 1 1
+fPush_0.0
+fPush_0.0
+fPush_0.0
+CallNative "GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS" 4 3
+StaticGet1 166
+CallNative "GET_PLAYER_PED" 1 1
+push_2
+CallNative "GET_ENTITY_ROTATION" 2 3
+push_2
+push_0
+push_1
+Push 1065353216
+push_0
+Push 1065353216
+CallNative "NETWORK_CREATE_SYNCHRONISED_SCENE" 12 1
+StaticSet1 167
+StaticGet1 166
+CallNative "GET_PLAYER_PED" 1 1
+StaticGet1 167
+getF1 0
+getF1 1
+fPush 1000
+fPush -2
+push_1
+push_0
+Push 1148846080
+CallNative "NETWORK_ADD_PED_TO_SYNCHRONISED_SCENE" 9 0
+StaticGet1 167
+CallNative "NETWORK_START_SYNCHRONISED_SCENE" 1 0
+StaticGet1 167
+CallNative "NETWORK_STOP_SYNCHRONISED_SCENE" 1 0
+:Label_337
+Return 2 0
+Function 0 10 0
+globalGet3 1312622
+Switch [0=@Label_338][1=@Label_339][2=@Label_340][3=@Label_341][4=@Label_342]
+PushString "error"
+Return 0 1
+:Label_338
+PushString "mp0_"
+Return 0 1
+:Label_339
+PushString "mp1_"
+Return 0 1
+:Label_340
+PushString "mp2_"
+Return 0 1
+:Label_341
+PushString "mp3_"
+Return 0 1
+:Label_342
+PushString "mp4_"
+Return 0 1
+Function 2 34 0
+getF1 0
+pFrame1 4
+StrCopy 64
+getF1 1
+pFrame1 4
+StrAdd 64
+pFrame1 4
+Return 2 1
+:Label_40
+Function 0 2 0
+Push1 31
+Call @Label_211
+Call @Label_212
+PushString "ANIMATIONS"
+Call @Label_214
+PushString "~s~Commonly Used"
+Call @Label_215
+PushString "---------- Stop Player Animations ----------"
+Call @Label_123
+PushString "Actor"
+Call @Label_123
+PushString "Push Ups"
+Call @Label_123
+PushString "Bondage Force"
+Call @Label_123
+PushString "Coke Snorting"
+Call @Label_123
+PushString "Dance"
+Call @Label_123
+PushString "Dead"
+Call @Label_123
+PushString "Hands Rubbing"
+Call @Label_123
+PushString "Kneel"
+Call @Label_123
+PushString "Guard Stand"
+Call @Label_123
+PushString "Fold Arms"
+Call @Label_123
+PushString "Hugs Guy"
+Call @Label_123
+PushString "Boxer"
+Call @Label_123
+PushString "Smoking Walk"
+Call @Label_123
+PushString "Drop Grenade"
+Call @Label_123
+PushString "Lean Wall Smoker"
+Call @Label_123
+PushString "Purchaser"
+Call @Label_123
+PushString "Crazy Dance 1"
+Call @Label_123
+PushString "Abnormal"
+Call @Label_123
+PushString "Dive Run"
+Call @Label_123
+PushString "Face me"
+Call @Label_123
+PushString "Sky Dive"
+Call @Label_123
+PushString "Greeting"
+Call @Label_123
+PushString "Shocker"
+Call @Label_123
+PushString "Funny moving"
+Call @Label_123
+PushString "Run Run"
+Call @Label_123
+PushString "Fat Smoker"
+Call @Label_123
+PushString "Switch Chairs"
+Call @Label_123
+PushString "Bum Slumped"
+Call @Label_123
+PushString "Eat Donut"
+Call @Label_123
+PushString "Hangout"
+Call @Label_123
+Call @Label_218
+JumpFalse @Label_343
+StaticGet1 100
+Switch [1=@Label_344][2=@Label_345][3=@Label_346][4=@Label_347][5=@Label_348][6=@Label_349][7=@Label_350][8=@Label_351][9=@Label_352][10=@Label_353][11=@Label_354][12=@Label_355][13=@Label_356][14=@Label_357][15=@Label_358][16=@Label_359][17=@Label_360][18=@Label_361][19=@Label_362][20=@Label_363][21=@Label_364][22=@Label_365][23=@Label_366][24=@Label_367][25=@Label_368][26=@Label_369][27=@Label_370][28=@Label_371][29=@Label_372][30=@Label_373][31=@Label_374]
+Jump @Label_343
+:Label_344
+StaticGet1 161
+push_1
+JumpEQ @Label_375
+StaticGet1 161
+push_2
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "CLEAR_PED_TASKS_IMMEDIATELY" 1 0
+Jump @Label_343
+:Label_375
+StaticGet1 166
+CallNative "NETWORK_IS_PLAYER_ACTIVE" 1 1
+JumpFalse @Label_343
+StaticGet1 166
+CallNative "GET_PLAYER_PED" 1 1
+CallNative "CLEAR_PED_TASKS_IMMEDIATELY" 1 0
+Jump @Label_343
+CallNative "CLEAR_PED_TASKS_IMMEDIATELY" 1 0
+Jump @Label_343
+:Label_345
+push_1
+StaticSet1 162
+PushString "Misscarsteal4@Actor"
+PushString "dazed_Idle"
+Call @Label_376
+Jump @Label_343
+:Label_346
+push_1
+StaticSet1 162
+PushString "amb@world_human_Push_ups@male@base"
+PushString "base"
+Call @Label_376
+Jump @Label_343
+:Label_347
+push_1
+StaticSet1 162
+PushString "random@burial"
+PushString "b_burial"
+Call @Label_376
+Jump @Label_343
+:Label_348
+push_1
+StaticSet1 162
+PushString "missfbi3_party"
+PushString "snort_coke_a_male3"
+Call @Label_376
+Jump @Label_343
+:Label_349
+push_1
+StaticSet1 162
+PushString "special_ped@mountain_dancer@monologue_4@monologue_4a"
+PushString "mnt_dnc_verse"
+Call @Label_376
+Jump @Label_343
+:Label_350
+push_1
+StaticSet1 162
+PushString "DEAD"
+PushString "DEAD_E"
+Call @Label_376
+Jump @Label_343
+:Label_351
+push_1
+StaticSet1 162
+PushString "amb@bus_tour_guide@base"
+PushString "base"
+Call @Label_376
+Jump @Label_343
+:Label_352
+push_1
+StaticSet1 162
+PushString "missfra2"
+PushString "lamar_base_idle"
+Call @Label_376
+Jump @Label_343
+:Label_353
+push_1
+StaticSet1 162
+PushString "amb@world_human_stand_guard@male@base"
+PushString "base"
+Call @Label_376
+Jump @Label_343
+:Label_354
+push_1
+StaticSet1 162
+PushString "oddjobs@assassinate@guard"
+PushString "unarmed_fold_arms"
+Call @Label_376
+Jump @Label_343
+push_1
+StaticSet1 162
+PushString "amb@world_human_maid_clean@base"
+PushString "base"
+Call @Label_376
+Jump @Label_343
+push_1
+StaticSet1 162
+PushString "amb@world_human_cheering@male_d"
+PushString "base"
+Call @Label_376
+Jump @Label_343
+push_1
+StaticSet1 162
+PushString "amb@world_human_statue@base"
+PushString "base"
+Call @Label_376
+Jump @Label_343
+:Label_355
+push_0
+StaticSet1 162
+PushString "mp_ped_interaction"
+PushString "hugs_guy_b"
+Call @Label_376
+Jump @Label_343
+:Label_356
+push_1
+StaticSet1 162
+PushString "rcmextreme2"
+PushString "loop_punching"
+Call @Label_376
+Jump @Label_343
+:Label_357
+push_1
+StaticSet1 162
+PushString "amb@code_human_wander_smoking@male@idle_a"
+PushString "idle_a"
+Call @Label_376
+Jump @Label_343
+:Label_358
+push_1
+StaticSet1 162
+PushString "veh@drivebystd_ps_grenades"
+PushString "drop_grenade"
+Call @Label_376
+Jump @Label_343
+:Label_359
+push_1
+StaticSet1 162
+PushString "amb@world_human_leaning@male@wall@back@foot_up@idle_a"
+PushString "idle_a"
+Call @Label_376
+Jump @Label_343
+:Label_360
+push_1
+StaticSet1 162
+PushString "mp_am_hold_up"
+PushString "purchase_cigarette_shopkeeper"
+Call @Label_376
+Jump @Label_343
+:Label_361
+push_1
+StaticSet1 162
+PushString "misschinese1crazydance"
+PushString "crazy_dance_1"
+Call @Label_376
+Jump @Label_343
+:Label_362
+push_1
+StaticSet1 162
+PushString "creatures@rottweiler@melee@streamed_taunts@"
+PushString "taunt_02"
+Call @Label_376
+Jump @Label_343
+:Label_363
+push_1
+StaticSet1 162
+PushString "move_jump"
+PushString "dive_start_run"
+Call @Label_376
+Jump @Label_343
+:Label_364
+push_1
+StaticSet1 162
+PushString "special_ped@mime@monologue_6@monologue_6a"
+PushString "12_ig_1_beaten__0"
+Call @Label_376
+Jump @Label_343
+:Label_365
+push_1
+StaticSet1 162
+PushString "skydive@base"
+PushString "free_idle"
+Call @Label_376
+Jump @Label_343
+push_1
+StaticSet1 162
+PushString "SWIMMING@scuba"
+PushString "dive_run"
+Call @Label_376
+Jump @Label_343
+:Label_366
+push_1
+StaticSet1 162
+PushString "random@shop_clothes@mid"
+PushString "_greeting_a"
+Call @Label_376
+Jump @Label_343
+:Label_367
+push_1
+StaticSet1 162
+PushString "random@shop_robbery_reactions@"
+PushString "shock"
+Call @Label_376
+Jump @Label_343
+:Label_368
+push_1
+StaticSet1 162
+PushString "special_ped@tonya@franklin_3@"
+PushString "dont_be_actin_like_you_dont_know_me"
+Call @Label_376
+Jump @Label_343
+:Label_369
+push_1
+StaticSet1 162
+PushString "weapons@tennis@male"
+PushString "run"
+Call @Label_376
+Jump @Label_343
+:Label_370
+push_1
+StaticSet1 162
+PushString "amb@world_human_smoking_fat@male@male_a@base"
+PushString "base"
+Call @Label_376
+Jump @Label_343
+:Label_371
+push_1
+StaticSet1 162
+PushString "switch@michael@on_chair"
+PushString "switch_on_chair"
+Call @Label_376
+Jump @Label_343
+:Label_372
+push_1
+StaticSet1 162
+PushString "amb@world_human_bum_slumped@male@laying_on_right_side@base"
+PushString "base"
+Call @Label_376
+Jump @Label_343
+:Label_373
+push_1
+StaticSet1 162
+PushString "amb@code_human_wander_eating_donut@male@base"
+PushString "static"
+Call @Label_376
+Jump @Label_343
+:Label_374
+push_1
+StaticSet1 162
+PushString "amb@world_human_hang_out_street@male_a@enter"
+PushString "enter"
+Call @Label_376
+Jump @Label_343
+:Label_343
+Return 0 0
+:Label_41
+Function 0 2 0
+push_1
+Call @Label_211
+Call @Label_212
+PushString "NETWORK OPTIONS"
+Call @Label_214
+PushString "Session"
+Call @Label_215
+PushString "~y~Coming Soon~s~..."
+Call @Label_123
+Return 0 0
+:Label_42
+Function 0 2 0
+Push1 16
+Call @Label_211
+Call @Label_212
+PushString "WEAPON OPTIONS"
+Call @Label_214
+PushString "Gun"
+Call @Label_215
+PushString "Give All Weapons"
+Call @Label_123
+PushString "Remove All Weapons"
+Call @Label_123
+PushString "Reload Weapons"
+Call @Label_123
+PushString "1 Shot 1 Kill"
+StaticGet1 153
+Push1 21
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Money Drop Gun"
+StaticGet1 152
+Push1 27
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Delete Gun"
+StaticGet1 152
+Push1 26
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Teleport Gun"
+StaticGet1 152
+push_2
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Rainbow Gun"
+StaticGet1 152
+push_1
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Heat Vision on Aim"
+StaticGet1 153
+push_2
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Invisible Weapons"
+StaticGet1 153
+Push1 15
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Airstrike Gun"
+StaticGet1 153
+Push1 18
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Aimbot Gun"
+StaticGet1 153
+Push1 31
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Boost Gun"
+StaticGet1 160
+Push1 16
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Slow Motion Gun"
+StaticGet1 154
+Push1 13
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Hidden Weapons Cutscene"
+StaticGet1 155
+Push1 19
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Explosion Ammo Gun"
+StaticGet1 160
+Push1 24
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+Call @Label_218
+JumpFalse @Label_377
+StaticGet1 100
+Switch [1=@Label_378][2=@Label_379][3=@Label_380][4=@Label_381][5=@Label_382][6=@Label_383][7=@Label_384][8=@Label_385][9=@Label_386][10=@Label_387][11=@Label_388][12=@Label_389][13=@Label_390][14=@Label_391][15=@Label_392][16=@Label_393]
+Jump @Label_377
+:Label_378
+Jump @Label_278
+:Label_278
+Push -1716189206
+Call @Label_394
+Push 1737195953
+Call @Label_394
+Push 1317494643
+Call @Label_394
+Push -1786099057
+Call @Label_394
+Push 1141786504
+Call @Label_394
+Push -2067956739
+Call @Label_394
+Push 453432689
+Call @Label_394
+Push 1593441988
+Call @Label_394
+Push 584646201
+Call @Label_394
+Push -1716589765
+Call @Label_394
+Push 324215364
+Call @Label_394
+Push 736523883
+Call @Label_394
+Push -270015777
+Call @Label_394
+Push -1074790547
+Call @Label_394
+Push -2084633992
+Call @Label_394
+Push -1357824103
+Call @Label_394
+Push -1660422300
+Call @Label_394
+Push 2144741730
+Call @Label_394
+Push 487013001
+Call @Label_394
+Push 2017895192
+Call @Label_394
+Push -494615257
+Call @Label_394
+Push -1654528753
+Call @Label_394
+Push 911657153
+Call @Label_394
+Push 100416529
+Call @Label_394
+Push 205991906
+Call @Label_394
+Push -1568386805
+Call @Label_394
+Push -1312131151
+Call @Label_394
+Push 1119849093
+Call @Label_394
+Push -1813897027
+Call @Label_394
+Push 741814745
+Call @Label_394
+Push -37975472
+Call @Label_394
+Push -1600701090
+Call @Label_394
+Push 615608432
+Call @Label_394
+Push 101631238
+Call @Label_394
+Push 883325847
+Call @Label_394
+Push 600439132
+Call @Label_394
+Push 1233104067
+Call @Label_394
+Push -1076751822
+Call @Label_394
+Push -102323637
+Call @Label_394
+Push 1627465347
+Call @Label_394
+Push -1063057011
+Call @Label_394
+Push -771403250
+Call @Label_394
+Push 2132975508
+Call @Label_394
+Push -1834847097
+Call @Label_394
+Push 137902532
+Call @Label_394
+Push 2138347493
+Call @Label_394
+Push -1466123874
+Call @Label_394
+Push 984333226
+Call @Label_394
+Push -952879014
+Call @Label_394
+Push 1672152130
+Call @Label_394
+Push -1420407917
+Call @Label_394
+Push 126349499
+Call @Label_394
+Push 1198879012
+Call @Label_394
+Push 171789620
+Call @Label_394
+Push -598887786
+Call @Label_394
+Push -656458692
+Call @Label_394
+Jump @Label_377
+:Label_379
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+CallNative "REMOVE_ALL_PED_WEAPONS" 2 0
+Jump @Label_377
+:Label_380
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+CallNative "TASK_RELOAD_WEAPON" 2 0
+Jump @Label_377
+:Label_381
+StaticGet1 153
+Push1 21
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_395
+pStatic1 153
+Push1 21
+CallNative "CLEAR_BIT" 2 0
+CallNative "PLAYER_ID" 0 1
+fPush_1.0
+CallNative "SET_PLAYER_WEAPON_DAMAGE_MODIFIER" 2 0
+CallNative "PLAYER_ID" 0 1
+fPush_1.0
+CallNative "UNK_362E69AD" 2 0
+Jump @Label_377
+:Label_395
+pStatic1 153
+Push1 21
+CallNative "SET_BIT" 2 0
+CallNative "PLAYER_ID" 0 1
+fPush 10000000000
+CallNative "SET_PLAYER_WEAPON_DAMAGE_MODIFIER" 2 0
+CallNative "PLAYER_ID" 0 1
+fPush 10000000000
+CallNative "UNK_362E69AD" 2 0
+Jump @Label_377
+:Label_382
+StaticGet1 152
+Push1 27
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_396
+pStatic1 152
+Push1 27
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_377
+:Label_396
+pStatic1 152
+Push1 27
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+:Label_383
+StaticGet1 152
+Push1 26
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_397
+pStatic1 152
+Push1 26
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_377
+:Label_397
+pStatic1 152
+Push1 26
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+:Label_384
+StaticGet1 152
+push_2
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_398
+pStatic1 152
+push_2
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_377
+:Label_398
+pStatic1 152
+push_2
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+:Label_385
+StaticGet1 152
+push_1
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_399
+pStatic1 152
+push_1
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_377
+:Label_399
+pStatic1 152
+push_1
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+:Label_386
+StaticGet1 153
+push_2
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_400
+pStatic1 153
+push_2
+CallNative "CLEAR_BIT" 2 0
+CallNative "UNK_1FE547F2" 0 1
+JumpFalse @Label_377
+push_0
+CallNative "SET_SEETHROUGH" 1 0
+Jump @Label_377
+:Label_400
+pStatic1 153
+push_2
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+StaticGet1 154
+Push1 12
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_401
+pStatic1 154
+Push1 12
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_377
+CallNative "UNK_62619061" 0 1
+JumpFalse @Label_377
+push_0
+CallNative "SET_NIGHTVISION" 1 0
+:Label_401
+pStatic1 154
+Push1 12
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+:Label_387
+StaticGet1 153
+Push1 15
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_402
+pStatic1 153
+Push1 15
+CallNative "CLEAR_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+push_0
+push_0
+push_0
+CallNative "SET_PED_CURRENT_WEAPON_VISIBLE" 5 0
+Jump @Label_377
+:Label_402
+pStatic1 153
+Push1 15
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+:Label_388
+StaticGet1 153
+Push1 18
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_403
+pStatic1 153
+Push1 18
+CallNative "CLEAR_BIT" 2 0
+Push -1312131151
+push_0
+CallNative "REMOVE_ALL_PROJECTILES_OF_TYPE" 2 0
+Jump @Label_377
+:Label_403
+pStatic1 153
+Push1 18
+CallNative "SET_BIT" 2 0
+Push -1312131151
+push_0
+CallNative "REMOVE_ALL_PROJECTILES_OF_TYPE" 2 0
+Jump @Label_377
+:Label_389
+StaticGet1 153
+Push1 31
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_404
+pStatic1 153
+Push1 31
+CallNative "CLEAR_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+CallNative "GET_ENTITY_COORDS" 2 3
+fPush 500
+push_0
+CallNative "CLEAR_AREA_OF_PROJECTILES" 5 0
+Jump @Label_377
+:Label_404
+pStatic1 153
+Push1 31
+CallNative "SET_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+CallNative "GET_ENTITY_COORDS" 2 3
+fPush 500
+push_0
+CallNative "CLEAR_AREA_OF_PROJECTILES" 5 0
+Jump @Label_377
+Push 119392
+pGet
+Push 1065353216
+JumpEQ @Label_405
+Push 1065353216
+Push 119392
+pSet
+Jump @Label_377
+:Label_405
+Push 1073741824
+Push 119392
+pSet
+Jump @Label_377
+:Label_390
+StaticGet1 160
+Push1 16
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_406
+pStatic1 160
+Push1 16
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_377
+:Label_406
+pStatic1 160
+Push1 16
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+:Label_391
+StaticGet1 154
+Push1 13
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_407
+pStatic1 154
+Push1 13
+CallNative "CLEAR_BIT" 2 0
+fPush_1.0
+CallNative "SET_TIME_SCALE" 1 0
+Jump @Label_377
+:Label_407
+pStatic1 154
+Push1 13
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+:Label_392
+StaticGet1 155
+Push1 19
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_408
+pStatic1 155
+Push1 19
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_377
+:Label_408
+pStatic1 155
+Push1 19
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+StaticGet1 156
+push_6
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_409
+pStatic1 156
+push_6
+CallNative "CLEAR_BIT" 2 0
+pStatic1 157
+push_1
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_377
+:Label_409
+pStatic1 156
+push_6
+CallNative "SET_BIT" 2 0
+pStatic1 157
+push_1
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+StaticGet1 160
+Push1 17
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_410
+pStatic1 160
+Push1 17
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_377
+:Label_410
+pStatic1 160
+Push1 17
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+StaticGet1 155
+Push1 30
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_411
+pStatic1 155
+Push1 30
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_377
+:Label_411
+pStatic1 155
+Push1 30
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+StaticGet1 160
+Push1 23
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_412
+pStatic1 160
+Push1 23
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_377
+:Label_412
+pStatic1 160
+Push1 23
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+:Label_393
+StaticGet1 160
+Push1 24
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_413
+pStatic1 160
+Push1 24
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_377
+:Label_413
+pStatic1 160
+Push1 24
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+StaticGet1 155
+Push1 28
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_414
+pStatic1 155
+Push1 28
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_377
+:Label_414
+pStatic1 155
+Push1 28
+CallNative "SET_BIT" 2 0
+Jump @Label_377
+:Label_377
+Return 0 0
+:Label_43
+Function 0 2 0
+Push1 14
+Call @Label_211
+Call @Label_212
+PushString "VEHICLE OPTIONS"
+Call @Label_214
+PushString "Modify"
+Call @Label_215
+PushString "Spawn Vehicles"
+Push1 17
+Call @Label_216
+PushString "Max Upgrade Vehicle"
+Call @Label_123
+PushString "No Visual Damage"
+StaticGet1 152
+Push1 25
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Drift Vehicle"
+StaticGet1 154
+push_3
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Position Freeze Vehicle"
+StaticGet1 154
+push_5
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Boost Vehicle"
+StaticGet1 154
+push_6
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Scorched Overlay"
+StaticGet1 154
+Push1 8
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Visibility Vehicle"
+StaticGet1 154
+Push1 10
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Gravity Vehicle"
+StaticGet1 154
+Push1 11
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Wheelie"
+StaticGet1 156
+Push1 8
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Disable Lights"
+Push 15402012
+pGet
+Push 528482304
+Call @Label_217
+PushString "Remove Wheels"
+Push 32907052
+pGet
+Push 528482304
+Call @Label_217
+PushString "Remove Everything"
+Push 28021788
+pGet
+Push 528482304
+Call @Label_217
+PushString "Stick To Ground"
+StaticGet1 157
+push_4
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+Call @Label_218
+JumpFalse @Label_415
+StaticGet1 100
+Switch [2=@Label_416][3=@Label_417][4=@Label_418][5=@Label_419][6=@Label_420][7=@Label_421][8=@Label_422][9=@Label_423][10=@Label_424][11=@Label_425][12=@Label_426][13=@Label_427][14=@Label_428]
+Jump @Label_415
+:Label_416
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_ON_FOOT" 1 1
+push_1
+JumpEQ @Label_429
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_415
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+StaticSet1 168
+StaticGet1 168
+push_0
+push_5
+Push 10
+CallNative "SET_VEHICLE_CUSTOM_PRIMARY_COLOUR" 4 0
+StaticGet1 168
+push_0
+push_5
+Push 10
+CallNative "SET_VEHICLE_CUSTOM_SECONDARY_COLOUR" 4 0
+StaticGet1 168
+push_5
+CallNative "SET_VEHICLE_WINDOW_TINT" 2 0
+StaticGet1 168
+push_0
+CallNative "SET_VEHICLE_MOD_KIT" 2 0
+StaticGet1 168
+Push 18
+push_1
+CallNative "TOGGLE_VEHICLE_MOD" 3 0
+StaticGet1 168
+Push 22
+push_1
+CallNative "TOGGLE_VEHICLE_MOD" 3 0
+StaticGet1 168
+Push 20
+push_1
+CallNative "TOGGLE_VEHICLE_MOD" 3 0
+StaticGet1 168
+Push 9
+push_0
+CallNative "SET_VEHICLE_EXTRA" 3 0
+StaticGet1 168
+push_6
+CallNative "SET_VEHICLE_WHEEL_TYPE" 2 0
+StaticGet1 168
+push_0
+push_5
+Push 35
+CallNative "SET_VEHICLE_TYRE_SMOKE_COLOR" 4 0
+StaticGet1 168
+Push 16
+push_4
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+Push 12
+push_2
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+Push 11
+push_3
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+Push 14
+Push 30
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+Push 15
+push_3
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+Push 13
+push_3
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+Push 17
+push_1
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+Push 23
+push_4
+push_1
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+push_0
+push_1
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+push_2
+push_1
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+push_3
+push_1
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+Push 4
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+Push 5
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+Push 6
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+Push 7
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+Push 8
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+Push 9
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+Push 10
+push_1
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+push_3
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+push_1
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+StaticGet1 168
+PushString "LEGEND"
+CallNative "SET_VEHICLE_NUMBER_PLATE_TEXT" 2 0
+StaticGet1 168
+push_4
+CallNative "SET_VEHICLE_NUMBER_PLATE_TEXT_INDEX" 2 0
+StaticGet1 168
+CallNative "SET_VEHICLE_FIXED" 1 0
+StaticGet1 168
+fPush_0.0
+CallNative "SET_VEHICLE_DIRT_LEVEL" 2 0
+Jump @Label_415
+:Label_429
+PushString "~italic~~y~You must be in a Vehicle to use this Option."
+PushS 7000
+Call @Label_430
+Jump @Label_415
+:Label_417
+StaticGet1 152
+Push1 25
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_431
+pStatic1 152
+Push1 25
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_415
+:Label_431
+pStatic1 152
+Push1 25
+CallNative "SET_BIT" 2 0
+Jump @Label_415
+:Label_418
+StaticGet1 154
+push_3
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_432
+pStatic1 154
+push_3
+CallNative "CLEAR_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_415
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_0
+CallNative "SET_VEHICLE_REDUCE_GRIP" 2 0
+Jump @Label_415
+:Label_432
+pStatic1 154
+push_3
+CallNative "SET_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_415
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_1
+CallNative "SET_VEHICLE_REDUCE_GRIP" 2 0
+Jump @Label_415
+:Label_419
+StaticGet1 154
+push_5
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_433
+pStatic1 154
+push_5
+CallNative "CLEAR_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_415
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_0
+CallNative "FREEZE_ENTITY_POSITION" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_0
+fPush_0.0
+fPush_0.0
+fPush_-1
+push_0
+push_1
+push_1
+push_0
+CallNative "UNK_28924E98" 9 0
+Jump @Label_415
+:Label_433
+pStatic1 154
+push_5
+CallNative "SET_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_415
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_1
+CallNative "FREEZE_ENTITY_POSITION" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_0
+fPush_0.0
+fPush_0.0
+fPush_-1
+push_0
+push_1
+push_1
+push_0
+CallNative "UNK_28924E98" 9 0
+Jump @Label_415
+:Label_420
+StaticGet1 154
+push_6
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_434
+pStatic1 154
+push_6
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_415
+:Label_434
+pStatic1 154
+push_6
+CallNative "SET_BIT" 2 0
+PushString "~italic~Press [ R3 ] To Boost Your Vehicle!"
+PushS 7000
+Call @Label_430
+Jump @Label_415
+:Label_421
+StaticGet1 154
+Push1 8
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_435
+pStatic1 154
+Push1 8
+CallNative "CLEAR_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_415
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_0
+CallNative "SET_ENTITY_RENDER_SCORCHED" 2 0
+Jump @Label_415
+:Label_435
+pStatic1 154
+Push1 8
+CallNative "SET_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_415
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_1
+CallNative "SET_ENTITY_RENDER_SCORCHED" 2 0
+Jump @Label_415
+:Label_422
+StaticGet1 154
+Push1 10
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_436
+pStatic1 154
+Push1 10
+CallNative "CLEAR_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_415
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+Dup
+push_1
+CallNative "SET_ENTITY_VISIBLE" 2 0
+Jump @Label_415
+:Label_436
+pStatic1 154
+Push1 10
+CallNative "SET_BIT" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_415
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+Dup
+push_0
+CallNative "SET_ENTITY_VISIBLE" 2 0
+Jump @Label_415
+:Label_423
+StaticGet1 154
+Push1 11
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_437
+pStatic1 154
+Push1 11
+CallNative "CLEAR_BIT" 2 0
+push_0
+getF1 1
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_415
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+Dup
+push_1
+CallNative "SET_VEHICLE_GRAVITY" 2 0
+Jump @Label_415
+:Label_437
+pStatic1 154
+Push1 11
+CallNative "SET_BIT" 2 0
+push_0
+getF1 1
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_415
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+Dup
+push_0
+CallNative "SET_VEHICLE_GRAVITY" 2 0
+Jump @Label_415
+:Label_424
+StaticGet1 156
+Push1 8
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_438
+pStatic1 156
+Push1 8
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_415
+:Label_438
+pStatic1 156
+Push1 8
+CallNative "SET_BIT" 2 0
+Jump @Label_415
+:Label_425
+Push 15402012
+pGet
+Push 1065353216
+JumpEQ @Label_439
+Push 1065353216
+Push 15402012
+pSet
+Jump @Label_415
+:Label_439
+Push 528482304
+Push 15402012
+pSet
+Jump @Label_415
+:Label_426
+Push 32907052
+pGet
+Push 1065353216
+JumpEQ @Label_440
+Push 1065353216
+Push 32907052
+pSet
+Jump @Label_415
+:Label_440
+Push 528482304
+Push 32907052
+pSet
+Jump @Label_415
+:Label_427
+Push 28021788
+pGet
+Push 1065353216
+JumpEQ @Label_441
+Push 1065353216
+Push 28021788
+pSet
+Jump @Label_415
+:Label_441
+Push 528482304
+Push 28021788
+pSet
+Jump @Label_415
+:Label_428
+StaticGet1 157
+push_4
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_442
+pStatic1 157
+push_4
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_415
+:Label_442
+pStatic1 157
+push_4
+CallNative "SET_BIT" 2 0
+Jump @Label_415
+StaticGet1 157
+push_5
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_443
+pStatic1 157
+push_5
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_415
+:Label_443
+pStatic1 157
+push_5
+CallNative "SET_BIT" 2 0
+Jump @Label_415
+StaticGet1 160
+Push1 22
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_444
+pStatic1 160
+Push1 22
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_415
+:Label_444
+pStatic1 160
+Push1 22
+CallNative "SET_BIT" 2 0
+Jump @Label_415
+:Label_415
+Return 0 0
+:Label_463
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_445
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+StaticGet1 169
+StaticGet1 170
+StaticGet1 171
+push_1
+push_0
+push_0
+push_1
+CallNative "SET_ENTITY_COORDS" 8 0
+Jump @Label_446
+:Label_446
+Return 0 0
+:Label_445
+CallNative "PLAYER_PED_ID" 0 1
+StaticGet1 169
+StaticGet1 170
+StaticGet1 171
+push_1
+push_0
+push_0
+push_1
+CallNative "SET_ENTITY_COORDS" 8 0
+Jump @Label_447
+:Label_447
+Return 0 0
+:Label_458
+Function 0 2 0
+CallNative "PLAYER_PED_ID" 0 1
+push_0
+CallNative "IS_PED_IN_ANY_VEHICLE" 2 1
+Not
+JumpFalse @Label_448
+push_0
+:Label_448
+CallNative "PLAYER_PED_ID" 0 1
+push_0
+CallNative "GET_VEHICLE_PED_IS_IN" 2 1
+Return 0 1
+:Label_44
+Function 0 2 0
+Push1 10
+Call @Label_211
+Call @Label_212
+PushString "~h~TELEPORT"
+Call @Label_214
+PushString "Player Teleport"
+Call @Label_215
+PushString "~s~Recovery Areas"
+Push 9
+Call @Label_216
+PushString "~s~1V1 Areas"
+Push 10
+Call @Label_216
+PushString "Forward Teleport 5ft"
+Call @Label_123
+PushString "Backward Teleport 5ft"
+Call @Label_123
+PushString "Maze Bank"
+Call @Label_123
+PushString "Mont Chiliad"
+Call @Label_123
+PushString "Airport"
+Call @Label_123
+PushString "Airport (Hight Sky) (~b~Anti-Freeze~s~)"
+Call @Label_123
+PushString "Airport (Outer Space) (~b~Anti-Freeze~s~)"
+Call @Label_123
+PushString "Modder War (~b~Golf Job~s~)"
+Call @Label_123
+Call @Label_218
+JumpFalse @Label_449
+StaticGet1 100
+Switch [3=@Label_450][4=@Label_451][5=@Label_452][6=@Label_453][7=@Label_454][8=@Label_455][9=@Label_456][10=@Label_457]
+Jump @Label_449
+:Label_450
+Call @Label_458
+StaticSet1 171
+StaticGet1 171
+JumpFalse @Label_459
+Jump @Label_460
+:Label_459
+CallNative "PLAYER_PED_ID" 0 1
+StaticSet1 171
+:Label_460
+StaticGet1 171
+StaticGet1 171
+fPush_0.0
+fPush 5
+fPush_0.0
+CallNative "GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS" 4 3
+push_1
+push_0
+push_0
+CallNative "SET_ENTITY_COORDS_NO_OFFSET" 7 0
+Jump @Label_449
+:Label_451
+Call @Label_458
+StaticSet1 171
+StaticGet1 171
+JumpFalse @Label_461
+Jump @Label_462
+:Label_461
+CallNative "PLAYER_PED_ID" 0 1
+StaticSet1 171
+:Label_462
+StaticGet1 171
+StaticGet1 171
+fPush_0.0
+fPush -5
+fPush_0.0
+CallNative "GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS" 4 3
+push_1
+push_0
+push_0
+CallNative "SET_ENTITY_COORDS_NO_OFFSET" 7 0
+Jump @Label_449
+:Label_452
+fPush -75.272003173828
+StaticSet1 169
+fPush -819.33782958984
+StaticSet1 170
+fPush 326.17428588867
+StaticSet1 171
+Call @Label_463
+Jump @Label_449
+:Label_453
+fPush 451.19198608398
+StaticSet1 169
+fPush 5572.912109375
+StaticSet1 170
+fPush 796.68231201172
+StaticSet1 171
+Call @Label_463
+Jump @Label_449
+:Label_454
+fPush -1336.1770019531
+StaticSet1 169
+fPush -3044.1279296875
+StaticSet1 170
+fPush 13.944399833679
+StaticSet1 171
+Call @Label_463
+Jump @Label_449
+:Label_455
+fPush -1336.1770019531
+StaticSet1 169
+fPush -3044.1279296875
+StaticSet1 170
+fPush 2987.7658691406
+StaticSet1 171
+Call @Label_463
+Jump @Label_449
+:Label_456
+fPush -1336.1770019531
+StaticSet1 169
+fPush -3044.1279296875
+StaticSet1 170
+fPush 1000000000
+StaticSet1 171
+Call @Label_463
+Jump @Label_449
+:Label_457
+fPush -1370.4310302734
+StaticSet1 169
+fPush 56.383399963379
+StaticSet1 170
+fPush 53.703399658203
+StaticSet1 171
+Call @Label_463
+Jump @Label_449
+:Label_449
+Return 0 0
+:Label_45
+Function 0 2 0
+push_6
+Call @Label_211
+Call @Label_212
+PushString "RECOVERY AREAS"
+Call @Label_214
+PushString "Shops"
+Call @Label_215
+PushString "Clothing Store"
+Call @Label_123
+PushString "Ammu-Nation"
+Call @Label_123
+PushString "Barber Shop"
+Call @Label_123
+PushString "Tatoo Parlor"
+Call @Label_123
+PushString "Mask Shop"
+Call @Label_123
+PushString "Los Santos Custom"
+Call @Label_123
+Call @Label_218
+JumpFalse @Label_464
+StaticGet1 100
+Switch [1=@Label_465][2=@Label_466][3=@Label_467][4=@Label_468][5=@Label_469][6=@Label_470]
+Jump @Label_464
+:Label_465
+fPush -152.24540710449
+StaticSet1 169
+fPush -306.70541381836
+StaticSet1 170
+fPush 38.700698852539
+StaticSet1 171
+Call @Label_463
+Jump @Label_464
+:Label_466
+fPush 241.95129394531
+StaticSet1 169
+fPush -44.459300994873
+StaticSet1 170
+fPush 69.894996643066
+StaticSet1 171
+Call @Label_463
+Jump @Label_464
+:Label_467
+fPush -29.569700241089
+StaticSet1 169
+fPush -144.3630065918
+StaticSet1 170
+fPush 57.028198242188
+StaticSet1 171
+Call @Label_463
+Jump @Label_464
+:Label_468
+fPush -1156.1820068359
+StaticSet1 169
+fPush -1421.9069824219
+StaticSet1 170
+fPush 4.7782998085022
+StaticSet1 171
+Call @Label_463
+Jump @Label_464
+:Label_469
+fPush -1338.6450195312
+StaticSet1 169
+fPush -1278.5880126953
+StaticSet1 170
+fPush 4.8699998855591
+StaticSet1 171
+Call @Label_463
+Jump @Label_464
+:Label_470
+fPush -360.30151367188
+StaticSet1 169
+fPush -128.2966003418
+StaticSet1 170
+fPush 38.695701599121
+StaticSet1 171
+Call @Label_463
+Jump @Label_464
+:Label_464
+Return 0 0
+:Label_46
+Function 0 2 0
+push_4
+Call @Label_211
+Call @Label_212
+PushString "1V1 AREAS"
+Call @Label_214
+PushString "War Places"
+Call @Label_215
+PushString "War Beach 1"
+Call @Label_123
+PushString "War Beach 2"
+Call @Label_123
+PushString "War Military Base"
+Call @Label_123
+PushString "War Dog Fight"
+Call @Label_123
+Call @Label_218
+JumpFalse @Label_471
+StaticGet1 100
+Switch [1=@Label_472][2=@Label_473][3=@Label_474][4=@Label_475]
+Jump @Label_471
+:Label_472
+fPush -1464.2010498047
+StaticSet1 169
+fPush -1388.4639892578
+StaticSet1 170
+fPush 6.7618999481201
+StaticSet1 171
+Call @Label_463
+Jump @Label_471
+:Label_473
+fPush -1901.3289794922
+StaticSet1 169
+fPush -709.70770263672
+StaticSet1 170
+fPush 11.468600273132
+StaticSet1 171
+Call @Label_463
+Jump @Label_471
+:Label_474
+fPush -2626.7470703125
+StaticSet1 169
+fPush 3447.7502441406
+StaticSet1 170
+fPush 15.238599777222
+StaticSet1 171
+Call @Label_463
+Jump @Label_471
+:Label_475
+fPush 1650.9326171875
+StaticSet1 169
+fPush 3868.6013183594
+StaticSet1 170
+fPush 34.686199188232
+StaticSet1 171
+Call @Label_463
+Jump @Label_471
+:Label_471
+Return 0 0
+:Label_47
+Function 0 2 0
+Push 7
+Call @Label_211
+Call @Label_212
+PushString "PROTECTIONS"
+Call @Label_214
+PushString "Protect From Modders"
+Call @Label_215
+PushString "Protection Freeze v3 (Paradise SPRX)"
+StaticGet1 172
+push_1
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Protection Freeze Host"
+Push 19673516
+pGet
+Push 1317011488
+Call @Label_217
+PushString "Protection Freeze Peds"
+Push 19339888
+pGet
+Push 1317011488
+Call @Label_217
+PushString "Protection Big Vehicles"
+Push 17571484
+pGet
+Push 1317011488
+Call @Label_217
+PushString "Anti Drop Kicks (~y~Semjases SPRX~s~)"
+StaticGet1 173
+push_1
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Anti Timed out"
+StaticGet1 174
+Push1 12
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Anti Fake Lobby 2.0"
+StaticGet1 175
+push_0
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+Call @Label_218
+JumpFalse @Label_476
+StaticGet1 100
+Switch [1=@Label_477][2=@Label_478][3=@Label_479][4=@Label_480][5=@Label_481][6=@Label_482][7=@Label_483]
+Jump @Label_476
+:Label_477
+StaticGet1 172
+push_1
+CallNative "IS_BIT_SET" 2 1
+JumpEQ @Label_484
+pStatic1 172
+push_1
+CallNative "CLEAR_BIT" 2 0
+Push 2145454088
+Push 10468296
+pSet
+Push 1275067816
+Push 10468300
+pSet
+Push 2145454088
+Push 10467840
+pSet
+Jump @Label_476
+:Label_484
+pStatic1 172
+push_1
+CallNative "SET_BIT" 2 0
+Push 1610612736
+Push 10468296
+pSet
+Push 1610612736
+Push 10468300
+pSet
+Push 1610612736
+Jump @Label_476
+:Label_478
+Push 19673516
+pGet
+Push 2080899750
+JumpEQ @Label_485
+Push 2080899750
+Push 19673516
+pSet
+Jump @Label_476
+:Label_485
+Push 1317011488
+Push 19673516
+pSet
+Jump @Label_476
+:Label_479
+Push 19339888
+pGet
+Push 2080899750
+JumpEQ @Label_486
+pStatic1 176
+push_1
+CallNative "CLEAR_BIT" 2 0
+PushString "DEFAULT"
+CallNative "SET_TIMECYCLE_MODIFIER" 1 0
+Push 2080899750
+Push 19339888
+pSet
+Jump @Label_476
+:Label_486
+CallNative "NETWORK_IS_GAME_IN_PROGRESS" 0 1
+JumpFalse @Label_487
+pStatic1 176
+push_1
+CallNative "CLEAR_BIT" 2 0
+PushString "BlackOut"
+CallNative "SET_TIMECYCLE_MODIFIER" 1 0
+Push 1317011488
+Push 19339888
+pSet
+Jump @Label_476
+:Label_487
+PushString "~r~Error ~c~: You must be online to use this option."
+PushS 7000
+Call @Label_430
+:Label_480
+Push 17571484
+pGet
+Push 2080899750
+JumpEQ @Label_488
+Push 2080899750
+Push 17571484
+pSet
+Push 2080899750
+Push 4933792
+pSet
+Push -1998716920
+Push 7552904
+pSet
+Push 1275067653
+Push 15595844
+pSet
+Push 1275067485
+Push 15596012
+pSet
+Push 1275057577
+Push 15605920
+pSet
+Push 1275057557
+Push 15605940
+pSet
+Push 1270037625
+Push 20708984
+pSet
+Push 1269292861
+Push 20709072
+pSet
+Push 1270081789
+Push 20709144
+pSet
+Push 1270050161
+Push 20709184
+pSet
+Push 1099038768
+Push 20707380
+pSet
+Push 1270037621
+Push 20709864
+pSet
+Push 1269292037
+Push 20709896
+pSet
+Push 1098973100
+Push 20709220
+pSet
+Push 92305934
+Push 20084339
+pSet
+Jump @Label_476
+:Label_488
+Push 1317011488
+Push 17571484
+pSet
+Push 1317011488
+Push 4933792
+pSet
+Push 1610612736
+Push 7552904
+pSet
+Push 1610612736
+Push 15595844
+pSet
+Push 1610612736
+Push 15596012
+pSet
+Push 1610612736
+Push 15605920
+pSet
+Push 1610612736
+Push 15605940
+pSet
+Push 1610612736
+Push 20708984
+pSet
+Push 1610612736
+Push 20709072
+pSet
+Push 1610612736
+Push 20709144
+pSet
+Push 1610612736
+Push 20709184
+pSet
+Push 1610612736
+Push 20707380
+pSet
+Push 1610612736
+Push 20709864
+pSet
+Push 1610612736
+Push 20709896
+pSet
+Push 1610612736
+Push 20709220
+pSet
+Push 25197070
+Push 20084339
+pSet
+Jump @Label_476
+:Label_481
+StaticGet1 173
+push_1
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_489
+pStatic1 173
+push_1
+CallNative "CLEAR_BIT" 2 0
+Push 1275066529
+Push 10485628
+pSet
+Jump @Label_476
+:Label_489
+CallNative "NETWORK_IS_GAME_IN_PROGRESS" 0 1
+JumpFalse @Label_490
+pStatic1 173
+push_1
+CallNative "SET_BIT" 2 0
+Push 1610612736
+Push 10485628
+pSet
+Jump @Label_476
+:Label_490
+PushString "~y~[~r~~h~ANTI~h~~y~] Drop Kicks~n~~h~~r~You must be online to use this protection."
+PushS 5000
+Call @Label_430
+Jump @Label_476
+:Label_482
+StaticGet1 174
+Push1 12
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_491
+pStatic1 174
+Push1 12
+CallNative "CLEAR_BIT" 2 0
+PushS 30000
+globalSet3 262250
+pushI24 90000
+globalSet3 262251
+PushS 5000
+globalSet3 266744
+Jump @Label_476
+:Label_491
+pStatic1 174
+Push1 12
+CallNative "SET_BIT" 2 0
+Jump @Label_476
+:Label_483
+StaticGet1 175
+push_0
+CallNative "IS_BIT_SET" 2 1
+JumpEQ @Label_492
+pStatic1 175
+push_0
+CallNative "CLEAR_BIT" 2 0
+Push 738394112
+Push 10468044
+pSet
+Jump @Label_476
+:Label_492
+CallNative "NETWORK_IS_GAME_IN_PROGRESS" 0 1
+JumpFalse @Label_493
+pStatic1 175
+push_0
+CallNative "SET_BIT" 2 0
+Push 738394113
+Push 10468044
+pSet
+Jump @Label_476
+:Label_493
+PushString "~y~[~r~~h~ANTI~h~~y~] Fake lobby 2.0~n~~h~~r~You must be online to use this protection."
+PushS 5000
+Call @Label_430
+Jump @Label_476
+:Label_476
+Return 0 0
+:Label_510
+Function 1 3 0
+Push 1610612736
+Push 17388536
+pSet
+Push 1610612736
+Push 17388452
+pSet
+Push 1610612736
+Push 4013744
+pSet
+Jump @Label_494
+:Label_494
+CallNative "CLEAR_OVERRIDE_WEATHER" 0 0
+getF1 0
+CallNative "SET_WEATHER_TYPE_NOW_PERSIST" 1 0
+Return 1 0
+:Label_48
+Function 0 2 0
+Push1 14
+Call @Label_211
+Call @Label_212
+PushString "WEATHER OPTIONS"
+Call @Label_214
+PushString "Changers"
+Call @Label_215
+PushString "Extra Sunny"
+Call @Label_123
+PushString "Clear"
+Call @Label_123
+PushString "Cloudy"
+Call @Label_123
+PushString "Smog"
+Call @Label_123
+PushString "Foggy"
+Call @Label_123
+PushString "Overcast"
+Call @Label_123
+PushString "Rain"
+Call @Label_123
+PushString "Thunder"
+Call @Label_123
+PushString "Clearing"
+Call @Label_123
+PushString "Neutral"
+Call @Label_123
+PushString "Normal Snow"
+Call @Label_123
+PushString "Blizzard"
+Call @Label_123
+PushString "Light Snow"
+Call @Label_123
+PushString "Ground Snow"
+Call @Label_123
+Call @Label_218
+JumpFalse @Label_495
+StaticGet1 100
+Switch [1=@Label_496][2=@Label_497][3=@Label_498][4=@Label_499][5=@Label_500][6=@Label_501][7=@Label_502][8=@Label_503][9=@Label_504][10=@Label_505][11=@Label_506][12=@Label_507][13=@Label_508][14=@Label_509]
+Jump @Label_495
+:Label_496
+PushString "EXTRASUNNY"
+Call @Label_510
+Jump @Label_495
+:Label_497
+PushString "CLEAR"
+Call @Label_510
+Jump @Label_495
+:Label_498
+PushString "CLOUDS"
+Call @Label_510
+Jump @Label_495
+:Label_499
+PushString "SMOG"
+Call @Label_510
+Jump @Label_495
+:Label_500
+PushString "FOGGY"
+Call @Label_510
+Jump @Label_495
+:Label_501
+PushString "OVERCAST"
+Call @Label_510
+Jump @Label_495
+:Label_502
+PushString "RAIN"
+Call @Label_510
+Jump @Label_495
+:Label_503
+PushString "THUNDER"
+Call @Label_510
+Jump @Label_495
+:Label_504
+PushString "CLEARING"
+Call @Label_510
+Jump @Label_495
+:Label_505
+PushString "NEUTRAL"
+Call @Label_510
+Jump @Label_495
+:Label_506
+PushString "SNOW"
+Call @Label_510
+Jump @Label_495
+:Label_507
+PushString "BLIZZARD"
+Call @Label_510
+Jump @Label_495
+:Label_508
+PushString "SNOWLIGHT"
+Call @Label_510
+Jump @Label_495
+:Label_509
+PushString "XMAS"
+Call @Label_510
+Jump @Label_495
+:Label_495
+Return 0 0
+:Label_49
+Function 0 2 0
+Push1 8
+Call @Label_211
+Call @Label_212
+PushString "WORLD OPTIONS"
+Call @Label_214
+PushString "~s~Worldwide"
+Call @Label_215
+PushString "Weather Options"
+Push1 12
+Call @Label_216
+PushString "Visions Options"
+Push1 18
+Call @Label_216
+PushString "Hide Options"
+Push1 19
+Call @Label_216
+PushString "Water Textures"
+Push1 21
+Call @Label_216
+PushString "Toggle Night"
+Call @Label_123
+PushString "Toggle Morning"
+Call @Label_123
+PushString "Pause Clock"
+StaticGet1 160
+Push1 27
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Refresh Server"
+Call @Label_123
+Call @Label_218
+JumpFalse @Label_511
+StaticGet1 100
+Switch [5=@Label_512][6=@Label_513][7=@Label_514][8=@Label_515]
+Jump @Label_511
+:Label_514
+StaticGet1 160
+Push1 27
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_516
+pStatic1 160
+Push1 27
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_511
+:Label_516
+CallNative "GET_CLOCK_HOURS" 0 1
+StaticSet1 177
+CallNative "GET_CLOCK_MINUTES" 0 1
+StaticSet1 178
+pStatic1 160
+Push1 27
+CallNative "SET_BIT" 2 0
+Jump @Label_511
+:Label_512
+push_0
+push_0
+push_0
+CallNative "NETWORK_OVERRIDE_CLOCK_TIME" 3 0
+Jump @Label_511
+:Label_513
+push_7
+push_0
+push_0
+CallNative "NETWORK_OVERRIDE_CLOCK_TIME" 3 0
+Jump @Label_511
+:Label_515
+PushString "freemode_init"
+CallNative "GET_HASH_KEY" 1 1
+CallNative "UNK_029D3841" 1 1
+push_0
+JumpNE @Label_517
+PushString "freemode_init"
+CallNative "HAS_SCRIPT_LOADED" 1 1
+push_1
+JumpEQ @Label_518
+PushString "freemode_init"
+CallNative "REQUEST_SCRIPT" 1 0
+:Label_519
+PushString "freemode_init"
+CallNative "HAS_SCRIPT_LOADED" 1 1
+push_1
+JumpEQ @Label_518
+Call @Label_2
+Jump @Label_519
+:Label_518
+PushString "freemode_init"
+PushS 1024
+CallNative "START_NEW_SCRIPT" 2 1
+Drop
+PushString "freemode_init"
+CallNative "SET_SCRIPT_AS_NO_LONGER_NEEDED" 1 0
+PushString "~g~Server Status: ~s~Refreshed"
+PushS 5000
+Call @Label_430
+Jump @Label_511
+:Label_517
+PushString "freemode_init"
+CallNative "TERMINATE_ALL_SCRIPTS_WITH_THIS_NAME" 1 0
+Jump @Label_511
+:Label_511
+Return 0 0
+:Label_57
+Function 0 2 0
+push_4
+Call @Label_211
+Call @Label_212
+PushString "WORLD OPTIONS"
+Call @Label_214
+PushString "~s~Water"
+Call @Label_215
+PushString "Crazy Water"
+Push 18945080
+pGet
+Push 528482304
+Call @Label_217
+PushString "Crazy Water 2"
+Push 18954584
+pGet
+Push 528482304
+Call @Label_217
+PushString "Crazy Water 3"
+Push 18953024
+pGet
+Push 528482304
+Call @Label_217
+PushString "Change Color Water"
+Push 19427528
+pGet
+Push 528482304
+Call @Label_217
+Call @Label_218
+JumpFalse @Label_520
+StaticGet1 100
+Switch [1=@Label_521][2=@Label_522][3=@Label_523][4=@Label_524]
+Jump @Label_520
+:Label_521
+Push 18945080
+pGet
+Push 1065353216
+JumpEQ @Label_525
+Push 1065353216
+Push 18945080
+pSet
+Jump @Label_520
+:Label_525
+Push 528482304
+Push 18945080
+pSet
+Jump @Label_520
+:Label_522
+Push 18954584
+pGet
+Push 1065353216
+JumpEQ @Label_526
+Push 1065353216
+Push 18954584
+pSet
+Jump @Label_520
+:Label_526
+Push 528482304
+Push 18954584
+pSet
+Jump @Label_520
+:Label_523
+Push 18953024
+pGet
+Push 1065353216
+JumpEQ @Label_527
+Push 1065353216
+Push 18953024
+pSet
+Jump @Label_520
+:Label_527
+Push 528482304
+Push 18953024
+pSet
+Jump @Label_520
+:Label_524
+Push 19427528
+pGet
+Push 1065353216
+JumpEQ @Label_528
+Push 1065353216
+Push 19427528
+pSet
+Jump @Label_520
+:Label_528
+Push 528482304
+Push 19427528
+pSet
+Jump @Label_520
+:Label_520
+Return 0 0
+:Label_50
+Function 0 2 0
+Push1 7
+Call @Label_211
+Call @Label_212
+PushString "SETTINGS"
+Call @Label_214
+PushString "~s~Purge Customization"
+Call @Label_215
+PushString "Select Themes"
+Push1 15
+Call @Label_216
+PushString "Purge Credits"
+Push1 16
+Call @Label_216
+PushString "Left Side"
+StaticGet1 35
+push_0
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Menu Buttons"
+StaticGet1 152
+Push 9
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Toggle Sound"
+StaticGet1 90
+push_1
+Call @Label_217
+PushString "Smooth Scroll"
+StaticGet1 34
+push_0
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Flashing Title Loop"
+StaticGet1 89
+push_0
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+Call @Label_218
+JumpFalse @Label_529
+StaticGet1 100
+Switch [3=@Label_530][4=@Label_531][5=@Label_532][6=@Label_533][7=@Label_534]
+Jump @Label_529
+:Label_530
+StaticGet1 35
+push_0
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_535
+pStatic1 35
+push_0
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_529
+:Label_535
+pStatic1 35
+push_0
+CallNative "SET_BIT" 2 0
+Jump @Label_529
+:Label_531
+StaticGet1 152
+Push 9
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_536
+pStatic1 152
+Push 9
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_529
+:Label_536
+pStatic1 152
+Push 9
+CallNative "SET_BIT" 2 0
+Jump @Label_529
+:Label_532
+StaticGet1 90
+push_0
+JumpEQ @Label_537
+push_0
+StaticSet1 90
+Jump @Label_529
+:Label_537
+push_1
+StaticSet1 90
+Jump @Label_529
+:Label_533
+StaticGet1 34
+push_0
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_538
+pStatic1 34
+push_0
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_529
+:Label_538
+pStatic1 34
+push_0
+CallNative "SET_BIT" 2 0
+Jump @Label_529
+:Label_534
+StaticGet1 179
+push_1
+JumpEQ @Label_539
+Push 255
+StaticSet1 91
+push_1
+StaticSet1 179
+:Label_539
+StaticGet1 89
+push_0
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_540
+pStatic1 89
+push_0
+CallNative "CLEAR_BIT" 2 0
+Push 255
+StaticSet1 91
+push_1
+StaticSet1 179
+Jump @Label_529
+:Label_540
+pStatic1 89
+push_0
+CallNative "SET_BIT" 2 0
+Jump @Label_529
+:Label_529
+Return 0 0
+:Label_51
+Function 0 2 0
+Push 8
+Call @Label_211
+Call @Label_212
+PushString "THEMES"
+Call @Label_214
+PushString "~s~Preset Designs"
+Call @Label_215
+PushString "Theme - 1"
+Call @Label_123
+PushString "Theme - 2"
+Call @Label_123
+PushString "Theme - 3"
+Call @Label_123
+PushString "Theme - 4"
+Call @Label_123
+PushString "Theme - 5"
+Call @Label_123
+PushString "Theme - 6 ~y~(Default)"
+Call @Label_123
+PushString "Theme - 7"
+Call @Label_123
+PushString "Theme - 8"
+Call @Label_123
+Call @Label_218
+JumpFalse @Label_541
+StaticGet1 100
+Switch [1=@Label_542][2=@Label_543][3=@Label_544][4=@Label_545][5=@Label_546][6=@Label_547][7=@Label_548][8=@Label_549]
+Jump @Label_541
+:Label_542
+PushString "chaos_textures_1"
+push_0
+StaticSet1 92
+push_1
+StaticSet1 93
+Push 22
+StaticSet1 48
+Push 70
+StaticSet1 49
+Push 110
+StaticSet1 50
+Push1 255
+StaticSet1 51
+Push 22
+StaticSet1 52
+Push 70
+StaticSet1 53
+Push 110
+StaticSet1 54
+Push1 255
+StaticSet1 55
+Push 255
+StaticSet1 59
+Push 255
+StaticSet1 60
+Push 255
+StaticSet1 61
+Push 127
+StaticSet1 62
+Push 170
+StaticSet1 63
+Push 207
+StaticSet1 64
+Push 255
+StaticSet1 56
+Push 255
+StaticSet1 57
+Push 255
+StaticSet1 58
+Push 255
+StaticSet1 84
+Push 255
+StaticSet1 85
+Push 255
+StaticSet1 86
+Push 255
+StaticSet1 87
+Push 0
+StaticSet1 74
+Push 255
+StaticSet1 75
+Push 0
+StaticSet1 76
+Push 255
+StaticSet1 77
+Push 0
+StaticSet1 78
+Push 0
+StaticSet1 79
+Push 255
+StaticSet1 180
+Push 255
+StaticSet1 181
+Push 255
+StaticSet1 182
+Push 82
+StaticSet1 94
+Push 149
+StaticSet1 95
+Push 169
+StaticSet1 96
+Push1 255
+StaticSet1 97
+Jump @Label_550
+:Label_543
+PushString "chaos_textures_8"
+push_0
+StaticSet1 92
+push_1
+StaticSet1 93
+Push 141
+StaticSet1 48
+Push 18
+StaticSet1 49
+Push 7
+StaticSet1 50
+Push1 255
+StaticSet1 51
+Push 141
+StaticSet1 52
+Push 18
+StaticSet1 53
+Push 7
+StaticSet1 54
+Push1 255
+StaticSet1 55
+Push 255
+StaticSet1 59
+Push 255
+StaticSet1 60
+Push 255
+StaticSet1 61
+Push 255
+StaticSet1 62
+Push 255
+StaticSet1 63
+Push 255
+StaticSet1 64
+Push 255
+StaticSet1 56
+Push 255
+StaticSet1 57
+Push 255
+StaticSet1 58
+Push 233
+StaticSet1 84
+Push 233
+StaticSet1 85
+push_0
+StaticSet1 86
+Push 255
+StaticSet1 87
+Push 0
+StaticSet1 74
+Push 255
+StaticSet1 75
+Push 0
+StaticSet1 76
+Push 255
+StaticSet1 77
+Push 0
+StaticSet1 78
+Push 0
+StaticSet1 79
+Push 211
+StaticSet1 180
+Push 31
+StaticSet1 181
+Push 31
+StaticSet1 182
+Push 255
+StaticSet1 94
+Push 0
+StaticSet1 95
+Push 0
+StaticSet1 96
+Push1 255
+StaticSet1 97
+Jump @Label_550
+:Label_544
+PushString "chaos_textures_9"
+push_1
+StaticSet1 92
+push_1
+StaticSet1 93
+Push 188
+StaticSet1 48
+Push 72
+StaticSet1 49
+Push 18
+StaticSet1 50
+Push1 255
+StaticSet1 51
+Push 188
+StaticSet1 52
+Push 72
+StaticSet1 53
+Push 18
+StaticSet1 54
+Push1 255
+StaticSet1 55
+Push 255
+StaticSet1 59
+Push 255
+StaticSet1 60
+Push 255
+StaticSet1 61
+Push 255
+StaticSet1 62
+Push 255
+StaticSet1 63
+Push 255
+StaticSet1 64
+Push 211
+StaticSet1 56
+Push 31
+StaticSet1 57
+Push 31
+StaticSet1 58
+Push 233
+StaticSet1 84
+Push 233
+StaticSet1 85
+push_0
+StaticSet1 86
+Push 255
+StaticSet1 87
+Push 0
+StaticSet1 74
+Push 255
+StaticSet1 75
+Push 0
+StaticSet1 76
+Push 255
+StaticSet1 77
+Push 0
+StaticSet1 78
+Push 0
+StaticSet1 79
+Push 211
+StaticSet1 180
+Push 31
+StaticSet1 181
+Push 31
+StaticSet1 182
+Push 211
+StaticSet1 94
+Push 31
+StaticSet1 95
+Push 31
+StaticSet1 96
+Push1 255
+StaticSet1 97
+Jump @Label_550
+:Label_545
+PushString "chaos_textures_6"
+push_1
+StaticSet1 92
+push_0
+StaticSet1 93
+Push 120
+StaticSet1 48
+Push 192
+StaticSet1 49
+Push 2
+StaticSet1 50
+Push1 255
+StaticSet1 51
+Push 120
+StaticSet1 52
+Push 192
+StaticSet1 53
+Push 3
+StaticSet1 54
+Push1 255
+StaticSet1 55
+Push 255
+StaticSet1 59
+Push 255
+StaticSet1 60
+Push 255
+StaticSet1 61
+Push 255
+StaticSet1 62
+Push 255
+StaticSet1 63
+Push 255
+StaticSet1 64
+Push 255
+StaticSet1 56
+Push 255
+StaticSet1 57
+Push 255
+StaticSet1 58
+Push 201
+StaticSet1 84
+Push 220
+StaticSet1 85
+push_0
+StaticSet1 86
+Push 255
+StaticSet1 87
+Push 0
+StaticSet1 74
+Push 255
+StaticSet1 75
+Push 0
+StaticSet1 76
+Push 255
+StaticSet1 77
+Push 0
+StaticSet1 78
+Push 0
+StaticSet1 79
+Push 211
+StaticSet1 180
+Push 31
+StaticSet1 181
+Push 31
+StaticSet1 182
+Push 10
+StaticSet1 94
+Push 112
+StaticSet1 95
+Push 11
+StaticSet1 96
+Push1 255
+StaticSet1 97
+Jump @Label_550
+:Label_546
+PushString "chaos_textures_7"
+push_0
+StaticSet1 92
+push_1
+StaticSet1 93
+Push 153
+StaticSet1 48
+Push 101
+StaticSet1 49
+Push 177
+StaticSet1 50
+Push1 255
+StaticSet1 51
+Push 171
+StaticSet1 52
+Push 141
+StaticSet1 53
+Push 162
+StaticSet1 54
+Push1 255
+StaticSet1 55
+Push 255
+StaticSet1 59
+Push 255
+StaticSet1 60
+Push 255
+StaticSet1 61
+Push 255
+StaticSet1 62
+Push 255
+StaticSet1 63
+Push 255
+StaticSet1 64
+Push 255
+StaticSet1 56
+Push 255
+StaticSet1 57
+Push 255
+StaticSet1 58
+Push 171
+StaticSet1 84
+Push 141
+StaticSet1 85
+Push 162
+StaticSet1 86
+Push 255
+StaticSet1 87
+Push 0
+StaticSet1 74
+Push 255
+StaticSet1 75
+Push 0
+StaticSet1 76
+Push 255
+StaticSet1 77
+Push 0
+StaticSet1 78
+Push 0
+StaticSet1 79
+Push 153
+StaticSet1 180
+Push 101
+StaticSet1 181
+Push 177
+StaticSet1 182
+Push 118
+StaticSet1 94
+Push 82
+StaticSet1 95
+Push 178
+StaticSet1 96
+Push1 255
+StaticSet1 97
+Jump @Label_550
+:Label_547
+PushString "chaos_textures_10"
+push_0
+StaticSet1 92
+push_1
+StaticSet1 93
+Push 168
+StaticSet1 48
+Push 20
+StaticSet1 49
+Push 36
+StaticSet1 50
+Push1 255
+StaticSet1 51
+Push 187
+StaticSet1 52
+Push 108
+StaticSet1 53
+Push 0
+StaticSet1 54
+Push1 255
+StaticSet1 55
+Push 255
+StaticSet1 59
+Push 255
+StaticSet1 60
+Push 255
+StaticSet1 61
+Push 255
+StaticSet1 62
+Push 255
+StaticSet1 63
+Push 255
+StaticSet1 64
+Push 255
+StaticSet1 56
+Push 255
+StaticSet1 57
+Push 255
+StaticSet1 58
+Push 233
+StaticSet1 84
+Push 233
+StaticSet1 85
+Push 0
+StaticSet1 86
+Push 255
+StaticSet1 87
+Push 0
+StaticSet1 74
+Push 255
+StaticSet1 75
+Push 0
+StaticSet1 76
+Push 255
+StaticSet1 77
+Push 0
+StaticSet1 78
+Push 0
+StaticSet1 79
+Push 233
+StaticSet1 180
+Push 233
+StaticSet1 181
+Push 233
+StaticSet1 182
+Push 214
+StaticSet1 94
+Push 193
+StaticSet1 95
+Push 174
+StaticSet1 96
+Push1 255
+StaticSet1 97
+Jump @Label_550
+:Label_548
+PushString "chaos_textures_3"
+push_1
+StaticSet1 92
+push_1
+StaticSet1 93
+Push 187
+StaticSet1 48
+Push 136
+StaticSet1 49
+Push 136
+StaticSet1 50
+Push1 255
+StaticSet1 51
+Push 147
+StaticSet1 52
+Push 150
+StaticSet1 53
+Push 165
+StaticSet1 54
+Push1 255
+StaticSet1 55
+Push 255
+StaticSet1 59
+Push 255
+StaticSet1 60
+Push 255
+StaticSet1 61
+Push 127
+StaticSet1 62
+Push 170
+StaticSet1 63
+Push 207
+StaticSet1 64
+Push 255
+StaticSet1 56
+Push 255
+StaticSet1 57
+Push 255
+StaticSet1 58
+Push 255
+StaticSet1 84
+Push 255
+StaticSet1 85
+Push 255
+StaticSet1 86
+Push 255
+StaticSet1 87
+Push 233
+StaticSet1 183
+Push 255
+StaticSet1 75
+Push 0
+StaticSet1 76
+Push 255
+StaticSet1 77
+Push 0
+StaticSet1 78
+Push 0
+StaticSet1 79
+Push 255
+StaticSet1 180
+Push 255
+StaticSet1 181
+Push 255
+StaticSet1 182
+Push 0
+StaticSet1 94
+Push 0
+StaticSet1 95
+Push 0
+StaticSet1 96
+Push1 255
+StaticSet1 97
+Jump @Label_550
+:Label_549
+PushString "chaos_textures_4"
+push_1
+StaticSet1 92
+push_1
+StaticSet1 93
+Push 128
+StaticSet1 48
+Push 121
+StaticSet1 49
+Push 82
+StaticSet1 50
+Push1 255
+StaticSet1 51
+Push 135
+StaticSet1 52
+Push 46
+StaticSet1 53
+Push 22
+StaticSet1 54
+Push1 255
+StaticSet1 55
+Push 255
+StaticSet1 59
+Push 255
+StaticSet1 60
+Push 255
+StaticSet1 61
+Push 255
+StaticSet1 62
+Push 255
+StaticSet1 63
+Push 255
+StaticSet1 64
+Push 255
+StaticSet1 56
+Push 255
+StaticSet1 57
+Push 255
+StaticSet1 58
+Push 255
+StaticSet1 84
+Push 255
+StaticSet1 85
+Push 255
+StaticSet1 86
+Push 255
+StaticSet1 87
+Push 0
+StaticSet1 74
+Push 255
+StaticSet1 75
+Push 0
+StaticSet1 76
+Push 255
+StaticSet1 77
+Push 0
+StaticSet1 78
+Push 0
+StaticSet1 79
+Push 255
+StaticSet1 180
+Push 255
+StaticSet1 181
+Push 255
+StaticSet1 182
+Push 255
+StaticSet1 94
+Push 255
+StaticSet1 95
+Push 255
+StaticSet1 96
+Push1 255
+StaticSet1 97
+Jump @Label_550
+:Label_550
+StaticSet1 1
+:Label_541
+Return 0 0
+:Label_52
+Function 0 2 0
+Push 3
+Call @Label_211
+Call @Label_212
+PushString "CREDITS"
+Call @Label_214
+PushString "~s~The Deserving ones"
+Call @Label_215
+PushString "~y~[Exotic Trainer] > ~s~Edited Design layout"
+Call @Label_123
+PushString "~y~[Unrestrained] > ~s~Base options"
+Call @Label_123
+PushString "~y~[NotYourDope] > ~s~Nyd Base"
+Call @Label_123
+Return 0 0
+:Label_592
+Function 1 9 0
+push_0
+setF1 4
+push_0
+setF1 7
+CallNative "PLAYER_PED_ID" 0 1
+setF1 8
+getF1 0
+CallNative "IS_MODEL_VALID" 1 1
+JumpFalse @Label_551
+getF1 0
+CallNative "IS_MODEL_A_VEHICLE" 1 1
+push_0
+JumpEQ @Label_552
+getF1 0
+Call @Label_117
+StaticGet1 184
+push_0
+JumpNE @Label_553
+StaticGet1 185
+push_0
+JumpEQ @Label_553
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_554
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_-1
+CallNative "GET_PED_IN_VEHICLE_SEAT" 2 1
+CallNative "PLAYER_PED_ID" 0 1
+JumpNE @Label_553
+Jump @Label_555
+:Label_553
+push_1
+setF1 7
+Jump @Label_554
+:Label_555
+push_1
+setF1 4
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+Dup
+setF1 6
+CallNative "GET_ENTITY_SPEED" 1 1
+setF1 5
+:Label_554
+getF1 7
+push_1
+JumpEQ @Label_556
+getF1 0
+CallNative "PLAYER_PED_ID" 0 1
+Jump @Label_557
+:Label_556
+StaticGet1 184
+push_0
+Jump @Label_558
+setF1 8
+:Label_558
+getF1 0
+getF1 8
+fPush -4
+fPush_0.0
+fPush_0.0
+CallNative "GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS" 4 3
+:Label_557
+getF1 8
+CallNative "GET_ENTITY_HEADING" 1 1
+push_0
+push_1
+CallNative "CREATE_VEHICLE" 7 1
+setF1 9
+CallNative "NETWORK_IS_GAME_IN_PROGRESS" 0 1
+JumpFalse @Label_559
+getF1 9
+CallNative "UNK_31A630A4" 1 0
+getF1 9
+CallNative "UNK_D7F934F4" 1 1
+push_1
+JumpEQ @Label_560
+getF1 9
+push_0
+push_1
+CallNative "SET_ENTITY_AS_MISSION_ENTITY" 3 0
+pFrame1 9
+CallNative "DELETE_VEHICLE" 1 0
+:Label_560
+getF1 9
+CallNative "VEH_TO_NET" 1 1
+push_1
+CallNative "SET_NETWORK_ID_EXISTS_ON_ALL_MACHINES" 2 0
+:Label_559
+getF1 4
+JumpFalse @Label_561
+getF1 6
+push_0
+push_1
+CallNative "SET_ENTITY_AS_MISSION_ENTITY" 3 0
+pFrame1 6
+CallNative "DELETE_VEHICLE" 1 0
+:Label_561
+getF1 0
+CallNative "IS_THIS_MODEL_A_PLANE" 1 1
+Not
+JumpFalse @Label_562
+getF1 0
+CallNative "IS_THIS_MODEL_A_HELI" 1 1
+Not
+JumpFalse @Label_562
+getF1 9
+CallNative "SET_VEHICLE_ON_GROUND_PROPERLY" 1 1
+Drop
+:Label_562
+getF1 9
+push_0
+push_5
+Push 10
+CallNative "SET_VEHICLE_CUSTOM_PRIMARY_COLOUR" 4 0
+getF1 9
+push_0
+push_5
+Push 10
+CallNative "SET_VEHICLE_CUSTOM_SECONDARY_COLOUR" 4 0
+getF1 9
+push_5
+CallNative "SET_VEHICLE_WINDOW_TINT" 2 0
+getF1 9
+push_0
+CallNative "SET_VEHICLE_MOD_KIT" 2 0
+getF1 9
+Push 18
+push_1
+CallNative "TOGGLE_VEHICLE_MOD" 3 0
+getF1 9
+Push 22
+push_1
+CallNative "TOGGLE_VEHICLE_MOD" 3 0
+getF1 9
+Push 20
+push_1
+CallNative "TOGGLE_VEHICLE_MOD" 3 0
+getF1 9
+Push 9
+push_0
+CallNative "SET_VEHICLE_EXTRA" 3 0
+getF1 9
+push_6
+CallNative "SET_VEHICLE_WHEEL_TYPE" 2 0
+getF1 9
+push_0
+push_5
+Push 35
+CallNative "SET_VEHICLE_TYRE_SMOKE_COLOR" 4 0
+getF1 9
+Push 16
+push_4
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+Push 12
+push_2
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+Push 11
+push_3
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+Push 14
+Push 30
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+Push 15
+push_3
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+Push 13
+push_3
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+Push 17
+push_1
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+Push 23
+push_4
+push_1
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+push_0
+push_1
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+push_2
+push_1
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+push_3
+push_1
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+Push 4
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+Push 5
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+Push 6
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+Push 7
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+Push 8
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+Push 9
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+Push 10
+push_1
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+push_3
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+push_1
+push_0
+push_0
+CallNative "SET_VEHICLE_MOD" 4 0
+getF1 9
+PushString "EXOTIC"
+CallNative "SET_VEHICLE_NUMBER_PLATE_TEXT" 2 0
+getF1 9
+push_4
+CallNative "SET_VEHICLE_NUMBER_PLATE_TEXT_INDEX" 2 0
+getF1 9
+push_1
+push_1
+CallNative "SET_VEHICLE_ENGINE_ON" 3 0
+getF1 9
+Push 148
+Push 148
+CallNative "SET_VEHICLE_COLOURS" 3 0
+getF1 9
+Push 140
+push_0
+CallNative "SET_VEHICLE_EXTRA_COLOURS" 3 0
+getF1 9
+CallNative "SET_VEHICLE_FIXED" 1 0
+getF1 9
+fPush_0.0
+CallNative "SET_VEHICLE_DIRT_LEVEL" 2 0
+getF1 9
+push_0
+CallNative "SET_VEHICLE_TYRES_CAN_BURST" 2 0
+StaticGet1 184
+push_0
+JumpNE @Label_563
+StaticGet1 185
+push_0
+JumpEQ @Label_563
+getF1 9
+CallNative "PLAYER_PED_ID" 0 1
+getF1 4
+JumpFalse @Label_563
+getF1 9
+getF1 5
+CallNative "SET_VEHICLE_FORWARD_SPEED" 2 0
+:Label_563
+getF1 0
+CallNative "SET_MODEL_AS_NO_LONGER_NEEDED" 1 0
+pFrame1 9
+CallNative "SET_VEHICLE_AS_NO_LONGER_NEEDED" 1 0
+Jump @Label_564
+:Label_552
+PushString "The model not a vehicle."
+PushS 7000
+Call @Label_430
+Jump @Label_564
+:Label_551
+PushString "The model invalid."
+PushS 7000
+Call @Label_430
+Jump @Label_564
+:Label_564
+Return 1 0
+:Label_53
+Function 0 2 0
+Push 26
+Call @Label_211
+Call @Label_212
+PushString "VEHICLE OPTIONS"
+Call @Label_214
+PushString "Spawners"
+Call @Label_215
+PushString "Adder"
+Call @Label_123
+PushString "Zentorno"
+Call @Label_123
+PushString "Feltzer"
+Call @Label_123
+PushString "Kuruma"
+Call @Label_123
+PushString "Bifta"
+Call @Label_123
+PushString "Windsor"
+Call @Label_123
+PushString "Blade"
+Call @Label_123
+PushString "Dominator"
+Call @Label_123
+PushString "Slamvan"
+Call @Label_123
+PushString "Rat-Truck"
+Call @Label_123
+PushString "Z-Type"
+Call @Label_123
+PushString "Insurgent"
+Call @Label_123
+PushString "Technical"
+Call @Label_123
+PushString "Monster"
+Call @Label_123
+PushString "BMX"
+Call @Label_123
+PushString "Bike"
+Call @Label_123
+PushString "Blazer"
+Call @Label_123
+PushString "LAZER"
+Call @Label_123
+PushString "Hydra"
+Call @Label_123
+PushString "ANNIHIL"
+Call @Label_123
+PushString "Buzzard"
+Call @Label_123
+PushString "Valkyrie"
+Call @Label_123
+PushString "Seashark"
+Call @Label_123
+PushString "Speeder"
+Call @Label_123
+PushString "Submersible"
+Call @Label_123
+PushString "Rhino Tank"
+Call @Label_123
+PushString "Custom Vehicle"
+Call @Label_123
+Call @Label_218
+JumpFalse @Label_565
+StaticGet1 100
+Switch [1=@Label_566][2=@Label_567][3=@Label_568][4=@Label_569][5=@Label_570][6=@Label_571][7=@Label_572][8=@Label_573][9=@Label_574][10=@Label_575][11=@Label_576][12=@Label_577][13=@Label_578][14=@Label_579][15=@Label_580][16=@Label_581][17=@Label_582][18=@Label_583][19=@Label_584][20=@Label_585][21=@Label_586][22=@Label_587][23=@Label_588][24=@Label_589][25=@Label_590][26=@Label_591]
+Jump @Label_565
+:Label_566
+Push -1216765807
+Call @Label_592
+Jump @Label_565
+:Label_567
+Push -1403128555
+Call @Label_592
+Jump @Label_565
+:Label_568
+Push -1995326987
+Call @Label_592
+Jump @Label_565
+:Label_569
+Push 410882957
+Call @Label_592
+Jump @Label_565
+:Label_570
+Push -349601129
+Call @Label_592
+Jump @Label_565
+:Label_571
+Push 1581459400
+Call @Label_592
+Jump @Label_565
+:Label_572
+Push -1205801634
+Call @Label_592
+Jump @Label_565
+:Label_573
+Push 80636076
+Call @Label_592
+Jump @Label_565
+:Label_574
+Push 833469436
+Call @Label_592
+Jump @Label_565
+:Label_575
+Push -589178377
+Call @Label_592
+Jump @Label_565
+:Label_576
+Push 758895617
+Call @Label_592
+Jump @Label_565
+:Label_577
+Push -1860900134
+Call @Label_592
+Jump @Label_565
+:Label_578
+Push -2096818938
+Call @Label_592
+Jump @Label_565
+:Label_579
+Push -845961253
+Call @Label_592
+Jump @Label_565
+:Label_580
+Push 1131912276
+Call @Label_592
+Jump @Label_565
+:Label_581
+Push -891462355
+Call @Label_592
+Jump @Label_565
+:Label_582
+Push -2128233223
+Call @Label_592
+Jump @Label_565
+:Label_583
+Push -1281684762
+Call @Label_592
+Jump @Label_565
+:Label_584
+Push 970385471
+Call @Label_592
+Jump @Label_565
+:Label_585
+Push 837858166
+Call @Label_592
+Jump @Label_565
+:Label_586
+Push 788747387
+Call @Label_592
+Jump @Label_565
+:Label_587
+Push -1600252419
+Call @Label_592
+Jump @Label_565
+:Label_588
+Push -1030275036
+Call @Label_592
+Jump @Label_565
+:Label_589
+Push 231083307
+Call @Label_592
+Jump @Label_565
+:Label_590
+Push 771711535
+Call @Label_592
+Jump @Label_565
+:Label_591
+Push 782665360
+Call @Label_592
+Jump @Label_565
+:Label_565
+Return 0 0
+:Label_54
+Function 0 2 0
+push_5
+Call @Label_211
+Call @Label_212
+PushString "Visions"
+Call @Label_214
+PushString "GTA 4 Vision"
+StaticGet1 154
+Push1 24
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Alpha Vision"
+StaticGet1 154
+Push1 25
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Underwater Vision"
+StaticGet1 154
+Push1 26
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Plane Vision"
+StaticGet1 154
+Push1 27
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Black Sky Vision"
+StaticGet1 154
+Push1 28
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+Call @Label_218
+JumpFalse @Label_593
+StaticGet1 100
+Switch [1=@Label_594][2=@Label_595][3=@Label_596][4=@Label_597][5=@Label_598]
+Jump @Label_593
+:Label_594
+StaticGet1 154
+Push1 24
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_599
+pStatic1 154
+Push1 24
+CallNative "CLEAR_BIT" 2 0
+PushString "DEFAULT"
+CallNative "SET_TIMECYCLE_MODIFIER" 1 0
+Jump @Label_593
+:Label_599
+pStatic1 154
+Push1 24
+CallNative "SET_BIT" 2 0
+PushString "V_Foundry"
+CallNative "SET_TIMECYCLE_MODIFIER" 1 0
+Jump @Label_593
+:Label_595
+StaticGet1 154
+Push1 25
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_600
+pStatic1 154
+Push1 25
+CallNative "CLEAR_BIT" 2 0
+PushString "DEFAULT"
+CallNative "SET_TIMECYCLE_MODIFIER" 1 0
+Jump @Label_593
+:Label_600
+pStatic1 154
+Push1 25
+CallNative "SET_BIT" 2 0
+PushString "EyeInTheSky"
+CallNative "SET_TIMECYCLE_MODIFIER" 1 0
+Jump @Label_593
+:Label_596
+StaticGet1 154
+Push1 26
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_601
+pStatic1 154
+Push1 26
+CallNative "CLEAR_BIT" 2 0
+PushString "DEFAULT"
+CallNative "SET_TIMECYCLE_MODIFIER" 1 0
+Jump @Label_593
+:Label_601
+pStatic1 154
+Push1 26
+CallNative "SET_BIT" 2 0
+PushString "Water _Lab_Cooling"
+CallNative "SET_TIMECYCLE_MODIFIER" 1 0
+Jump @Label_593
+:Label_597
+StaticGet1 154
+Push1 27
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_602
+pStatic1 154
+Push1 27
+CallNative "CLEAR_BIT" 2 0
+PushString "DEFAULT"
+CallNative "SET_TIMECYCLE_MODIFIER" 1 0
+Jump @Label_593
+:Label_602
+pStatic1 154
+Push1 27
+CallNative "SET_BIT" 2 0
+PushString "Plane_Inside_Mode"
+CallNative "SET_TIMECYCLE_MODIFIER" 1 0
+Jump @Label_593
+:Label_598
+StaticGet1 154
+Push1 28
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_603
+pStatic1 154
+Push1 28
+CallNative "CLEAR_BIT" 2 0
+PushString "DEFAULT"
+CallNative "SET_TIMECYCLE_MODIFIER" 1 0
+Push 1065353216
+Push 14282376
+pSet
+Jump @Label_593
+:Label_603
+pStatic1 154
+Push1 28
+CallNative "SET_BIT" 2 0
+PushString "New_Station_Unfinished"
+CallNative "SET_TIMECYCLE_MODIFIER" 1 0
+Push 528482304
+Push 14282376
+pSet
+Jump @Label_593
+:Label_593
+Return 0 0
+:Label_55
+Function 0 2 0
+push_5
+Call @Label_211
+Call @Label_212
+PushString "Disablers"
+Call @Label_214
+PushString "~s~[~r~Hide~s~]"
+Call @Label_215
+PushString "Disable HUD"
+CallNative "IS_HUD_HIDDEN" 0 1
+push_1
+Call @Label_217
+PushString "Disable Map"
+CallNative "IS_RADAR_HIDDEN" 0 1
+push_1
+Call @Label_217
+PushString "Disable Players List"
+StaticGet1 160
+push_1
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Disable Phone"
+StaticGet1 160
+push_2
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+PushString "Disable Timed Out"
+StaticGet1 174
+Push1 12
+CallNative "IS_BIT_SET" 2 1
+push_1
+Call @Label_217
+Call @Label_218
+JumpFalse @Label_604
+StaticGet1 100
+Switch [1=@Label_605][2=@Label_606][3=@Label_607][4=@Label_608][5=@Label_609]
+Jump @Label_604
+:Label_605
+CallNative "IS_HUD_HIDDEN" 0 1
+JumpFalse @Label_610
+push_1
+CallNative "DISPLAY_HUD" 1 0
+Jump @Label_604
+:Label_610
+push_0
+CallNative "DISPLAY_HUD" 1 0
+Jump @Label_604
+:Label_606
+CallNative "IS_RADAR_HIDDEN" 0 1
+JumpFalse @Label_611
+push_1
+CallNative "DISPLAY_RADAR" 1 0
+Jump @Label_604
+:Label_611
+push_0
+CallNative "DISPLAY_RADAR" 1 0
+Jump @Label_604
+:Label_607
+StaticGet1 160
+push_1
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_612
+pStatic1 160
+push_1
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_604
+:Label_612
+pStatic1 160
+push_1
+CallNative "SET_BIT" 2 0
+Jump @Label_604
+:Label_608
+StaticGet1 160
+push_2
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_613
+pStatic1 160
+push_2
+CallNative "CLEAR_BIT" 2 0
+Jump @Label_604
+:Label_613
+pStatic1 160
+push_2
+CallNative "SET_BIT" 2 0
+Jump @Label_604
+:Label_609
+StaticGet1 174
+Push1 12
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_614
+pStatic1 174
+Push1 12
+CallNative "CLEAR_BIT" 2 0
+PushS 30000
+globalSet3 262250
+pushI24 90000
+globalSet3 262251
+PushS 5000
+globalSet3 266744
+Jump @Label_604
+:Label_614
+pStatic1 174
+Push1 12
+CallNative "SET_BIT" 2 0
+Jump @Label_604
+StaticGet1 174
+Push1 13
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_615
+pStatic1 174
+Push1 13
+CallNative "CLEAR_BIT" 2 0
+pushI24 120000
+pGlobal3 262218
+SetImmediate1 73
+pushI24 300000
+pGlobal3 262219
+SetImmediate1 74
+pushI24 600000
+pGlobal3 262220
+SetImmediate1 75
+pushI24 900000
+pGlobal3 262221
+SetImmediate1 76
+Jump @Label_604
+:Label_615
+pStatic1 174
+Push1 13
+CallNative "SET_BIT" 2 0
+Jump @Label_604
+:Label_604
+Return 0 0
+:Label_4
+Function 0 2 0
+StaticGet1 98
+push_0
+JumpNE @Label_616
+StaticGet1 123
+CallNative "GET_GAME_TIMER" 0 1
+JumpLT @Label_616
+CallNative "GET_GAME_TIMER" 0 1
+pGlobal2 13245
+SetImmediate2 4621
+Push2 0 178
+CallNative "SET_INPUT_EXCLUSIVE" 2 0
+:Label_616
+StaticGet1 186
+JumpFalse @Label_617
+StaticGet1 141
+Push1 10
+JumpEQ @Label_618
+push_1
+StaticSet1 187
+Jump @Label_617
+:Label_618
+push_0
+StaticSet1 187
+:Label_617
+StaticGet1 142
+JumpFalse @Label_619
+StaticGet1 188
+push_1
+JumpEQ @Label_620
+StaticGet1 142
+CallNative "REQUEST_SCRIPT" 1 0
+push_1
+StaticSet1 188
+:Label_620
+StaticGet1 142
+CallNative "HAS_SCRIPT_LOADED" 1 1
+JumpFalse @Label_619
+StaticGet1 142
+StaticGet1 143
+CallNative "START_NEW_SCRIPT" 2 1
+Drop
+StaticGet1 142
+CallNative "SET_SCRIPT_AS_NO_LONGER_NEEDED" 1 0
+push_0
+StaticSet1 142
+push_0
+StaticSet1 188
+:Label_619
+StaticGet1 152
+Push 9
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_621
+StaticGet1 98
+push_0
+JumpEQ @Label_621
+StaticGet1 150
+push_1
+JumpEQ @Label_622
+Push 30
+PushString "Select"
+Call @Label_125
+:Label_622
+StaticGet1 98
+push_0
+JumpEQ @Label_621
+push_1
+JumpEQ @Label_623
+Push 10
+PushString "Scroll"
+Call @Label_125
+:Label_623
+StaticGet1 98
+push_1
+JumpEQ @Label_624
+Push 31
+PushString "Back"
+Call @Label_125
+Jump @Label_625
+:Label_624
+Push 31
+PushString "Exit"
+Call @Label_125
+:Label_625
+Call @Label_626
+push_0
+StaticSet1 150
+:Label_621
+StaticGet1 89
+push_0
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_627
+StaticGet1 98
+JumpFalse @Label_627
+StaticGet1 179
+Switch [0=@Label_628][1=@Label_629][2=@Label_630]
+:Label_628
+StaticGet1 91
+Push1 255
+JumpEQ @Label_631
+StaticGet1 91
+push_3
+Add
+StaticSet1 91
+Jump @Label_627
+:Label_631
+push_1
+StaticSet1 179
+Jump @Label_627
+:Label_629
+StaticGet1 91
+JumpFalse @Label_632
+StaticGet1 91
+push_3
+Sub
+StaticSet1 91
+Jump @Label_627
+:Label_632
+push_2
+StaticSet1 179
+Jump @Label_627
+:Label_630
+StaticGet1 91
+JumpFalse @Label_633
+StaticGet1 91
+push_3
+Sub
+StaticSet1 91
+Jump @Label_627
+:Label_633
+push_0
+StaticSet1 179
+push_0
+StaticSet1 91
+:Label_627
+StaticGet1 151
+push_1
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_634
+CallNative "PLAYER_ID" 0 1
+push_1
+CallNative "SET_PLAYER_INVINCIBLE" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+Push1 32
+push_0
+CallNative "SET_PED_CONFIG_FLAG" 3 0
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+CallNative "SET_PED_CAN_BE_KNOCKED_OFF_VEHICLE" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+push_0
+CallNative "SET_PED_CAN_RAGDOLL" 2 0
+:Label_634
+StaticGet1 152
+Push1 28
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_635
+CallNative "PLAYER_ID" 0 1
+CallNative "CLEAR_PLAYER_WANTED_LEVEL" 1 0
+push_0
+CallNative "SET_MAX_WANTED_LEVEL" 1 0
+:Label_635
+StaticGet1 152
+Push1 21
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_636
+CallNative "PLAYER_ID" 0 1
+CallNative "SET_SUPER_JUMP_THIS_FRAME" 1 0
+:Label_636
+StaticGet1 152
+Push1 22
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_637
+push_0
+Push1 177
+CallNative "IS_CONTROL_PRESSED" 2 1
+JumpFalse @Label_637
+StaticGet1 189
+push_0
+CmpEQ
+JumpFalse @Label_637
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+fPush_0.0
+fPush_2.0
+fPush_0.0
+fPush_0.0
+fPush_0.0
+fPush_0.0
+push_1
+push_1
+push_1
+push_1
+push_1
+push_1
+CallNative "APPLY_FORCE_TO_ENTITY" 14 0
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+fPush_0.0
+fPush_0.0
+fPush_0.0
+fPush_0.0
+fPush_0.0
+fPush_0.0
+push_1
+push_1
+push_1
+push_1
+push_1
+push_1
+CallNative "APPLY_FORCE_TO_ENTITY" 14 0
+:Label_637
+StaticGet1 157
+Push1 10
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_638
+fPush 20
+CallNative "UNK_77340650" 2 0
+:Label_638
+StaticGet1 160
+Push1 27
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_639
+StaticGet1 177
+StaticGet1 190
+push_0
+CallNative "NETWORK_OVERRIDE_CLOCK_TIME" 3 0
+:Label_639
+StaticGet1 153
+push_2
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_640
+push_2
+Push1 183
+CallNative "IS_DISABLED_CONTROL_PRESSED" 2 1
+JumpFalse @Label_641
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+push_1
+JumpEQ @Label_640
+CallNative "PLAYER_PED_ID" 0 1
+push_6
+CallNative "IS_PED_ARMED" 2 1
+JumpFalse @Label_640
+CallNative "UNK_1FE547F2" 0 1
+push_1
+JumpEQ @Label_640
+push_1
+CallNative "SET_SEETHROUGH" 1 0
+Jump @Label_640
+:Label_641
+CallNative "UNK_1FE547F2" 0 1
+JumpFalse @Label_640
+push_0
+CallNative "SET_SEETHROUGH" 1 0
+:Label_640
+StaticGet1 160
+Push1 25
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_642
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+push_1
+JumpEQ @Label_642
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+CallNative "TASK_CLIMB" 2 0
+:Label_642
+StaticGet1 156
+push_3
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_643
+CallNative "GET_NETWORK_TIME" 0 1
+pGlobal3 2394218
+SetImmediate1 55
+push_1
+CallNative "PLAYER_ID" 0 1
+pGlobal3 2390201
+ArrayGetP1 223
+SetImmediate1 169
+:Label_643
+StaticGet1 156
+push_4
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_644
+CallNative "GET_NETWORK_TIME" 0 1
+pGlobal3 2394218
+SetImmediate1 56
+push_1
+CallNative "PLAYER_ID" 0 1
+pGlobal3 2390201
+ArrayGetP1 223
+SetImmediate1 171
+push_1
+JumpEQ @Label_644
+:Label_644
+StaticGet1 155
+push_1
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_645
+CallNative "PLAYER_ID" 0 1
+CallNative "SET_EXPLOSIVE_MELEE_THIS_FRAME" 1 0
+:Label_645
+StaticGet1 152
+Push1 23
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_646
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+CallNative "GET_ENTITY_COORDS" 2 3
+push_5
+fPush_7.0
+push_0
+push_1
+fPush_0.0
+CallNative "ADD_EXPLOSION" 8 0
+:Label_646
+StaticGet1 153
+Push1 25
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_647
+CallNative "PLAYER_PED_ID" 0 1
+fPush 0.0010000000474975
+CallNative "SET_PED_CAPSULE" 2 0
+:Label_647
+StaticGet1 153
+Push1 13
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_648
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_ENTITY_HEALTH" 1 1
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_ENTITY_MAX_HEALTH" 1 1
+JumpEQ @Label_649
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_ENTITY_HEALTH" 1 1
+Push1 88
+Add
+CallNative "SET_ENTITY_HEALTH" 2 0
+:Label_649
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_PED_ARMOUR" 1 1
+CallNative "PLAYER_ID" 0 1
+CallNative "GET_PLAYER_MAX_ARMOUR" 1 1
+JumpEQ @Label_648
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_PED_ARMOUR" 1 1
+Push1 88
+Add
+CallNative "SET_PED_ARMOUR" 2 0
+:Label_648
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_650
+push_2
+Push1 182
+CallNative "IS_DISABLED_CONTROL_PRESSED" 2 1
+JumpFalse @Label_650
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_0
+CallNative "SET_VEHICLE_REDUCE_GRIP" 2 0
+:Label_650
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_651
+push_2
+Push1 181
+CallNative "IS_DISABLED_CONTROL_PRESSED" 2 1
+JumpFalse @Label_651
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_1
+CallNative "SET_VEHICLE_REDUCE_GRIP" 2 0
+:Label_651
+StaticGet1 152
+Push1 26
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_652
+CallNative "PLAYER_ID" 0 1
+push_1
+CallNative "DISABLE_PLAYER_FIRING" 2 0
+CallNative "PLAYER_ID" 0 1
+pStatic1 191
+CallNative "UNK_8866D9D0" 2 1
+JumpFalse @Label_652
+StaticGet1 191
+CallNative "NETWORK_HAS_CONTROL_OF_ENTITY" 1 1
+push_1
+JumpEQ @Label_653
+StaticGet1 191
+CallNative "NETWORK_REQUEST_CONTROL_OF_ENTITY" 1 1
+Drop
+StaticGet1 191
+CallNative "NETWORK_HAS_CONTROL_OF_ENTITY" 1 1
+JumpFalse @Label_652
+:Label_653
+StaticGet1 191
+push_0
+push_1
+CallNative "SET_ENTITY_AS_MISSION_ENTITY" 3 0
+pStatic1 191
+CallNative "DELETE_ENTITY" 1 0
+:Label_652
+StaticGet1 152
+Push1 27
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_654
+CallNative "PLAYER_PED_ID" 0 1
+pStatic1 192
+CallNative "GET_PED_LAST_WEAPON_IMPACT_COORD" 2 1
+JumpFalse @Label_654
+Push 289396019
+CallNative "HAS_MODEL_LOADED" 1 1
+push_1
+JumpEQ @Label_655
+Push 289396019
+CallNative "REQUEST_MODEL" 1 0
+Push 289396019
+CallNative "HAS_MODEL_LOADED" 1 1
+JumpFalse @Label_654
+:Label_655
+Push -831529621
+push_3
+pStatic1 192
+ToStack
+push_0
+pushI24 40000
+Push 289396019
+push_0
+push_0
+CallNative "CREATE_AMBIENT_PICKUP" 9 1
+Drop
+Push 289396019
+CallNative "SET_MODEL_AS_NO_LONGER_NEEDED" 1 0
+:Label_654
+StaticGet1 152
+push_2
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_656
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+push_1
+JumpEQ @Label_656
+CallNative "PLAYER_PED_ID" 0 1
+pStatic1 193
+CallNative "GET_PED_LAST_WEAPON_IMPACT_COORD" 2 1
+JumpFalse @Label_656
+CallNative "PLAYER_PED_ID" 0 1
+push_3
+pStatic1 193
+ToStack
+fPush_1.0
+fAdd
+push_0
+push_0
+push_0
+CallNative "SET_ENTITY_COORDS_NO_OFFSET" 7 0
+:Label_656
+StaticGet1 152
+push_1
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_657
+CallNative "PLAYER_PED_ID" 0 1
+push_6
+CallNative "IS_PED_ARMED" 2 1
+JumpFalse @Label_657
+CallNative "PLAYER_PED_ID" 0 1
+pStatic1 194
+push_1
+CallNative "GET_CURRENT_PED_WEAPON" 3 1
+Drop
+CallNative "PLAYER_PED_ID" 0 1
+StaticGet1 194
+push_0
+push_7
+CallNative "GET_RANDOM_INT_IN_RANGE" 2 1
+CallNative "SET_PED_WEAPON_TINT_INDEX" 3 0
+:Label_657
+StaticGet1 153
+Push1 15
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_658
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+push_1
+JumpEQ @Label_658
+CallNative "PLAYER_PED_ID" 0 1
+PushS 331
+push_1
+CallNative "GET_PED_CONFIG_FLAG" 3 1
+push_1
+JumpEQ @Label_658
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_RELOADING" 1 1
+push_1
+JumpEQ @Label_658
+CallNative "PLAYER_PED_ID" 0 1
+push_0
+push_0
+push_0
+push_0
+CallNative "SET_PED_CURRENT_WEAPON_VISIBLE" 5 0
+:Label_658
+StaticGet1 153
+Push1 18
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_659
+CallNative "PLAYER_PED_ID" 0 1
+Push -1312131151
+push_0
+CallNative "HAS_PED_GOT_WEAPON" 3 1
+push_1
+JumpEQ @Label_660
+Push -1312131151
+Call @Label_394
+:Label_660
+CallNative "PLAYER_PED_ID" 0 1
+pStatic1 195
+CallNative "GET_PED_LAST_WEAPON_IMPACT_COORD" 2 1
+JumpFalse @Label_659
+pStatic1 195
+GetImmediate1 0
+pStatic1 195
+GetImmediate1 1
+pStatic1 195
+GetImmediate1 2
+fPush 75
+fAdd
+push_3
+pStatic1 195
+ToStack
+Push1 100
+push_0
+Push -1312131151
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+push_0
+fPush 2000
+Call @Label_661
+push_0
+push_0
+push_0
+push_0
+CallNative "UNK_CCDC33CC" 18 0
+:Label_659
+StaticGet1 153
+Push1 31
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_662
+CallNative "PLAYER_PED_ID" 0 1
+push_4
+CallNative "IS_PED_ARMED" 2 1
+JumpFalse @Label_662
+CallNative "PLAYER_ID" 0 1
+pStatic1 196
+CallNative "UNK_8866D9D0" 2 1
+JumpFalse @Label_662
+StaticGet1 196
+CallNative "IS_ENTITY_A_PED" 1 1
+JumpFalse @Label_662
+StaticGet1 196
+push_1
+CallNative "UNK_CBDB7739" 2 1
+push_1
+JumpEQ @Label_662
+CallNative "PLAYER_PED_ID" 0 1
+pStatic1 197
+push_1
+CallNative "GET_CURRENT_PED_WEAPON" 3 1
+Drop
+StaticGet1 197
+pStatic1 198
+CallNative "GET_WEAPON_HUD_STATS" 2 1
+Drop
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+CallNative "GET_ENTITY_COORDS" 2 3
+StaticGet1 196
+PushS 31086
+fPush_0.0
+fPush_0.0
+fPush_0.0
+CallNative "GET_PED_BONE_COORDS" 5 3
+pStatic1 198
+GetImmediate1 0
+push_0
+StaticGet1 197
+CallNative "PLAYER_PED_ID" 0 1
+push_1
+push_0
+fPush 1000
+CallNative "SHOOT_SINGLE_BULLET_BETWEEN_COORDS" 13 0
+:Label_662
+StaticGet1 160
+Push1 16
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_663
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+push_1
+JumpEQ @Label_663
+push_0
+setF1 2
+fPush 100
+setF1 3
+CallNative "PLAYER_ID" 0 1
+pFrame1 2
+CallNative "UNK_8866D9D0" 2 1
+JumpFalse @Label_663
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SHOOTING" 1 1
+JumpFalse @Label_663
+getF1 2
+CallNative "IS_ENTITY_A_PED" 1 1
+JumpFalse @Label_664
+getF1 2
+push_0
+CallNative "IS_PED_IN_ANY_VEHICLE" 2 1
+JumpFalse @Label_664
+getF1 2
+push_0
+CallNative "GET_VEHICLE_PED_IS_IN" 2 1
+setF1 2
+:Label_664
+getF1 2
+CallNative "IS_ENTITY_A_VEHICLE" 1 1
+JumpFalse @Label_663
+getF1 2
+getF1 3
+CallNative "SET_VEHICLE_FORWARD_SPEED" 2 0
+:Label_663
+StaticGet1 154
+Push1 13
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_665
+push_2
+Push1 183
+CallNative "IS_DISABLED_CONTROL_PRESSED" 2 1
+JumpFalse @Label_666
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+push_1
+JumpEQ @Label_665
+CallNative "PLAYER_PED_ID" 0 1
+push_6
+CallNative "IS_PED_ARMED" 2 1
+JumpFalse @Label_665
+fPush 0.30000001192093
+CallNative "SET_TIME_SCALE" 1 0
+Jump @Label_665
+:Label_666
+fPush_1.0
+CallNative "SET_TIME_SCALE" 1 0
+:Label_665
+StaticGet1 156
+push_6
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_667
+Call @Label_668
+Jump @Label_667
+:Label_667
+StaticGet1 155
+Push1 19
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_669
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "HIDE_PED_WEAPON_FOR_SCRIPTED_CUTSCENE" 1 1
+Jump @Label_669
+:Label_669
+StaticGet1 160
+Push1 24
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_670
+CallNative "PLAYER_ID" 0 1
+CallNative "SET_EXPLOSIVE_AMMO_THIS_FRAME" 1 1
+Drop
+:Label_670
+StaticGet1 152
+Push1 24
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_671
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_671
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_1
+CallNative "SET_ENTITY_INVINCIBLE" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_1
+push_1
+push_1
+push_1
+push_1
+push_1
+push_1
+push_1
+CallNative "SET_ENTITY_PROOFS" 9 0
+:Label_671
+StaticGet1 152
+Push1 25
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_672
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_1
+CallNative "SET_VEHICLE_CAN_BE_VISIBLY_DAMAGED" 2 0
+:Label_672
+StaticGet1 154
+push_6
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_673
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_673
+push_2
+Push1 186
+CallNative "IS_DISABLED_CONTROL_JUST_PRESSED" 2 1
+JumpFalse @Label_674
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+CallNative "GET_ENTITY_SPEED" 1 1
+fPush 40
+fAdd
+CallNative "SET_VEHICLE_FORWARD_SPEED" 2 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_0
+CallNative "SET_VEHICLE_BOOST_ACTIVE" 2 0
+:Label_674
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_673
+push_2
+Push1 178
+CallNative "IS_DISABLED_CONTROL_JUST_PRESSED" 2 1
+JumpFalse @Label_673
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+fPush_0.0
+CallNative "SET_VEHICLE_FORWARD_SPEED" 2 0
+:Label_673
+StaticGet1 154
+push_7
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_675
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_675
+push_2
+Push1 193
+CallNative "IS_CONTROL_JUST_PRESSED" 2 1
+JumpFalse @Label_675
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_0
+fPush_0.0
+fPush_0.0
+fPush 500
+push_0
+push_1
+push_1
+push_0
+CallNative "UNK_28924E98" 9 0
+:Label_675
+StaticGet1 154
+Push1 9
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_676
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_677
+StaticGet1 199
+push_1
+JumpEQ @Label_678
+pStatic1 200
+Push1 20
+pPeekSet
+Drop
+CallNative "PLAYER_PED_ID" 0 1
+pStatic1 200
+CallNative "GET_PED_NEARBY_VEHICLES" 2 1
+StaticSet1 201
+push_1
+StaticSet1 199
+push_-1
+StaticSet1 202
+:Label_678
+StaticGet1 201
+StaticGet1 202
+JumpEQ @Label_677
+StaticGet1 202
+push_1
+Add
+Dup
+StaticSet1 202
+pStatic1 200
+ArrayGet1 1
+CallNative "DOES_ENTITY_EXIST" 1 1
+JumpFalse @Label_676
+StaticGet1 202
+pStatic1 200
+ArrayGet1 1
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_0
+CallNative "SET_ENTITY_NO_COLLISION_ENTITY" 3 0
+Jump @Label_676
+:Label_677
+push_0
+StaticSet1 199
+:Label_676
+StaticGet1 156
+Push1 8
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_679
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+setF1 2
+getF1 2
+CallNative "GET_ENTITY_SPEED" 1 1
+setF1 3
+push_0
+Push1 199
+CallNative "IS_CONTROL_PRESSED" 2 1
+JumpFalse @Label_679
+getF1 2
+CallNative "IS_VEHICLE_STOPPED" 1 1
+Not
+JumpFalse @Label_679
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_IN_ANY_PLANE" 1 1
+Not
+JumpFalse @Label_679
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_IN_ANY_HELI" 1 1
+Not
+JumpFalse @Label_679
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_IN_ANY_BOAT" 1 1
+Not
+JumpFalse @Label_679
+getF1 3
+FtoI
+push_2
+CallNative "UNK_BBB6DF61" 2 1
+JumpFalse @Label_679
+getF1 2
+CallNative "GET_ENTITY_PITCH" 1 1
+fPush 29
+FCmpLT
+JumpFalse @Label_679
+getF1 2
+push_1
+fPush_0.0
+fPush_0.0
+fPush 0.20000000298023
+fPush_0.0
+fPush_1.0
+fPush_0.0
+push_1
+push_1
+push_1
+push_1
+push_1
+push_1
+CallNative "APPLY_FORCE_TO_ENTITY" 14 0
+:Label_679
+StaticGet1 203
+push_4
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_680
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_680
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+StaticGet1 204
+CallNative "SET_VEHICLE_LIGHT_MULTIPLIER" 2 0
+:Label_680
+StaticGet1 157
+push_4
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_681
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_681
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+CallNative "SET_VEHICLE_ON_GROUND_PROPERLY" 1 1
+Drop
+:Label_681
+StaticGet1 157
+push_5
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_682
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_682
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+CallNative "IS_ENTITY_UPSIDEDOWN" 1 1
+JumpFalse @Label_682
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+CallNative "SET_VEHICLE_ON_GROUND_PROPERLY" 1 1
+Drop
+:Label_682
+StaticGet1 157
+push_7
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_683
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+StaticSet1 205
+StaticGet1 205
+CallNative "UNK_DAC523BC" 1 1
+JumpFalse @Label_684
+StaticGet1 205
+CallNative "SET_VEHICLE_FIXED" 1 0
+StaticGet1 205
+CallNative "SET_VEHICLE_DEFORMATION_FIXED" 1 0
+StaticGet1 205
+fPush_0.0
+CallNative "SET_VEHICLE_DIRT_LEVEL" 2 0
+StaticGet1 205
+fPush 1000
+CallNative "SET_VEHICLE_ENGINE_HEALTH" 2 0
+StaticGet1 205
+PushS 1000
+CallNative "SET_ENTITY_HEALTH" 2 0
+StaticGet1 205
+fPush 1000
+CallNative "SET_VEHICLE_PETROL_TANK_HEALTH" 2 0
+StaticGet1 205
+fPush 1000
+CallNative "UNK_920C2517" 2 0
+:Label_684
+StaticGet1 205
+push_1
+push_1
+push_1
+CallNative "SET_VEHICLE_ENGINE_ON" 4 0
+JumpFalse @Label_683
+:Label_683
+StaticGet1 160
+Push1 22
+CallNative "IS_BIT_SET" 2 1
+JumpFalse @Label_685
+CallNative "PLAYER_PED_ID" 0 1
+push_0
+CallNative "IS_PED_IN_ANY_VEHICLE" 2 1
+JumpFalse @Label_685
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+push_2
+Push1 181
+CallNative "IS_CONTROL_PRESSED" 2 1
+JumpFalse @Label_685
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+CallNative "IS_VEHICLE_ON_ALL_WHEELS" 1 1
+JumpFalse @Label_685
+push_4
+fPush_0.0
+fPush_0.0
+fPush 80
+fPush_0.0
+fPush_0.0
+fPush -80
+push_1
+push_1
+push_1
+push_1
+push_1
+push_1
+CallNative "APPLY_FORCE_TO_ENTITY" 14 0
+:Label_685
+Return 0 0
+:Label_661
+Function 0 2 0
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "IS_PED_SITTING_IN_ANY_VEHICLE" 1 1
+JumpFalse @Label_686
+CallNative "PLAYER_PED_ID" 0 1
+CallNative "GET_VEHICLE_PED_IS_USING" 1 1
+Return 0 1
+:Label_686
+CallNative "PLAYER_PED_ID" 0 1
+Return 0 1
+:Label_668
+Function 0 2 0
+CallNative "PLAYER_ID" 0 1
+pStatic1 206
+CallNative "UNK_8866D9D0" 2 1
+JumpFalse @Label_687
+StaticGet1 206
+push_1
+fPush_0.0
+fPush_0.0
+fPush_3.0
+fPush_0.0
+fPush_0.0
+fPush_0.0
+push_1
+push_0
+push_1
+push_1
+push_1
+push_1
+CallNative "APPLY_FORCE_TO_ENTITY" 14 0
+:Label_687
+Return 0 0
