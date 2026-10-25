@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🎮 GTA V PS3 - Modloader Toolkit
+# GTA V PS3 - Modloader Toolkit
 
 ### Colección de herramientas para crear modloaders y mods en Grand Theft Auto V (PS3)
 
 ![Plataforma](https://img.shields.io/badge/Plataforma-PS3-003791?style=for-the-badge&logo=playstation3&logoColor=white)
 ![Juego](https://img.shields.io/badge/Juego-GTA%20V-green?style=for-the-badge)
-![Versión](https://img.shields.io/badge/Update-1.27-orange?style=for-the-badge)
+![YouTube](https://img.shields.io/badge/YouTube-FranCangel%20Modz-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 [![Discord](https://img.shields.io/badge/Discord-Unirse-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/6v4HyT46qC)
 
 **Creado por FranCangel Modz**
@@ -15,7 +15,7 @@
 
 ---
 
-## 📖 Descripción
+## Descripción
 
 Este repositorio reúne todas las herramientas, fuentes y scripts necesarios para desarrollar **modloaders** y modificaciones para **GTA V en PS3**: edición de archivos RPF, descompilación y compilación de scripts, edición de texturas de consola, inyección de updates en CFW y más.
 
@@ -23,7 +23,7 @@ Está pensado para modders que quieran aprender a crear sus propios loaders o pe
 
 ---
 
-## 📁 Contenido del repositorio
+## Contenido del repositorio
 
 | Carpeta / Archivo | Descripción |
 |---|---|
@@ -40,7 +40,7 @@ Está pensado para modders que quieran aprender a crear sus propios loaders o pe
 
 ---
 
-## 🚀 Requisitos
+## Requisitos
 
 - PS3 con **CFW** (Custom Firmware) o **HEN**
 - GTA V para PS3 con el **update 1.27**
@@ -50,68 +50,51 @@ Está pensado para modders que quieran aprender a crear sus propios loaders o pe
 
 ---
 
-## 🛠️ Cómo empezar
+## Cómo empezar
 
-1. **Clona o descarga** el repositorio:
-   ```bash
-   git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
-   ```
+1. Clona o descarga el repositorio:
+
+```
+git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
+```
+
 2. Descomprime `Original 1.27 update.rpf.rar` en una carpeta de trabajo.
-3. Instala **Notepad++** con `npp.8.0.Installer.exe` para editar tus scripts.
-4. Abre el update con **LibertyV RPF Editor** para ver y extraer su contenido.
-5. Usa **RASM Decompiler And Compiler** y **Script Assembler** para editar y recompilar scripts.
-6. Edita texturas con **Console Texture Editor** si tu mod las necesita.
-7. Toma como base el **NYD ModLoader Source** para crear tu propio modloader.
-8. Empaqueta con **Pack Scripts** e inyecta el resultado con **Injector Update Cfw**.
-
-> 💡 **Recomendación:** haz siempre una copia de seguridad de tus archivos originales antes de modificar o inyectar algo.
+3. Instala Notepad++ con `npp.8.0.Installer.exe` para editar tus scripts.
+4. Abre NYD Modloader Source y comienza a modificar ModLoader.csa
+5. Usa RASM Decompiler And Compiler y Script Assembler para editar y recompilar scripts.
+6. Edita texturas con Console Texture Editor si tu mod las necesita.
+7. Empaqueta con Script Assembler e inyecta el resultado con Injector Update con Cfw o pasa el ModLoader.csc a tu Update.rpf con Liberty V.
 
 ---
 
-## ⚠️ Advertencia
-
-- Este proyecto es **solo con fines educativos y de modding personal**.
-- Modificar tu consola o el juego es **bajo tu propia responsabilidad**. El autor no se hace responsable de baneos, bricks o pérdida de datos.
-- Se recomienda **no usar mods en modo online**.
-- Necesitas tener una copia legítima del juego. Este repositorio no promueve la piratería.
-
----
-
-## 🤝 Créditos
+## Créditos
 
 ### Autor del repositorio
+
 - **FranCangel Modz** – Recopilación, organización y mantenimiento del repositorio.
-  - 📺 Canal de YouTube: **FranCangel Modz**
-  - 💬 Discord: [https://discord.gg/6v4HyT46qC](https://discord.gg/6v4HyT46qC)
+  - Canal de YouTube: **FranCangel Modz**
+  - Discord: [https://discord.gg/6v4HyT46qC](https://discord.gg/6v4HyT46qC)
 
 ### Herramientas de terceros
-Todas las herramientas incluidas pertenecen a sus respectivos creadores. Se les da todo el crédito por su trabajo:
 
-- LibertyV RPF Editor – *(autor original)*
-- RASM Decompiler And Compiler – *(autor original)*
-- Script Assembler – *(autor original)*
-- Console Texture Editor – *(autor original)*
-- NYD ModLoader – *(autor original)*
-- Notepad++ – Don Ho y colaboradores
-
-> Si eres autor de alguna de estas herramientas y quieres que se añada o modifique tu crédito, contáctame por Discord.
+Todas las herramientas incluidas pertenecen a sus respectivos creadores. Se les da todo el crédito por su trabajo.
 
 ---
 
-## 💬 Soporte y comunidad
+## Soporte y comunidad
 
 ¿Dudas, problemas o quieres compartir tus mods? Únete a la comunidad:
 
 [![Discord](https://img.shields.io/badge/Unirse%20al%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/6v4HyT46qC)
 
-Y no olvides suscribirte al canal **FranCangel Modz** en YouTube para más tutoriales y mods. ⭐
+Y no olvides suscribirte al canal **FranCangel Modz** en YouTube para más tutoriales y mods.
 
 ---
 
 <div align="center">
 
-**Si este repositorio te ayudó, dale una ⭐ y compártelo.**
+Hecho por:
 
-Hecho con ❤️ por **FranCangel Modz**
+<img src="assets/francangel-modz.svg" alt="FranCangel Modz" height="44">
 
 </div>
