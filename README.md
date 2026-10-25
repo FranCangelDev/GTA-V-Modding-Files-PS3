@@ -59,7 +59,7 @@ git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
 ```
 
 2. Extract `Original 1.27 update.rpf.rar` into a working folder.
-3. Install Notepad++ with `npp.8.0.Installer.exe` to edit your scripts.
+3. Install Notepad++ with `npp.8.0.Installer.exe` to edit your scripts. You can also add custom ASM syntax highlighting by loading the XML file [GTA V Script.xml](https://github.com/FranCangelDev/GTA-V-Modding-Files-PS3/blob/main/Script%20Assembler/GTA%20V%20Script.xml), located inside the Script Assembler folder, so Notepad++ recognizes the ASM language.
 4. Open NYD Modloader Source and start modifying ModLoader.csa
 5. Use RASM Decompiler And Compiler and Script Assembler to edit and recompile scripts.
 6. Edit textures with Console Texture Editor if your mod needs them.
