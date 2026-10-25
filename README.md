@@ -1,99 +1,99 @@
 <div align="center">
 
-# GTA V PS3 - Modloader Toolkit
+# GTA V PS3 - ASM Modloader Toolkit
 
-### Colección de herramientas para crear modloaders y mods en Grand Theft Auto V (PS3)
+### A collection of tools for creating modloaders and mods for Grand Theft Auto V (PS3)
 
-![Plataforma](https://img.shields.io/badge/Plataforma-PS3-003791?style=for-the-badge&logo=playstation3&logoColor=white)
-![Juego](https://img.shields.io/badge/Juego-GTA%20V-green?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-PS3-003791?style=for-the-badge&logo=playstation3&logoColor=white)
+![Game](https://img.shields.io/badge/Game-GTA%20V-green?style=for-the-badge)
 ![YouTube](https://img.shields.io/badge/YouTube-FranCangel%20Modz-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-[![Discord](https://img.shields.io/badge/Discord-Unirse-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/6v4HyT46qC)
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/6v4HyT46qC)
 
-**Creado por FranCangel Modz**
+**Created by FranCangel Modz**
 
 </div>
 
 ---
 
-## Descripción
+## Description
 
-Este repositorio reúne todas las herramientas, fuentes y scripts necesarios para desarrollar **modloaders** y modificaciones para **GTA V en PS3**: edición de archivos RPF, descompilación y compilación de scripts, edición de texturas de consola, inyección de updates en CFW y más.
+This repository gathers all the tools, sources and scripts needed to develop **modloaders** and modifications for **GTA V on PS3**: RPF file editing, script decompiling and compiling, console texture editing, CFW update injection and more.
 
-Está pensado para modders que quieran aprender a crear sus propios loaders o personalizar el juego sin tener que buscar cada herramienta por separado.
+It is intended for modders who want to learn how to create their own loaders or customize the game without having to look for each tool separately.
 
 ---
 
-## Contenido del repositorio
+## Repository Contents
 
-| Carpeta / Archivo | Descripción |
+| Folder / File | Description |
 |---|---|
-| **Console Texture Editor** | Editor de texturas para formatos de consola. |
-| **Injector Update Cfw** | Herramienta para inyectar/actualizar archivos del juego en consolas con CFW. |
-| **LibertyV RPF Editor** | Editor de archivos `.rpf` para abrir, extraer y reemplazar contenido. |
-| **NYD ModLoader Source** | Código fuente del modloader NYD, base para crear tu propio loader. |
-| **Pack Scripts** | Scripts listos para empaquetar y usar en tus mods. |
-| **RASM Decompiler And Compiler** | Descompilador y compilador de scripts (RASM). |
-| **Script Assembler** | Ensamblador de scripts para generar el código final. |
-| **Sources** | Códigos fuente y recursos adicionales. |
-| **npp.8.0.Installer.exe** | Instalador de Notepad++ 8.0 para editar scripts y código. |
-| **Original 1.27 update.rpf.rar** | Update original 1.27 del juego como base de trabajo. |
+| **Console Texture Editor** | Texture editor for console formats. |
+| **Injector Update Cfw** | Tool to inject/update game files on CFW consoles. |
+| **LibertyV RPF Editor** | `.rpf` file editor to open, extract and replace content. |
+| **NYD ModLoader Source** | Source code of the NYD modloader, a base for creating your own loader. |
+| **Pack Scripts** | Ready-to-use scripts to package into your mods. |
+| **RASM Decompiler And Compiler** | Script decompiler and compiler (RASM). |
+| **Script Assembler** | Script assembler used to generate the final code. |
+| **Sources** | Additional source code and resources. |
+| **npp.8.0.Installer.exe** | Notepad++ 8.0 installer for editing scripts and code. |
+| **Original 1.27 update.rpf.rar** | Original 1.27 game update to use as a working base. |
 
 ---
 
-## Requisitos
+## Requirements
 
-- PS3 con **CFW** (Custom Firmware) o **HEN**
-- GTA V para PS3 con el **update 1.27**
-- PC con **Windows**
-- Programa para descomprimir `.rar` (WinRAR o 7-Zip)
-- **Notepad++** (incluido en el repositorio)
+- PS3 with **CFW** (Custom Firmware) or **HEN**
+- GTA V for PS3 with **update 1.27**
+- PC running **Windows**
+- A program to extract `.rar` files (WinRAR or 7-Zip)
+- **Notepad++** (included in this repository)
 
 ---
 
-## Cómo empezar
+## Getting Started
 
-1. Clona o descarga el repositorio:
+1. Clone or download the repository:
 
 ```
 git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
 ```
 
-2. Descomprime `Original 1.27 update.rpf.rar` en una carpeta de trabajo.
-3. Instala Notepad++ con `npp.8.0.Installer.exe` para editar tus scripts.
-4. Abre NYD Modloader Source y comienza a modificar ModLoader.csa
-5. Usa RASM Decompiler And Compiler y Script Assembler para editar y recompilar scripts.
-6. Edita texturas con Console Texture Editor si tu mod las necesita.
-7. Empaqueta con Script Assembler e inyecta el resultado con Injector Update con Cfw o pasa el ModLoader.csc a tu Update.rpf con Liberty V.
+2. Extract `Original 1.27 update.rpf.rar` into a working folder.
+3. Install Notepad++ with `npp.8.0.Installer.exe` to edit your scripts.
+4. Open NYD Modloader Source and start modifying ModLoader.csa
+5. Use RASM Decompiler And Compiler and Script Assembler to edit and recompile scripts.
+6. Edit textures with Console Texture Editor if your mod needs them.
+7. Package with Script Assembler and inject the result with Injector Update Cfw, or move ModLoader.csc into your Update.rpf using LibertyV.
 
 ---
 
-## Créditos
+## Credits
 
-### Autor del repositorio
+### Repository Author
 
-- **FranCangel Modz** – Recopilación, organización y mantenimiento del repositorio.
-  - Canal de YouTube: **FranCangel Modz**
+- **FranCangel Modz** – Compilation, organization and maintenance of the repository.
+  - YouTube Channel: **FranCangel Modz**
   - Discord: [https://discord.gg/6v4HyT46qC](https://discord.gg/6v4HyT46qC)
 
-### Herramientas de terceros
+### Third-Party Tools
 
-Todas las herramientas incluidas pertenecen a sus respectivos creadores. Se les da todo el crédito por su trabajo.
+All included tools belong to their respective creators. Full credit goes to them for their work.
 
 ---
 
-## Soporte y comunidad
+## Support and Community
 
-¿Dudas, problemas o quieres compartir tus mods? Únete a la comunidad:
+Questions, issues, or want to share your mods? Join the community:
 
-[![Discord](https://img.shields.io/badge/Unirse%20al%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/6v4HyT46qC)
+[![Discord](https://img.shields.io/badge/Join%20the%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/6v4HyT46qC)
 
-Y no olvides suscribirte al canal **FranCangel Modz** en YouTube para más tutoriales y mods.
+And don't forget to subscribe to **FranCangel Modz** on YouTube for more tutorials and mods.
 
 ---
 
 <div align="center">
 
-Hecho por:
+Made by:
 
 <img src="assets/francangel-modz.svg" alt="FranCangel Modz" height="44">
 
