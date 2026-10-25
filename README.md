@@ -55,7 +55,7 @@ It is intended for modders who want to learn how to create their own loaders or 
 1. Clone or download the repository:
 
 ```
-git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
+git clone https://github.com/FranCangelDev/GTA-V-Modding-Files-PS3.git
 ```
 
 2. Extract `Original 1.27 update.rpf.rar` into a working folder.
